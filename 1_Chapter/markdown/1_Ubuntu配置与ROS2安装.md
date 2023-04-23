@@ -4,7 +4,7 @@
 
 1. 下载Ubuntu22.04：本文选择 [中科大镜像网](https://mirrors.ustc.edu.cn/) ，选择Ubuntu22.04镜像下载，后续放入VMware进行 **断网安装** 
 
-![下载镜像](pics/2023-04-20-22-20-19.png)
+![下载镜像](./pics/2023-04-20-22-20-19.png)
 
 > VMware15链接： 
 > 链接：https://pan.baidu.com/s/1BbaGtDhjVXCWeS2vuk3bRw
@@ -25,7 +25,7 @@ deb https://mirrors.ustc.edu.cn/ubuntu/ jammy-proposed main restricted universe 
 deb-src https://mirrors.ustc.edu.cn/ubuntu/ jammy-proposed main restricted universe multiverse
 ```
 
-![Ubuntu换源](pics/2023-04-20-22-23-28.png)
+![Ubuntu换源](./pics/2023-04-20-22-23-28.png)
 
 
 ## 1.1.2 下载安装ROS2
@@ -48,11 +48,11 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 
 - 1. 访问 `https://tool.lu/ip/` 并输入域名 `raw.githubusercontent.com`，查询 ip 地址，这里查询到的是 `185.199.108.133`
 
-![IP地址查询](pics/2023-04-20-22-39-31.png)
+![IP地址查询](./pics/2023-04-20-22-39-31.png)
 
 - 2. 修改 `sudo gedit /etc/hosts`文件,并手动添加DNS解析：
 
-![手动添加IP](pics/2023-04-20-22-42-02.png)
+![手动添加IP](./pics/2023-04-20-22-42-02.png)
 
 
 4. 下载ROS2-humble：更新软件到最新版本，然后下载ROS2-humble：
@@ -72,12 +72,12 @@ sudo apt install ros-humble-desktop
 
 2. 测试ROS2：`ros2 run turtlesim turtlesim_node`和`ros2 run turtlesim turtle_teleop_key`运行小乌龟
 
-![小乌龟测试程序](pics/2023-04-20-22-52-37.png)
+![小乌龟测试程序](./pics/2023-04-20-22-52-37.png)
 
 
-## 1.2 使用VSCode搭建ROS2开发环境
+# 1.2 使用VSCode搭建ROS2开发环境
 
-### 1.2.1 安装并配置VSCode
+## 1.2.1 安装并配置VSCode
 
 1. 安装VSCode: [VSCode下载地址](https://code.visualstudio.com/Download)，持续下一步即可安装完成。
 
@@ -85,7 +85,7 @@ sudo apt install ros-humble-desktop
 
 ![VSCode插件](pics/2023-04-23-22-27-33.png)
 
-### 1.2.2 创建ROS2工程的方法
+## 1.2.2 创建ROS2工程的方法
 
 1. ROS2 create命令：通过 `ros2 pkg create --help` 熟悉创建ROS2项目的方法
 
@@ -146,7 +146,7 @@ ros2 pkg create demo --build-type ament_cmake --node-name demo_node --dependenci
 ```
 
 
-### 1.2.3 使用VSCode创建ROS2的C/C++工程
+## 1.2.3 使用VSCode创建ROS2的C/C++项目
 
 1. 创建ROS2 C++工程：`ros2 pkg create vscodeCppDemo --build-type ament_cmake --node-name vscodeCppDemoNode --dependencies rclcpp std_msgs`
 
@@ -236,7 +236,7 @@ int main(int argc, char ** argv)
 }
 ```
 
-![VSCode Settings配置](pics/2023-04-23-22-57-32.gif)
+![VSCode Settings配置](./pics/2023-04-23-22-57-32.gif)
 
 5. 配置ROS2项目的 `package.xml` 文件：`package.xml` 文件是ROS2项目的功能包管理文件，下面添加了一点注释：
 
@@ -354,10 +354,16 @@ pldz@pldz-pc:~/share/ROS2_DEMO/1_Chapter/code$ ros2 run vscodeCppDemo vscodeCppD
 ```
 
 
-## 1.3 ROS2的基本体系
+## 1.2.4 使用VSCode创建ROS2的Python项目
+
+# 1.3 ROS2的基本体系
 
 
-## 1.4 参考内容
+# 1.4 总结和参考内容
+
+## 1.4.1 总结
+
+## 1.4.2 参考内容
 
 - 1. [【ROS2原理3】：构建系统“ament_cmake”和构建工具“ament_tools”](https://blog.csdn.net/gongdiwudu/article/details/126192244)
 - 2. [ROS2学习笔记（五）-- ROS2命令行操作常用指令总结（一）](https://blog.csdn.net/aibingjin/article/details/123899829)
