@@ -1,0 +1,13 @@
+{
+    // Settings.json的配置，主要在于添加/opt/ros/humble文件夹下的ros2的include路径
+    
+    // pldz@pldz-pc:~/share/ROS2_DEMO/1_Chapter/code/.vscode$ tree .
+    // .
+    // └── settings.json
+    // 0 directories, 1 file
+
+    "files.associations": {
+        "cstdio": "cpp"
+    },
+    "C_Cpp.default.includePath": ["/opt/ros/humble/include/**"]
+}

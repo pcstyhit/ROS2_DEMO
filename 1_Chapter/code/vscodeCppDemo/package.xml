@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>vscodeCppDemo</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <!-- 包的作者信息,主要来自Git的配置 -->
+  <maintainer email="pldz@R7000.com">pldz</maintainer>
+  <license>TODO: License declaration</license>
+
+  <!-- 编译工程的工具 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 编译需要的依赖项,可以手动添加 -->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

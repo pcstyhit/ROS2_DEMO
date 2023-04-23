@@ -1,0 +1,8 @@
+source;share/vscodeCppDemo/hook/cmake_prefix_path.ps1
+source;share/vscodeCppDemo/hook/cmake_prefix_path.dsv
+source;share/vscodeCppDemo/hook/cmake_prefix_path.sh
+source;share/vscodeCppDemo/local_setup.bash
+source;share/vscodeCppDemo/local_setup.dsv
+source;share/vscodeCppDemo/local_setup.ps1
+source;share/vscodeCppDemo/local_setup.sh
+source;share/vscodeCppDemo/local_setup.zsh
