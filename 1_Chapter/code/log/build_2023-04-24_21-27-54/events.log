@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000892] (vscodeCppDemo) JobQueued: {'identifier': 'vscodeCppDemo', 'dependencies': OrderedDict()}
+[0.002185] (vscodePythonDemo) JobQueued: {'identifier': 'vscodePythonDemo', 'dependencies': OrderedDict()}
+[0.002697] (vscodeCppDemo) JobStarted: {'identifier': 'vscodeCppDemo'}
+[0.024615] (vscodePythonDemo) JobStarted: {'identifier': 'vscodePythonDemo'}
+[0.055879] (vscodeCppDemo) JobProgress: {'identifier': 'vscodeCppDemo', 'progress': 'cmake'}
+[0.062179] (vscodeCppDemo) JobProgress: {'identifier': 'vscodeCppDemo', 'progress': 'build'}
+[0.063902] (vscodeCppDemo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo', '--', '-j16', '-l16'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.107 1720 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('OLDPWD', '/home/pldz/share/ROS2_DEMO/1_Chapter/code/vscodePythonDemo'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-1d4b8af9-fd13-4d55-919e-1eab62baf47d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pldz/share/ROS2_DEMO/1_Chapter/code/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-614f1e6a72.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pldz/share/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo:/home/pldz/share/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo'), ('SSH_CONNECTION', '192.168.0.107 1720 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pldz/share/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pldz/share/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo:/home/pldz/share/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo:/opt/ros/humble')]), 'shell': False}
+[0.098444] (-) TimerEvent: {}
+[0.199229] (-) TimerEvent: {}
+[0.273965] (vscodeCppDemo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vscodeCppDemoNode.dir/src/vscodeCppDemoNode.cpp.o\x1b[0m\n'}
+[0.299825] (-) TimerEvent: {}
+[0.400936] (-) TimerEvent: {}
+[0.501873] (-) TimerEvent: {}
+[0.603443] (-) TimerEvent: {}
+[0.704638] (-) TimerEvent: {}
+[0.805619] (-) TimerEvent: {}
+[0.906598] (-) TimerEvent: {}
+[1.007653] (-) TimerEvent: {}
+[1.108837] (-) TimerEvent: {}
+[1.125613] (vscodePythonDemo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/vscodePythonDemo', 'build', '--build-base', '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/build', 'install', '--record', '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodePythonDemo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'pldz', 'SSH_CLIENT': '192.168.0.107 1720 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pldz', 'OLDPWD': '/home/pldz/share/ROS2_DEMO/1_Chapter/code/vscodePythonDemo', 'TERM_PROGRAM_VERSION': '1.77.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-1d4b8af9-fd13-4d55-919e-1eab62baf47d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pldz/share/ROS2_DEMO/1_Chapter/code/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pldz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-614f1e6a72.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pldz/share/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo:/home/pldz/share/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo', 'SSH_CONNECTION': '192.168.0.107 1720 192.168.0.22 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages:/home/pldz/share/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pldz/share/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo'}, 'shell': False}
+[1.209323] (-) TimerEvent: {}
+[1.310173] (-) TimerEvent: {}
+[1.411048] (-) TimerEvent: {}
+[1.449334] (vscodePythonDemo) StdoutLine: {'line': b'running egg_info\n'}
+[1.452444] (vscodePythonDemo) StdoutLine: {'line': b'writing ../build/vscodePythonDemo/vscodePythonDemo.egg-info/PKG-INFO\n'}
+[1.455274] (vscodePythonDemo) StdoutLine: {'line': b'writing dependency_links to ../build/vscodePythonDemo/vscodePythonDemo.egg-info/dependency_links.txt\n'}
+[1.459326] (vscodePythonDemo) StdoutLine: {'line': b'writing entry points to ../build/vscodePythonDemo/vscodePythonDemo.egg-info/entry_points.txt\n'}
+[1.462628] (vscodePythonDemo) StdoutLine: {'line': b'writing requirements to ../build/vscodePythonDemo/vscodePythonDemo.egg-info/requires.txt\n'}
+[1.464463] (vscodePythonDemo) StdoutLine: {'line': b'writing top-level names to ../build/vscodePythonDemo/vscodePythonDemo.egg-info/top_level.txt\n'}
+[1.481375] (vscodePythonDemo) StdoutLine: {'line': b"reading manifest file '../build/vscodePythonDemo/vscodePythonDemo.egg-info/SOURCES.txt'\n"}
+[1.485831] (vscodePythonDemo) StdoutLine: {'line': b"writing manifest file '../build/vscodePythonDemo/vscodePythonDemo.egg-info/SOURCES.txt'\n"}
+[1.489297] (vscodePythonDemo) StdoutLine: {'line': b'running build\n'}
+[1.492048] (vscodePythonDemo) StdoutLine: {'line': b'running build_py\n'}
+[1.495048] (vscodePythonDemo) StdoutLine: {'line': b'running install\n'}
+[1.498655] (vscodePythonDemo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.501992] (vscodePythonDemo) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.504921] (vscodePythonDemo) StdoutLine: {'line': b'running install_lib\n'}
+[1.508078] (vscodePythonDemo) StdoutLine: {'line': b'running install_data\n'}
+[1.510491] (vscodePythonDemo) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.512957] (-) TimerEvent: {}
+[1.514084] (vscodePythonDemo) StdoutLine: {'line': b"removing '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages/vscodePythonDemo-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.524376] (vscodePythonDemo) StdoutLine: {'line': b'Copying ../build/vscodePythonDemo/vscodePythonDemo.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages/vscodePythonDemo-0.0.0-py3.10.egg-info\n'}
+[1.566057] (vscodePythonDemo) StdoutLine: {'line': b'running install_scripts\n'}
+[1.613229] (-) TimerEvent: {}
+[1.632109] (vscodePythonDemo) StdoutLine: {'line': b'Installing vscodePythonDemoNode script to /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/vscodePythonDemo\n'}
+[1.637878] (vscodePythonDemo) StdoutLine: {'line': b"writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/install.log'\n"}
+[1.666570] (vscodePythonDemo) CommandEnded: {'returncode': 0}
+[1.713401] (-) TimerEvent: {}
+[1.731386] (vscodePythonDemo) JobEnded: {'identifier': 'vscodePythonDemo', 'rc': 0}
+[1.813961] (-) TimerEvent: {}
+[1.914964] (-) TimerEvent: {}
+[2.016186] (-) TimerEvent: {}
+[2.117544] (-) TimerEvent: {}
+[2.218793] (-) TimerEvent: {}
+[2.319926] (-) TimerEvent: {}
+[2.420879] (-) TimerEvent: {}
+[2.521951] (-) TimerEvent: {}
+[2.622720] (-) TimerEvent: {}
+[2.724095] (-) TimerEvent: {}
+[2.825329] (-) TimerEvent: {}
+[2.926304] (-) TimerEvent: {}
+[3.027405] (-) TimerEvent: {}
+[3.128819] (-) TimerEvent: {}
+[3.229912] (-) TimerEvent: {}
+[3.330921] (-) TimerEvent: {}
+[3.431888] (-) TimerEvent: {}
+[3.532971] (-) TimerEvent: {}
+[3.633991] (-) TimerEvent: {}
+[3.734984] (-) TimerEvent: {}
+[3.836128] (-) TimerEvent: {}
+[3.937266] (-) TimerEvent: {}
+[4.038734] (-) TimerEvent: {}
+[4.140102] (-) TimerEvent: {}
+[4.241522] (-) TimerEvent: {}
+[4.342579] (-) TimerEvent: {}
+[4.443395] (-) TimerEvent: {}
+[4.545001] (-) TimerEvent: {}
+[4.646825] (-) TimerEvent: {}
+[4.747838] (-) TimerEvent: {}
+[4.848722] (-) TimerEvent: {}
+[4.949667] (-) TimerEvent: {}
+[5.050540] (-) TimerEvent: {}
+[5.151561] (-) TimerEvent: {}
+[5.253198] (-) TimerEvent: {}
+[5.354519] (-) TimerEvent: {}
+[5.389252] (vscodeCppDemo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[5.391933] (vscodeCppDemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[5.394237] (vscodeCppDemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[5.396008] (vscodeCppDemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[5.398548] (vscodeCppDemo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodeCppDemo/src/vscodeCppDemoNode.cpp:1\x1b[m\x1b[K:\n'}
+[5.400803] (vscodeCppDemo) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MyNode; _Args = {const char (&)[18]}; _Tp = MyNode]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.403150] (vscodeCppDemo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MyNode; _Args = {const char (&)[18]}; _Tp = MyNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MyNode>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.405398] (vscodeCppDemo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[18]}; _Tp = MyNode; _Alloc = std::allocator<MyNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.407323] (vscodeCppDemo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MyNode; _Alloc = std::allocator<MyNode>; _Args = {const char (&)[18]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.409423] (vscodeCppDemo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyNode>; _Args = {const char (&)[18]}; _Tp = MyNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.411090] (vscodeCppDemo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyNode>; _Args = {const char (&)[18]}; _Tp = MyNode]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.412744] (vscodeCppDemo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MyNode; _Alloc = std::allocator<MyNode>; _Args = {const char (&)[18]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.414527] (vscodeCppDemo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MyNode; _Args = {const char (&)[18]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.416302] (vscodeCppDemo) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodeCppDemo/src/vscodeCppDemoNode.cpp:17:41:\x1b[m\x1b[K   required from here\n'}
+[5.418529] (vscodeCppDemo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMyNode::MyNode(const char [18])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.420801] (vscodeCppDemo) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[5.422771] (vscodeCppDemo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.424885] (vscodeCppDemo) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodeCppDemo/src/vscodeCppDemoNode.cpp:7:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KMyNode::MyNode()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.427265] (vscodeCppDemo) StderrLine: {'line': b'    7 |     \x1b[01;36m\x1b[KMyNode\x1b[m\x1b[K():Node("yourInputNodeName"){\n'}
+[5.429411] (vscodeCppDemo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.431716] (vscodeCppDemo) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodeCppDemo/src/vscodeCppDemoNode.cpp:7:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[5.454677] (-) TimerEvent: {}
+[5.502826] (vscodeCppDemo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/vscodeCppDemoNode.dir/build.make:76: CMakeFiles/vscodeCppDemoNode.dir/src/vscodeCppDemoNode.cpp.o] Error 1\n'}
+[5.505308] (vscodeCppDemo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vscodeCppDemoNode.dir/all] Error 2\n'}
+[5.507703] (vscodeCppDemo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.509945] (vscodeCppDemo) CommandEnded: {'returncode': 2}
+[5.555140] (-) TimerEvent: {}
+[5.601142] (vscodeCppDemo) JobEnded: {'identifier': 'vscodeCppDemo', 'rc': 2}
+[5.606638] (-) EventReactorShutdown: {}

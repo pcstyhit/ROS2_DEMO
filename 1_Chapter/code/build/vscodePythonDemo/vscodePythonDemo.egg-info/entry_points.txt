@@ -1,0 +1,3 @@
+[console_scripts]
+vscodePythonDemoNode = vscodePythonDemo.vscodePythonDemoNode:main
+

@@ -1,0 +1,6 @@
+source;share/vscodePythonDemo/hook/pythonpath.ps1
+source;share/vscodePythonDemo/hook/pythonpath.dsv
+source;share/vscodePythonDemo/hook/pythonpath.sh
+source;share/vscodePythonDemo/hook/ament_prefix_path.ps1
+source;share/vscodePythonDemo/hook/ament_prefix_path.dsv
+source;share/vscodePythonDemo/hook/ament_prefix_path.sh

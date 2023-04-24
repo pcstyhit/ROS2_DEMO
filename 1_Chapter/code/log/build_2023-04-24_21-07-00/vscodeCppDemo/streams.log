@@ -1,0 +1,23 @@
+[0.092s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo -- -j16 -l16
+[0.309s] [35m[1mConsolidate compiler generated dependencies of target vscodeCppDemoNode[0m
+[1.489s] [100%] Built target vscodeCppDemoNode
+[1.503s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo -- -j16 -l16
+[1.545s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo
+[1.559s] -- Install configuration: ""
+[1.574s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/lib/vscodeCppDemo/vscodeCppDemoNode
+[1.583s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/ament_index/resource_index/package_run_dependencies/vscodeCppDemo
+[1.586s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/ament_index/resource_index/parent_prefix_path/vscodeCppDemo
+[1.590s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/environment/ament_prefix_path.sh
+[1.594s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/environment/ament_prefix_path.dsv
+[1.597s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/environment/path.sh
+[1.600s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/environment/path.dsv
+[1.603s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/local_setup.bash
+[1.607s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/local_setup.sh
+[1.616s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/local_setup.zsh
+[1.619s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/local_setup.dsv
+[1.624s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/package.dsv
+[1.633s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/ament_index/resource_index/packages/vscodeCppDemo
+[1.636s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/cmake/vscodeCppDemoConfig.cmake
+[1.641s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/cmake/vscodeCppDemoConfig-version.cmake
+[1.646s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/package.xml
+[1.649s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo

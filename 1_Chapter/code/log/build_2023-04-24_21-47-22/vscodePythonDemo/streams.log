@@ -1,0 +1,26 @@
+[0.684s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodePythonDemo': PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/vscodePythonDemo build --build-base /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/build install --record /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/install.log --single-version-externally-managed
+[0.922s] running egg_info
+[0.924s] writing ../build/vscodePythonDemo/vscodePythonDemo.egg-info/PKG-INFO
+[0.927s] writing dependency_links to ../build/vscodePythonDemo/vscodePythonDemo.egg-info/dependency_links.txt
+[0.932s] writing entry points to ../build/vscodePythonDemo/vscodePythonDemo.egg-info/entry_points.txt
+[0.936s] writing requirements to ../build/vscodePythonDemo/vscodePythonDemo.egg-info/requires.txt
+[0.939s] writing top-level names to ../build/vscodePythonDemo/vscodePythonDemo.egg-info/top_level.txt
+[0.958s] reading manifest file '../build/vscodePythonDemo/vscodePythonDemo.egg-info/SOURCES.txt'
+[0.962s] writing manifest file '../build/vscodePythonDemo/vscodePythonDemo.egg-info/SOURCES.txt'
+[0.965s] running build
+[0.968s] running build_py
+[0.971s] copying vscodePythonDemo/vscodePythonDemoNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/build/lib/vscodePythonDemo
+[0.976s] running install
+[0.979s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.983s]   warnings.warn(
+[0.986s] running install_lib
+[0.990s] copying /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/build/lib/vscodePythonDemo/vscodePythonDemoNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages/vscodePythonDemo
+[0.995s] byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages/vscodePythonDemo/vscodePythonDemoNode.py to vscodePythonDemoNode.cpython-310.pyc
+[1.002s] running install_data
+[1.006s] running install_egg_info
+[1.009s] removing '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages/vscodePythonDemo-0.0.0-py3.10.egg-info' (and everything under it)
+[1.020s] Copying ../build/vscodePythonDemo/vscodePythonDemo.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages/vscodePythonDemo-0.0.0-py3.10.egg-info
+[1.071s] running install_scripts
+[1.093s] Installing vscodePythonDemoNode script to /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/vscodePythonDemo
+[1.102s] writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/install.log'
+[1.140s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodePythonDemo' returned '0': PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/vscodePythonDemo build --build-base /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/build install --record /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/install.log --single-version-externally-managed

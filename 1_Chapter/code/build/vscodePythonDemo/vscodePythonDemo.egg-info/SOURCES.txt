@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/vscodePythonDemo/vscodePythonDemo.egg-info/PKG-INFO
+../build/vscodePythonDemo/vscodePythonDemo.egg-info/SOURCES.txt
+../build/vscodePythonDemo/vscodePythonDemo.egg-info/dependency_links.txt
+../build/vscodePythonDemo/vscodePythonDemo.egg-info/entry_points.txt
+../build/vscodePythonDemo/vscodePythonDemo.egg-info/requires.txt
+../build/vscodePythonDemo/vscodePythonDemo.egg-info/top_level.txt
+../build/vscodePythonDemo/vscodePythonDemo.egg-info/zip-safe
+resource/vscodePythonDemo
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+vscodePythonDemo/__init__.py
+vscodePythonDemo/vscodePythonDemoNode.py

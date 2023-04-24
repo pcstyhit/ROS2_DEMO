@@ -1,0 +1,27 @@
+[0.072s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pldz/share/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo -- -j16 -l16
+[0.272s] [ 50%] [32mBuilding CXX object CMakeFiles/vscodeCppDemoNode.dir/src/vscodeCppDemoNode.cpp.o[0m
+[5.387s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[5.390s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[5.392s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[5.394s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[5.396s]                  from [01m[K/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodeCppDemo/src/vscodeCppDemoNode.cpp:1[m[K:
+[5.399s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MyNode; _Args = {const char (&)[18]}; _Tp = MyNode][m[K’:
+[5.401s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MyNode; _Args = {const char (&)[18]}; _Tp = MyNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MyNode>][m[K’
+[5.403s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[18]}; _Tp = MyNode; _Alloc = std::allocator<MyNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[5.405s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MyNode; _Alloc = std::allocator<MyNode>; _Args = {const char (&)[18]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[5.407s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyNode>; _Args = {const char (&)[18]}; _Tp = MyNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[5.408s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyNode>; _Args = {const char (&)[18]}; _Tp = MyNode][m[K’
+[5.410s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MyNode; _Alloc = std::allocator<MyNode>; _Args = {const char (&)[18]}][m[K’
+[5.412s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MyNode; _Args = {const char (&)[18]}][m[K’
+[5.414s] [01m[K/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodeCppDemo/src/vscodeCppDemoNode.cpp:17:41:[m[K   required from here
+[5.416s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMyNode::MyNode(const char [18])[m[K’
+[5.418s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[5.420s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.423s] [01m[K/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodeCppDemo/src/vscodeCppDemoNode.cpp:7:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KMyNode::MyNode()[m[K’
+[5.425s]     7 |     [01;36m[KMyNode[m[K():Node("yourInputNodeName"){
+[5.427s]       |     [01;36m[K^~~~~~[m[K
+[5.430s] [01m[K/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodeCppDemo/src/vscodeCppDemoNode.cpp:7:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[5.500s] gmake[2]: *** [CMakeFiles/vscodeCppDemoNode.dir/build.make:76: CMakeFiles/vscodeCppDemoNode.dir/src/vscodeCppDemoNode.cpp.o] Error 1
+[5.504s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vscodeCppDemoNode.dir/all] Error 2
+[5.506s] gmake: *** [Makefile:146: all] Error 2
+[5.507s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pldz/share/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo -- -j16 -l16

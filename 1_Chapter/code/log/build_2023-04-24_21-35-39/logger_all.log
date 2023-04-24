@@ -1,0 +1,157 @@
+[0.253s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.253s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc1e38bd8d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc1e4129510>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc1e4129510>>)
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.290s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(vscodeCppDemo) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(vscodeCppDemo) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(vscodeCppDemo) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(vscodeCppDemo) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(vscodeCppDemo) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(vscodeCppDemo) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(vscodeCppDemo) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(vscodeCppDemo) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(vscodeCppDemo) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'vscodeCppDemo' with type 'ros.ament_cmake' and name 'vscodeCppDemo'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(vscodePythonDemo) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(vscodePythonDemo) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(vscodePythonDemo) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(vscodePythonDemo) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(vscodePythonDemo) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(vscodePythonDemo) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(vscodePythonDemo) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(vscodePythonDemo) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(vscodePythonDemo) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'vscodePythonDemo' with type 'ros.ament_python' and name 'vscodePythonDemo'
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.387s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/pldz/share/ROS2_DEMO/1_Chapter/code/install
+[0.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'vscodeCppDemo' build argument 'cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'vscodeCppDemo' build argument 'cmake_target' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'vscodeCppDemo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'vscodeCppDemo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'vscodeCppDemo' build argument 'cmake_clean_first' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'vscodeCppDemo' build argument 'cmake_force_configure' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'vscodeCppDemo' build argument 'ament_cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'vscodeCppDemo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'vscodeCppDemo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.447s] DEBUG:colcon.colcon_core.verb:Building package 'vscodeCppDemo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo', 'merge_install': False, 'path': '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodeCppDemo', 'symlink_install': False, 'test_result_base': None}
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'vscodePythonDemo' build argument 'cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'vscodePythonDemo' build argument 'cmake_target' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'vscodePythonDemo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'vscodePythonDemo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'vscodePythonDemo' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'vscodePythonDemo' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'vscodePythonDemo' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'vscodePythonDemo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'vscodePythonDemo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'vscodePythonDemo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo', 'merge_install': False, 'path': '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodePythonDemo', 'symlink_install': False, 'test_result_base': None}
+[0.453s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.457s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodeCppDemo' with build type 'ament_cmake'
+[0.458s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodeCppDemo'
+[0.464s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.480s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodePythonDemo' with build type 'ament_python'
+[0.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('vscodePythonDemo', 'ament_prefix_path')
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/share/vscodePythonDemo/hook/ament_prefix_path.ps1'
+[0.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/share/vscodePythonDemo/hook/ament_prefix_path.dsv'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/share/vscodePythonDemo/hook/ament_prefix_path.sh'
+[0.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pldz/share/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo -- -j16 -l16
+[0.770s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodePythonDemo'
+[0.772s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodePythonDemo': PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/vscodePythonDemo build --build-base /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/build install --record /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/install.log --single-version-externally-managed
+[1.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/vscodePythonDemo' returned '0': PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/vscodePythonDemo build --build-base /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/build install --record /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodePythonDemo/install.log --single-version-externally-managed
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo' for CMake module files
+[1.618s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo' for CMake config files
+[1.642s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/bin'
+[1.645s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/pkgconfig/vscodePythonDemo.pc'
+[1.646s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/lib/python3.10/site-packages'
+[1.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('vscodePythonDemo', 'pythonpath')
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/share/vscodePythonDemo/hook/pythonpath.ps1'
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/share/vscodePythonDemo/hook/pythonpath.dsv'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/share/vscodePythonDemo/hook/pythonpath.sh'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/bin'
+[1.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vscodePythonDemo)
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/share/vscodePythonDemo/package.ps1'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/share/vscodePythonDemo/package.dsv'
+[1.664s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/share/vscodePythonDemo/package.sh'
+[1.666s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/share/vscodePythonDemo/package.bash'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/share/vscodePythonDemo/package.zsh'
+[1.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo/share/colcon-core/packages/vscodePythonDemo)
+[4.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pldz/share/ROS2_DEMO/1_Chapter/code/install/vscodePythonDemo:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/build/vscodeCppDemo -- -j16 -l16
+[4.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vscodeCppDemo)
+[4.366s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo' for CMake module files
+[4.385s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo' for CMake config files
+[4.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('vscodeCppDemo', 'cmake_prefix_path')
+[4.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/hook/cmake_prefix_path.ps1'
+[4.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/hook/cmake_prefix_path.dsv'
+[4.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/hook/cmake_prefix_path.sh'
+[4.409s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/lib'
+[4.411s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/bin'
+[4.412s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/lib/pkgconfig/vscodeCppDemo.pc'
+[4.413s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/lib/python3.10/site-packages'
+[4.414s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/bin'
+[4.415s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/package.ps1'
+[4.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/package.dsv'
+[4.419s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/package.sh'
+[4.422s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/package.bash'
+[4.423s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/vscodeCppDemo/package.zsh'
+[4.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/vscodeCppDemo/share/colcon-core/packages/vscodeCppDemo)
+[4.437s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.439s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[4.440s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.450s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.451s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.451s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.464s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.466s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/local_setup.ps1'
+[4.468s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/_local_setup_util_ps1.py'
+[4.471s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/setup.ps1'
+[4.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/local_setup.sh'
+[4.484s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/_local_setup_util_sh.py'
+[4.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/setup.sh'
+[4.500s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/local_setup.bash'
+[4.503s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/setup.bash'
+[4.512s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/local_setup.zsh'
+[4.516s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/hgfs/VMware/ROS2_DEMO/1_Chapter/code/install/setup.zsh'

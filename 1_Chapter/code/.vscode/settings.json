@@ -9,5 +9,7 @@
     "files.associations": {
         "cstdio": "cpp"
     },
-    "C_Cpp.default.includePath": ["/opt/ros/humble/include/**"]
+    "C_Cpp.default.includePath": ["/opt/ros/humble/include/**"],
+    "python.analysis.extraPaths": ["/opt/ros/humble/local/lib/python3.10/dist-packages/"],
+
 }
