@@ -1,0 +1,17 @@
+{
+  "package_name": "student_msg",
+  "output_dir": "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/student_msg/rosidl_typesupport_c/student_msg",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/student_msg/rosidl_adapter/student_msg:msg/Student.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/student_msg/rosidl_adapter/student_msg/msg/Student.idl"
+  ]
+}

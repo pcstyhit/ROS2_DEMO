@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000881] (-) JobUnselected: {'identifier': 'cppBaseMsgPub'}
+[0.001712] (-) JobUnselected: {'identifier': 'cppBaseMsgSub'}
+[0.002760] (-) JobUnselected: {'identifier': 'msg_demo'}
+[0.003698] (-) JobUnselected: {'identifier': 'pythonBaseMsgPub'}
+[0.004652] (-) JobUnselected: {'identifier': 'pythonBaseMsgSub'}
+[0.005050] (-) JobUnselected: {'identifier': 'student_msg'}
+[0.006099] (cpp_idl_pub) JobQueued: {'identifier': 'cpp_idl_pub', 'dependencies': OrderedDict([('student_msg', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg')])}
+[0.006768] (cpp_idl_pub) JobStarted: {'identifier': 'cpp_idl_pub'}
+[0.046980] (cpp_idl_pub) JobProgress: {'identifier': 'cpp_idl_pub', 'progress': 'cmake'}
+[0.052280] (cpp_idl_pub) Command: {'cmd': ['/usr/bin/cmake', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/cpp_idl_pub', '-DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_pub'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 11841 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-29d5c591-1015-4366-acd1-a77a22ebabb8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e5a29f1a9d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_pub'), ('SSH_CONNECTION', '192.168.0.100 11841 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:/opt/ros/humble')]), 'shell': False}
+[0.095269] (cpp_idl_pub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098325] (-) TimerEvent: {}
+[0.199416] (-) TimerEvent: {}
+[0.264990] (cpp_idl_pub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.294655] (cpp_idl_pub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.297764] (cpp_idl_pub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.299694] (-) TimerEvent: {}
+[0.302336] (cpp_idl_pub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.315089] (cpp_idl_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.330138] (cpp_idl_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.386053] (cpp_idl_pub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.388926] (cpp_idl_pub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399908] (-) TimerEvent: {}
+[0.500473] (-) TimerEvent: {}
+[0.601364] (-) TimerEvent: {}
+[0.626786] (cpp_idl_pub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.701968] (-) TimerEvent: {}
+[0.782607] (cpp_idl_pub) StdoutLine: {'line': b'-- Found student_msg: 0.0.0 (/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake)\n'}
+[0.802361] (-) TimerEvent: {}
+[0.894681] (cpp_idl_pub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.902644] (-) TimerEvent: {}
+[1.003952] (-) TimerEvent: {}
+[1.104578] (-) TimerEvent: {}
+[1.184471] (cpp_idl_pub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.186381] (cpp_idl_pub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/cpp_idl_pub/include>\n'}
+[1.188348] (cpp_idl_pub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.203661] (cpp_idl_pub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.206370] (-) TimerEvent: {}
+[1.245651] (cpp_idl_pub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.248574] (cpp_idl_pub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.257358] (cpp_idl_pub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.303036] (cpp_idl_pub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.306780] (-) TimerEvent: {}
+[1.407740] (-) TimerEvent: {}
+[1.462082] (cpp_idl_pub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.506456] (cpp_idl_pub) StdoutLine: {'line': b'-- Build files have been written to: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_pub\n'}
+[1.507929] (-) TimerEvent: {}
+[1.514360] (cpp_idl_pub) CommandEnded: {'returncode': 0}
+[1.517007] (cpp_idl_pub) JobProgress: {'identifier': 'cpp_idl_pub', 'progress': 'build'}
+[1.519543] (cpp_idl_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_pub', '--', '-j16', '-l16'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 11841 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-29d5c591-1015-4366-acd1-a77a22ebabb8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e5a29f1a9d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_pub'), ('SSH_CONNECTION', '192.168.0.100 11841 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:/opt/ros/humble')]), 'shell': False}
+[1.608262] (-) TimerEvent: {}
+[1.699022] (cpp_idl_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cppIdlPubNode.dir/src/cppIdlPubNode.cpp.o\x1b[0m\n'}
+[1.708805] (-) TimerEvent: {}
+[1.809744] (-) TimerEvent: {}
+[1.910756] (-) TimerEvent: {}
+[2.011819] (-) TimerEvent: {}
+[2.112868] (-) TimerEvent: {}
+[2.214069] (-) TimerEvent: {}
+[2.315083] (-) TimerEvent: {}
+[2.415598] (-) TimerEvent: {}
+[2.516173] (-) TimerEvent: {}
+[2.617166] (-) TimerEvent: {}
+[2.718179] (-) TimerEvent: {}
+[2.819221] (-) TimerEvent: {}
+[2.920241] (-) TimerEvent: {}
+[3.021780] (-) TimerEvent: {}
+[3.122768] (-) TimerEvent: {}
+[3.223786] (-) TimerEvent: {}
+[3.324802] (-) TimerEvent: {}
+[3.425807] (-) TimerEvent: {}
+[3.527001] (-) TimerEvent: {}
+[3.628357] (-) TimerEvent: {}
+[3.729340] (-) TimerEvent: {}
+[3.830368] (-) TimerEvent: {}
+[3.931434] (-) TimerEvent: {}
+[4.032422] (-) TimerEvent: {}
+[4.133430] (-) TimerEvent: {}
+[4.234434] (-) TimerEvent: {}
+[4.335412] (-) TimerEvent: {}
+[4.418508] (cpp_idl_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/cpp_idl_pub/src/cppIdlPubNode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CppIdlMsgPub::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.420370] (cpp_idl_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/cpp_idl_pub/src/cppIdlPubNode.cpp:41:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.423129] (cpp_idl_pub) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[4.425357] (cpp_idl_pub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.435941] (-) TimerEvent: {}
+[4.537051] (-) TimerEvent: {}
+[4.638512] (-) TimerEvent: {}
+[4.740003] (-) TimerEvent: {}
+[4.841443] (-) TimerEvent: {}
+[4.942468] (-) TimerEvent: {}
+[5.043502] (-) TimerEvent: {}
+[5.144525] (-) TimerEvent: {}
+[5.245489] (-) TimerEvent: {}
+[5.248050] (cpp_idl_pub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cppIdlPubNode.dir/build.make:76: CMakeFiles/cppIdlPubNode.dir/src/cppIdlPubNode.cpp.o] Error 1\n'}
+[5.250988] (cpp_idl_pub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cppIdlPubNode.dir/all] Error 2\n'}
+[5.254663] (cpp_idl_pub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.256651] (cpp_idl_pub) CommandEnded: {'returncode': 2}
+[5.328454] (cpp_idl_pub) JobEnded: {'identifier': 'cpp_idl_pub', 'rc': 2}
+[5.334690] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+{
+  "package_name": "student_msg",
+  "non_idl_tuples": [
+    "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/student_msg:msg/Student.msg"
+  ]
+}

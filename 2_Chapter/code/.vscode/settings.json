@@ -1,6 +1,10 @@
 {
-    "C_Cpp.default.includePath": ["/opt/ros/humble/include/**"],
+    "C_Cpp.default.includePath": [
+        "/opt/ros/humble/include/**",
+        "./install/student_msg/include/**"
+    ],
     "python.analysis.extraPaths": [
-        "/opt/ros/humble/local/lib/python3.10/dist-packages/"
+        "/opt/ros/humble/local/lib/python3.10/dist-packages/",
+        "./install/student_msg/local/lib/python3.10/dist-packages/"
     ],
 }

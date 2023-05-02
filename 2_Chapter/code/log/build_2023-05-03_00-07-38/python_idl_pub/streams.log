@@ -1,0 +1,39 @@
+[0.679s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/python_idl_pub': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/lib/python3.10/site-packages:/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_idl_pub build --build-base /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/build install --record /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/install.log --single-version-externally-managed
+[0.924s] running egg_info
+[0.929s] creating ../build/python_idl_pub/python_idl_pub.egg-info
+[0.932s] writing ../build/python_idl_pub/python_idl_pub.egg-info/PKG-INFO
+[0.938s] writing dependency_links to ../build/python_idl_pub/python_idl_pub.egg-info/dependency_links.txt
+[0.943s] writing entry points to ../build/python_idl_pub/python_idl_pub.egg-info/entry_points.txt
+[0.945s] writing requirements to ../build/python_idl_pub/python_idl_pub.egg-info/requires.txt
+[0.948s] writing top-level names to ../build/python_idl_pub/python_idl_pub.egg-info/top_level.txt
+[0.953s] writing manifest file '../build/python_idl_pub/python_idl_pub.egg-info/SOURCES.txt'
+[0.967s] reading manifest file '../build/python_idl_pub/python_idl_pub.egg-info/SOURCES.txt'
+[0.970s] writing manifest file '../build/python_idl_pub/python_idl_pub.egg-info/SOURCES.txt'
+[0.972s] running build
+[0.975s] running build_py
+[0.979s] creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/build
+[0.981s] creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/build/lib
+[0.984s] creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/build/lib/python_idl_pub
+[0.988s] copying python_idl_pub/pythonIdlPubNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/build/lib/python_idl_pub
+[0.991s] copying python_idl_pub/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/build/lib/python_idl_pub
+[0.995s] running install
+[0.999s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.004s]   warnings.warn(
+[1.006s] running install_lib
+[1.011s] creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/lib/python3.10/site-packages/python_idl_pub
+[1.014s] copying /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/build/lib/python_idl_pub/pythonIdlPubNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/lib/python3.10/site-packages/python_idl_pub
+[1.017s] copying /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/build/lib/python_idl_pub/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/lib/python3.10/site-packages/python_idl_pub
+[1.021s] byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/lib/python3.10/site-packages/python_idl_pub/pythonIdlPubNode.py to pythonIdlPubNode.cpython-310.pyc
+[1.027s] byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/lib/python3.10/site-packages/python_idl_pub/__init__.py to __init__.cpython-310.pyc
+[1.033s] running install_data
+[1.037s] creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/share/ament_index
+[1.041s] creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/share/ament_index/resource_index
+[1.044s] creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/share/ament_index/resource_index/packages
+[1.046s] copying resource/python_idl_pub -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/share/ament_index/resource_index/packages
+[1.050s] copying package.xml -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/share/python_idl_pub
+[1.055s] running install_egg_info
+[1.060s] Copying ../build/python_idl_pub/python_idl_pub.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/lib/python3.10/site-packages/python_idl_pub-0.0.0-py3.10.egg-info
+[1.098s] running install_scripts
+[1.121s] Installing pythonIdlPubNode script to /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/lib/python_idl_pub
+[1.128s] writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/install.log'
+[1.166s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/python_idl_pub' returned '0': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/lib/python3.10/site-packages:/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_idl_pub build --build-base /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/build install --record /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_pub/install.log --single-version-externally-managed

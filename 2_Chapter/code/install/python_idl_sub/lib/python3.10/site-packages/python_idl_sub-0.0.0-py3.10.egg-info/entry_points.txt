@@ -1,0 +1,3 @@
+[console_scripts]
+pythonIdlSubNode = python_idl_sub.pythonIdlSubNode:main
+

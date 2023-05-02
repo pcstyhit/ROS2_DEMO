@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target cppIdlSubNode[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cppIdlSubNode.dir/src/cppIdlSubNode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cppIdlSubNode[0m
+[100%] Built target cppIdlSubNode
+-- Install configuration: ""
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/lib/cpp_idl_sub/cppIdlSubNode
+-- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/lib/cpp_idl_sub/cppIdlSubNode" to ""
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/ament_index/resource_index/package_run_dependencies/cpp_idl_sub
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/ament_index/resource_index/parent_prefix_path/cpp_idl_sub
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/environment/ament_prefix_path.sh
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/environment/ament_prefix_path.dsv
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/environment/path.sh
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/environment/path.dsv
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/local_setup.bash
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/local_setup.sh
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/local_setup.zsh
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/local_setup.dsv
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/package.dsv
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/ament_index/resource_index/packages/cpp_idl_sub
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/cmake/cpp_idl_subConfig.cmake
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/cmake/cpp_idl_subConfig-version.cmake
+-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/package.xml

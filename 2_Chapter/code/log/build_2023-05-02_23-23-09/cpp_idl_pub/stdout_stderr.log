@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target cppIdlPubNode[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cppIdlPubNode.dir/src/cppIdlPubNode.cpp.o[0m
+[01m[K/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/cpp_idl_pub/src/cppIdlPubNode.cpp:[m[K In constructor ‘[01m[KCppIdlMsgPub::CppIdlMsgPub(const char*)[m[K’:
+[01m[K/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/cpp_idl_pub/src/cppIdlPubNode.cpp:17:68:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KCppIdlMsgPub[m[K’ does not have any field named ‘[01m[Ksocre_[m[K’
+   17 |       CppIdlMsgPub(const char* nodeName):Node(nodeName), exam_(0), [01;31m[Ksocre_[m[K(60.0)
+      |                                                                    [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cppIdlPubNode.dir/build.make:76: CMakeFiles/cppIdlPubNode.dir/src/cppIdlPubNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cppIdlPubNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

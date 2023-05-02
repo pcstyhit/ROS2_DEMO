@@ -1,0 +1,25 @@
+[0.031s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/cpp_idl_pub -DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_pub
+[0.159s] -- The C compiler identification is GNU 11.3.0
+[0.276s] -- The CXX compiler identification is GNU 11.3.0
+[0.294s] -- Detecting C compiler ABI info
+[0.546s] -- Detecting C compiler ABI info - done
+[0.559s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.572s] -- Detecting C compile features
+[0.575s] -- Detecting C compile features - done
+[0.587s] -- Detecting CXX compiler ABI info
+[0.845s] -- Detecting CXX compiler ABI info - done
+[0.861s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.865s] -- Detecting CXX compile features
+[0.868s] -- Detecting CXX compile features - done
+[0.881s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.026s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.155s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.159s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[1.161s]   before
+[1.164s] Call Stack (most recent call first):
+[1.168s]   CMakeLists.txt:19 (ament_target_dependencies)
+[1.170s] 
+[1.173s] [0m
+[1.176s] -- Configuring incomplete, errors occurred!
+[1.179s] See also "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_pub/CMakeFiles/CMakeOutput.log".
+[1.180s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_pub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/cpp_idl_pub -DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_pub

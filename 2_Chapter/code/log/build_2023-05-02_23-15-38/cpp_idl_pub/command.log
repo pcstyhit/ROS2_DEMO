@@ -1,0 +1,2 @@
+Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/cpp_idl_pub -DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_pub
+Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_pub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/cpp_idl_pub -DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_pub

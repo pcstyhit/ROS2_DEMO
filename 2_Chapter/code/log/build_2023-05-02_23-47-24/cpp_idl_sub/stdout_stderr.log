@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target cppIdlSubNode[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cppIdlSubNode.dir/src/cppIdlSubNode.cpp.o[0m
+[01m[K/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/cpp_idl_sub/src/cppIdlSubNode.cpp:[m[K In constructor ‘[01m[KCppIdlMsgSub::CppIdlMsgSub(const char*)[m[K’:
+[01m[K/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/cpp_idl_sub/src/cppIdlSubNode.cpp:20:35:[m[K [01;31m[Kerror: [m[K‘[01m[KCppBaseMsgSub[m[K’ has not been declared
+   20 |       "myStudent", 10, std::bind(&[01;31m[KCppBaseMsgSub[m[K::topic_callback, this, _1));
+      |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cppIdlSubNode.dir/build.make:76: CMakeFiles/cppIdlSubNode.dir/src/cppIdlSubNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cppIdlSubNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

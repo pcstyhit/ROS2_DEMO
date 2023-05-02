@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/python_idl_sub/python_idl_sub.egg-info
+writing ../build/python_idl_sub/python_idl_sub.egg-info/PKG-INFO
+writing dependency_links to ../build/python_idl_sub/python_idl_sub.egg-info/dependency_links.txt
+writing entry points to ../build/python_idl_sub/python_idl_sub.egg-info/entry_points.txt
+writing requirements to ../build/python_idl_sub/python_idl_sub.egg-info/requires.txt
+writing top-level names to ../build/python_idl_sub/python_idl_sub.egg-info/top_level.txt
+writing manifest file '../build/python_idl_sub/python_idl_sub.egg-info/SOURCES.txt'
+reading manifest file '../build/python_idl_sub/python_idl_sub.egg-info/SOURCES.txt'
+writing manifest file '../build/python_idl_sub/python_idl_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build/lib
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build/lib/python_idl_sub
+copying python_idl_sub/pythonIdlSubNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build/lib/python_idl_sub
+copying python_idl_sub/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build/lib/python_idl_sub
+running install
+running install_lib
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python3.10/site-packages/python_idl_sub
+copying /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build/lib/python_idl_sub/pythonIdlSubNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python3.10/site-packages/python_idl_sub
+copying /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build/lib/python_idl_sub/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python3.10/site-packages/python_idl_sub
+byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python3.10/site-packages/python_idl_sub/pythonIdlSubNode.py to pythonIdlSubNode.cpython-310.pyc
+byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python3.10/site-packages/python_idl_sub/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/share/ament_index
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/share/ament_index/resource_index
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/share/ament_index/resource_index/packages
+copying resource/python_idl_sub -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/share/python_idl_sub
+running install_egg_info
+Copying ../build/python_idl_sub/python_idl_sub.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python3.10/site-packages/python_idl_sub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pythonIdlSubNode script to /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python_idl_sub
+writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/install.log'

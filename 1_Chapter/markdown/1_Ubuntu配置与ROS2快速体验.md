@@ -141,6 +141,10 @@ options:
 
 2. 因此可以使用命令：`ros2 pkg create <你的项目名字> --build-type <选择cmake/ament_camke/ament_python三者之一作为项目的编译工具> --node-name <节点名称，这一项可以不写，后续手动配置> --dependencies <依赖项名字，例如在ROS1中常用的rclpy rclcpp std_msgs sensor_msgs等>`，如：
 
+> Tips：这里补充还是推荐才有下划线割开的功能包命名方法而不是大小写混合，否则会出错
+> 
+> ![命名的问题](./pics/2023-05-02-21-14-28.png)
+
 ```shell
 ros2 pkg create demo --build-type ament_cmake --node-name demo_node --dependencies rclcpp
 ```
@@ -149,6 +153,10 @@ ros2 pkg create demo --build-type ament_cmake --node-name demo_node --dependenci
 ## 1.2.3 使用VSCode创建ROS2的C/C++项目
 
 1. 创建ROS2 C++工程：`ros2 pkg create vscodeCppDemo --build-type ament_cmake --node-name vscodeCppDemoNode --dependencies rclcpp std_msgs`
+
+> Tips：这里补充还是推荐才有下划线割开的功能包命名方法而不是大小写混合，否则会出错
+> 
+> ![命名的问题](./pics/2023-05-02-21-14-28.png)
 
 2. 查看工程目录结构：`tree . `，可以发现在`src`目录下 **存在了节点名称的cpp文件** ，即ROS2项目已经构建了配置好节点内容的工程
 
@@ -200,7 +208,7 @@ pldz@pldz-pc:~/share/ROS2_DEMO/1_Chapter/code$ tree .
 
 
 
-3. 在`<ROS2工程目录下>/src/<节点cpp>.cpp`进行节点编程，ROS2是C++11的编程风格：
+3. 在`<ROS2工程目录下>/src/<节点cpp>.cpp`进行节点编程，ROS2是C++14的编程风格：
 
 ```cpp
 #include "rclcpp/rclcpp.hpp"
@@ -424,6 +432,9 @@ pldz@pldz-pc:~/share/ROS2_DEMO/1_Chapter/code$ tree -L 3
 
 1. 创建ROS2的Python项目：`ros2 pkg create vscodePythonDemo --build-type ament_python --dependencies rclpy std_msgs --node-name vscodePythonDemoNode`，其中依赖项与C/C++的节点不同是`rclpy`，此时在项目的同名目录下，已经有了`节点.py`文件
 
+> Tips：这里补充还是推荐才有下划线割开的功能包命名方法而不是大小写混合，否则会出错
+> 
+> ![命名的问题](./pics/2023-05-02-21-14-28.png)
 
 ```shell
 pldz@pldz-pc:~/share/ROS2_DEMO/1_Chapter/code$ ros2 pkg create vscodePythonDemo --build-type ament_python --dependencies rclpy std_msgs --node-name vscodePythonDemoNode

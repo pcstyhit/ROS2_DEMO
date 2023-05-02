@@ -1,0 +1,26 @@
+[0.051s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_sub': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_sub -- -j16 -l16
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target cppIdlSubNode[0m
+[1.226s] [ 50%] [32mBuilding CXX object CMakeFiles/cppIdlSubNode.dir/src/cppIdlSubNode.cpp.o[0m
+[12.978s] [100%] [32m[1mLinking CXX executable cppIdlSubNode[0m
+[18.155s] [100%] Built target cppIdlSubNode
+[18.186s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_sub' returned '0': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_sub -- -j16 -l16
+[18.221s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_sub': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_sub
+[18.245s] -- Install configuration: ""
+[18.252s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/lib/cpp_idl_sub/cppIdlSubNode
+[18.574s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/lib/cpp_idl_sub/cppIdlSubNode" to ""
+[18.584s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/ament_index/resource_index/package_run_dependencies/cpp_idl_sub
+[18.597s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/ament_index/resource_index/parent_prefix_path/cpp_idl_sub
+[18.609s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/environment/ament_prefix_path.sh
+[18.618s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/environment/ament_prefix_path.dsv
+[18.627s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/environment/path.sh
+[18.635s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/environment/path.dsv
+[18.645s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/local_setup.bash
+[18.655s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/local_setup.sh
+[18.665s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/local_setup.zsh
+[18.674s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/local_setup.dsv
+[18.685s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/package.dsv
+[18.698s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/ament_index/resource_index/packages/cpp_idl_sub
+[18.707s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/cmake/cpp_idl_subConfig.cmake
+[18.717s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/cmake/cpp_idl_subConfig-version.cmake
+[18.727s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub/share/cpp_idl_sub/package.xml
+[18.740s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_sub' returned '0': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cpp_idl_sub

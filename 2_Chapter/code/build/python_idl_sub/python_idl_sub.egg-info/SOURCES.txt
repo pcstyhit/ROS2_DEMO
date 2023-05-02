@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/python_idl_sub/python_idl_sub.egg-info/PKG-INFO
+../build/python_idl_sub/python_idl_sub.egg-info/SOURCES.txt
+../build/python_idl_sub/python_idl_sub.egg-info/dependency_links.txt
+../build/python_idl_sub/python_idl_sub.egg-info/entry_points.txt
+../build/python_idl_sub/python_idl_sub.egg-info/requires.txt
+../build/python_idl_sub/python_idl_sub.egg-info/top_level.txt
+../build/python_idl_sub/python_idl_sub.egg-info/zip-safe
+python_idl_sub/__init__.py
+python_idl_sub/pythonIdlSubNode.py
+resource/python_idl_sub
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

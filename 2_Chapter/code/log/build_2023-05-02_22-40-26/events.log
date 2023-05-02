@@ -1,0 +1,327 @@
+[0.000000] (-) TimerEvent: {}
+[0.000918] (-) JobUnselected: {'identifier': 'cppBaseMsgPub'}
+[0.001656] (-) JobUnselected: {'identifier': 'cppBaseMsgSub'}
+[0.002605] (-) JobUnselected: {'identifier': 'cpp_idl_pub'}
+[0.003142] (-) JobUnselected: {'identifier': 'msg_demo'}
+[0.003833] (-) JobUnselected: {'identifier': 'pythonBaseMsgPub'}
+[0.005194] (-) JobUnselected: {'identifier': 'pythonBaseMsgSub'}
+[0.005467] (student_msg) JobQueued: {'identifier': 'student_msg', 'dependencies': OrderedDict()}
+[0.006992] (student_msg) JobStarted: {'identifier': 'student_msg'}
+[0.021814] (student_msg) JobProgress: {'identifier': 'student_msg', 'progress': 'cmake'}
+[0.025578] (student_msg) Command: {'cmd': ['/usr/bin/cmake', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/student_msg', '-DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/student_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 11841 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d438a37b-d11b-4f30-b828-dc15e6810536.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e5a29f1a9d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/student_msg'), ('SSH_CONNECTION', '192.168.0.100 11841 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098821] (-) TimerEvent: {}
+[0.164934] (student_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.199411] (-) TimerEvent: {}
+[0.287279] (student_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.299590] (-) TimerEvent: {}
+[0.305726] (student_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400334] (-) TimerEvent: {}
+[0.503188] (-) TimerEvent: {}
+[0.542888] (student_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.554066] (student_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.557861] (student_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.565824] (student_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.579632] (student_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.603371] (-) TimerEvent: {}
+[0.704697] (-) TimerEvent: {}
+[0.805294] (-) TimerEvent: {}
+[0.843032] (student_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.857561] (student_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.859536] (student_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.861712] (student_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.873643] (student_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.905790] (-) TimerEvent: {}
+[1.006768] (-) TimerEvent: {}
+[1.025997] (student_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.107281] (-) TimerEvent: {}
+[1.145642] (student_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.151639] (student_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.156389] (student_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.189739] (student_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.207850] (-) TimerEvent: {}
+[1.308803] (-) TimerEvent: {}
+[1.409884] (-) TimerEvent: {}
+[1.510954] (-) TimerEvent: {}
+[1.579065] (student_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.611445] (-) TimerEvent: {}
+[1.712758] (-) TimerEvent: {}
+[1.813423] (-) TimerEvent: {}
+[1.880879] (student_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.913843] (-) TimerEvent: {}
+[2.014995] (-) TimerEvent: {}
+[2.115458] (-) TimerEvent: {}
+[2.216592] (-) TimerEvent: {}
+[2.272798] (student_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.295080] (student_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[2.297822] (student_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.317203] (-) TimerEvent: {}
+[2.317924] (student_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[2.320212] (student_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.322667] (student_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.325062] (student_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.340984] (student_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.417556] (-) TimerEvent: {}
+[2.457771] (student_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.517730] (-) TimerEvent: {}
+[2.619034] (-) TimerEvent: {}
+[2.694853] (student_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.719589] (-) TimerEvent: {}
+[2.745751] (student_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.820161] (-) TimerEvent: {}
+[2.840949] (student_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.920661] (-) TimerEvent: {}
+[3.021808] (-) TimerEvent: {}
+[3.122467] (-) TimerEvent: {}
+[3.223247] (-) TimerEvent: {}
+[3.324219] (-) TimerEvent: {}
+[3.425250] (-) TimerEvent: {}
+[3.526785] (-) TimerEvent: {}
+[3.628295] (-) TimerEvent: {}
+[3.658386] (student_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.728811] (-) TimerEvent: {}
+[3.761041] (student_msg) StdoutLine: {'line': b'-- Build files have been written to: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/student_msg\n'}
+[3.767769] (student_msg) CommandEnded: {'returncode': 0}
+[3.770422] (student_msg) JobProgress: {'identifier': 'student_msg', 'progress': 'build'}
+[3.772688] (student_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/student_msg', '--', '-j16', '-l16'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/student_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 11841 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d438a37b-d11b-4f30-b828-dc15e6810536.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e5a29f1a9d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/student_msg'), ('SSH_CONNECTION', '192.168.0.100 11841 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.829145] (-) TimerEvent: {}
+[3.844351] (student_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.857667] (student_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.871646] (student_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_student_msg\n'}
+[3.929339] (-) TimerEvent: {}
+[4.029870] (-) TimerEvent: {}
+[4.098023] (student_msg) StdoutLine: {'line': b'running egg_info\n'}
+[4.104309] (student_msg) StdoutLine: {'line': b'creating student_msg.egg-info\n'}
+[4.111570] (student_msg) StdoutLine: {'line': b'[  6%] Built target student_msg__cpp\n'}
+[4.117726] (student_msg) StdoutLine: {'line': b'writing student_msg.egg-info/PKG-INFO\n'}
+[4.122460] (student_msg) StdoutLine: {'line': b'writing dependency_links to student_msg.egg-info/dependency_links.txt\n'}
+[4.125898] (student_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/student_msg__rosidl_generator_c.dir/rosidl_generator_c/student_msg/msg/detail/student__functions.c.o\x1b[0m\n'}
+[4.130959] (-) TimerEvent: {}
+[4.132318] (student_msg) StdoutLine: {'line': b'writing top-level names to student_msg.egg-info/top_level.txt\n'}
+[4.138636] (student_msg) StdoutLine: {'line': b"writing manifest file 'student_msg.egg-info/SOURCES.txt'\n"}
+[4.146019] (student_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.158199] (student_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.161959] (student_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.164189] (student_msg) StdoutLine: {'line': b"reading manifest file 'student_msg.egg-info/SOURCES.txt'\n"}
+[4.170470] (student_msg) StdoutLine: {'line': b"writing manifest file 'student_msg.egg-info/SOURCES.txt'\n"}
+[4.206728] (student_msg) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_student_msg_egg\n'}
+[4.231454] (-) TimerEvent: {}
+[4.255884] (student_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libstudent_msg__rosidl_generator_c.so\x1b[0m\n'}
+[4.331956] (-) TimerEvent: {}
+[4.344897] (student_msg) StdoutLine: {'line': b'[ 22%] Built target student_msg__rosidl_generator_c\n'}
+[4.383269] (student_msg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.392183] (student_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.397426] (student_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.432311] (-) TimerEvent: {}
+[4.433619] (student_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/student_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/student_msg/msg/student__type_support.cpp.o\x1b[0m\n'}
+[4.459063] (student_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/student_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/student_msg/msg/detail/dds_fastrtps/student__type_support.cpp.o\x1b[0m\n'}
+[4.469592] (student_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/student_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/student_msg/msg/detail/student__type_support.cpp.o\x1b[0m\n'}
+[4.532548] (-) TimerEvent: {}
+[4.633609] (-) TimerEvent: {}
+[4.678953] (student_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/student_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/student_msg/msg/student__type_support.cpp.o\x1b[0m\n'}
+[4.734082] (-) TimerEvent: {}
+[4.745083] (student_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/student_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/student_msg/msg/detail/student__type_support.c.o\x1b[0m\n'}
+[4.755101] (student_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/student_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/student_msg/msg/detail/student__type_support_c.cpp.o\x1b[0m\n'}
+[4.825844] (student_msg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libstudent_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.834589] (-) TimerEvent: {}
+[4.936171] (-) TimerEvent: {}
+[5.022391] (student_msg) StdoutLine: {'line': b'[ 54%] Built target student_msg__rosidl_typesupport_c\n'}
+[5.036359] (-) TimerEvent: {}
+[5.037017] (student_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libstudent_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.045555] (student_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libstudent_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.136651] (-) TimerEvent: {}
+[5.199381] (student_msg) StdoutLine: {'line': b'[ 61%] Built target student_msg__rosidl_typesupport_introspection_c\n'}
+[5.210287] (student_msg) StdoutLine: {'line': b'[ 61%] Built target student_msg__rosidl_typesupport_cpp\n'}
+[5.237208] (-) TimerEvent: {}
+[5.338261] (-) TimerEvent: {}
+[5.403811] (student_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libstudent_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.438509] (-) TimerEvent: {}
+[5.477831] (student_msg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libstudent_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.538822] (-) TimerEvent: {}
+[5.589652] (student_msg) StdoutLine: {'line': b'[ 67%] Built target student_msg__rosidl_typesupport_introspection_cpp\n'}
+[5.633219] (student_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libstudent_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.639083] (-) TimerEvent: {}
+[5.700279] (student_msg) StdoutLine: {'line': b'[ 70%] Built target student_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[5.739321] (-) TimerEvent: {}
+[5.817154] (student_msg) StdoutLine: {'line': b'[ 70%] Built target student_msg__rosidl_typesupport_fastrtps_c\n'}
+[5.839798] (-) TimerEvent: {}
+[5.851476] (student_msg) StdoutLine: {'line': b'[ 70%] Built target student_msg\n'}
+[5.898065] (student_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.940401] (-) TimerEvent: {}
+[6.041300] (-) TimerEvent: {}
+[6.141902] (-) TimerEvent: {}
+[6.197425] (student_msg) StdoutLine: {'line': b'[ 74%] Built target student_msg__py\n'}
+[6.242475] (-) TimerEvent: {}
+[6.245957] (student_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/student_msg__rosidl_generator_py.dir/rosidl_generator_py/student_msg/msg/_student_s.c.o\x1b[0m\n'}
+[6.342975] (-) TimerEvent: {}
+[6.444142] (-) TimerEvent: {}
+[6.458003] (student_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/student_msg/libstudent_msg__rosidl_generator_py.so\x1b[0m\n'}
+[6.544454] (-) TimerEvent: {}
+[6.549337] (student_msg) StdoutLine: {'line': b'[ 80%] Built target student_msg__rosidl_generator_py\n'}
+[6.600630] (student_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/student_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/student_msg/_student_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.615939] (student_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/student_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/student_msg/_student_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.619967] (student_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/student_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/student_msg/_student_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.644931] (-) TimerEvent: {}
+[6.745948] (-) TimerEvent: {}
+[6.847521] (-) TimerEvent: {}
+[6.896151] (student_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/student_msg/student_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.947883] (-) TimerEvent: {}
+[6.963150] (student_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/student_msg/student_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.971031] (student_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/student_msg/student_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.035809] (student_msg) StdoutLine: {'line': b'[100%] Built target student_msg__rosidl_typesupport_c__pyext\n'}
+[7.048027] (-) TimerEvent: {}
+[7.113481] (student_msg) StdoutLine: {'line': b'[100%] Built target student_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.115467] (student_msg) StdoutLine: {'line': b'[100%] Built target student_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[7.148596] (-) TimerEvent: {}
+[7.151614] (student_msg) CommandEnded: {'returncode': 0}
+[7.216123] (student_msg) JobProgress: {'identifier': 'student_msg', 'progress': 'install'}
+[7.226139] (student_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/student_msg'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/student_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 11841 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d438a37b-d11b-4f30-b828-dc15e6810536.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e5a29f1a9d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/student_msg'), ('SSH_CONNECTION', '192.168.0.100 11841 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.234172] (student_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.244427] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/ament_index/resource_index/rosidl_interfaces/student_msg\n'}
+[7.249086] (-) TimerEvent: {}
+[7.256665] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg\n'}
+[7.263875] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg\n'}
+[7.269448] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail\n'}
+[7.275488] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/student__functions.c\n'}
+[7.287754] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/student__functions.h\n'}
+[7.299784] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/student__struct.h\n'}
+[7.309938] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/student__type_support.h\n'}
+[7.322041] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.334122] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/student.h\n'}
+[7.347725] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/environment/library_path.sh\n'}
+[7.350080] (-) TimerEvent: {}
+[7.359066] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/environment/library_path.dsv\n'}
+[7.372918] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_generator_c.so\n'}
+[7.388953] (student_msg) StdoutLine: {'line': b'-- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_generator_c.so" to ""\n'}
+[7.393695] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg\n'}
+[7.397434] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg\n'}
+[7.401265] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail\n'}
+[7.403280] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/student__rosidl_typesupport_fastrtps_c.h\n'}
+[7.415371] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.426874] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[7.443910] (student_msg) StdoutLine: {'line': b'-- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.450115] (-) TimerEvent: {}
+[7.451369] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg\n'}
+[7.456706] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg\n'}
+[7.458831] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail\n'}
+[7.461359] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/student__rosidl_typesupport_introspection_c.h\n'}
+[7.473067] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/student__type_support.c\n'}
+[7.484672] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.495663] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_typesupport_introspection_c.so\n'}
+[7.511529] (student_msg) StdoutLine: {'line': b'-- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.516146] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_typesupport_c.so\n'}
+[7.530710] (student_msg) StdoutLine: {'line': b'-- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_typesupport_c.so" to ""\n'}
+[7.534617] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg\n'}
+[7.538373] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg\n'}
+[7.543019] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail\n'}
+[7.546672] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/student__builder.hpp\n'}
+[7.550650] (-) TimerEvent: {}
+[7.558848] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/student__struct.hpp\n'}
+[7.570262] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/student__traits.hpp\n'}
+[7.582287] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/student.hpp\n'}
+[7.593238] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg\n'}
+[7.597668] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg\n'}
+[7.601702] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail\n'}
+[7.605060] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/dds_fastrtps\n'}
+[7.613592] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.624183] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.635654] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.651195] (-) TimerEvent: {}
+[7.651763] (student_msg) StdoutLine: {'line': b'-- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.657445] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg\n'}
+[7.660159] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg\n'}
+[7.663222] (student_msg) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail\n'}
+[7.667791] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.681820] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/include/student_msg/student_msg/msg/detail/student__type_support.cpp\n'}
+[7.696240] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[7.715759] (student_msg) StdoutLine: {'line': b'-- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.722126] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_typesupport_cpp.so\n'}
+[7.739481] (student_msg) StdoutLine: {'line': b'-- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[7.743783] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/environment/pythonpath.sh\n'}
+[7.751751] (-) TimerEvent: {}
+[7.760627] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/environment/pythonpath.dsv\n'}
+[7.774799] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg-0.0.0-py3.10.egg-info\n'}
+[7.786704] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.800193] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.811771] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.824254] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.837036] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg\n'}
+[7.845582] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/libstudent_msg__rosidl_generator_py.so\n'}
+[7.852210] (-) TimerEvent: {}
+[7.860387] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/msg\n'}
+[7.867475] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/msg/_student.py\n'}
+[7.880779] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/msg/_student_s.c\n'}
+[7.892734] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/msg/__init__.py\n'}
+[7.903632] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/student_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.916627] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/student_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.928291] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/student_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.941954] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/_student_msg_s.ep.rosidl_typesupport_c.c\n'}
+[7.952706] (-) TimerEvent: {}
+[7.953557] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/_student_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.966045] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/_student_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.979345] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/__init__.py\n'}
+[8.042430] (student_msg) StdoutLine: {'line': b"Listing '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg'...\n"}
+[8.045506] (student_msg) StdoutLine: {'line': b"Compiling '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/__init__.py'...\n"}
+[8.047983] (student_msg) StdoutLine: {'line': b"Listing '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/msg'...\n"}
+[8.051314] (student_msg) StdoutLine: {'line': b"Compiling '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/msg/__init__.py'...\n"}
+[8.054456] (-) TimerEvent: {}
+[8.055954] (student_msg) StdoutLine: {'line': b"Compiling '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/msg/_student.py'...\n"}
+[8.057893] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/student_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.073898] (student_msg) StdoutLine: {'line': b'-- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/student_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.079933] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/student_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.095894] (student_msg) StdoutLine: {'line': b'-- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/student_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.102068] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/student_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.118801] (student_msg) StdoutLine: {'line': b'-- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages/student_msg/student_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.123203] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_generator_py.so\n'}
+[8.138692] (student_msg) StdoutLine: {'line': b'-- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib/libstudent_msg__rosidl_generator_py.so" to ""\n'}
+[8.145300] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/msg/Student.idl\n'}
+[8.154756] (-) TimerEvent: {}
+[8.157570] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/msg/Student.msg\n'}
+[8.172240] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/ament_index/resource_index/package_run_dependencies/student_msg\n'}
+[8.187016] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/ament_index/resource_index/parent_prefix_path/student_msg\n'}
+[8.198314] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/environment/ament_prefix_path.sh\n'}
+[8.207643] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/environment/ament_prefix_path.dsv\n'}
+[8.219806] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/environment/path.sh\n'}
+[8.229106] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/environment/path.dsv\n'}
+[8.240426] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/local_setup.bash\n'}
+[8.251652] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/local_setup.sh\n'}
+[8.255295] (-) TimerEvent: {}
+[8.263101] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/local_setup.zsh\n'}
+[8.275895] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/local_setup.dsv\n'}
+[8.288784] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/package.dsv\n'}
+[8.308577] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/ament_index/resource_index/packages/student_msg\n'}
+[8.321918] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/export_student_msg__rosidl_generator_cExport.cmake\n'}
+[8.332909] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/export_student_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.343624] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/export_student_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.355804] (-) TimerEvent: {}
+[8.356531] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/export_student_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.369152] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/student_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.381421] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/student_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.392851] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/student_msg__rosidl_typesupport_cExport.cmake\n'}
+[8.405344] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/student_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.416518] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/export_student_msg__rosidl_generator_cppExport.cmake\n'}
+[8.428577] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/export_student_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.440510] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/export_student_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.452368] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/student_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.456308] (-) TimerEvent: {}
+[8.464366] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/student_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.475555] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/student_msg__rosidl_typesupport_cppExport.cmake\n'}
+[8.487394] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/student_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.498138] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/export_student_msg__rosidl_generator_pyExport.cmake\n'}
+[8.508931] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/export_student_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.521563] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[8.531659] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.544098] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.555866] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.557817] (-) TimerEvent: {}
+[8.567054] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.578027] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.589267] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.600229] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/student_msgConfig.cmake\n'}
+[8.609975] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/cmake/student_msgConfig-version.cmake\n'}
+[8.621227] (student_msg) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/share/student_msg/package.xml\n'}
+[8.636019] (student_msg) CommandEnded: {'returncode': 0}
+[8.658324] (-) TimerEvent: {}
+[8.759419] (-) TimerEvent: {}
+[8.860431] (-) TimerEvent: {}
+[8.923023] (student_msg) JobEnded: {'identifier': 'student_msg', 'rc': 0}
+[8.928670] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+[console_scripts]
+pythonIdlPubNode = python_idl_pub.pythonIdlPubNode:main
+

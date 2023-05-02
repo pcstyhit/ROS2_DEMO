@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000694] (-) JobUnselected: {'identifier': 'cppBaseMsgPub'}
+[0.001562] (-) JobUnselected: {'identifier': 'cppBaseMsgSub'}
+[0.002325] (-) JobUnselected: {'identifier': 'cpp_idl_pub'}
+[0.003035] (-) JobUnselected: {'identifier': 'cpp_idl_sub'}
+[0.003578] (-) JobUnselected: {'identifier': 'msg_demo'}
+[0.005043] (-) JobUnselected: {'identifier': 'pythonBaseMsgPub'}
+[0.005327] (-) JobUnselected: {'identifier': 'pythonBaseMsgSub'}
+[0.005843] (-) JobUnselected: {'identifier': 'python_idl_pub'}
+[0.006735] (-) JobUnselected: {'identifier': 'student_msg'}
+[0.007119] (python_idl_sub) JobQueued: {'identifier': 'python_idl_sub', 'dependencies': OrderedDict([('student_msg', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg')])}
+[0.008148] (python_idl_sub) JobStarted: {'identifier': 'python_idl_sub'}
+[0.098611] (-) TimerEvent: {}
+[0.199430] (-) TimerEvent: {}
+[0.300418] (-) TimerEvent: {}
+[0.401405] (-) TimerEvent: {}
+[0.501940] (-) TimerEvent: {}
+[0.602933] (-) TimerEvent: {}
+[0.703436] (-) TimerEvent: {}
+[0.777049] (python_idl_sub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/python_idl_sub', 'build', '--build-base', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build', 'install', '--record', '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/python_idl_sub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'pldz', 'SSH_CLIENT': '192.168.0.100 11841 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/lib:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/student_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pldz', 'TERM_PROGRAM_VERSION': '1.77.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-17c6acc8-8f26-4d45-85c4-eff82611936e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pldz/share/ROS2_DEMO/2_Chapter/code/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pldz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e5a29f1a9d.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/python_idl_pub:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/cpp_idl_pub:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/student_msg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub', 'SSH_CONNECTION': '192.168.0.100 11841 192.168.0.22 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python3.10/site-packages:/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/python_idl_pub/lib/python3.10/site-packages:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/student_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/student_msg:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/cpp_idl_sub:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/cpp_idl_pub:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/student_msg'}, 'shell': False}
+[0.803942] (-) TimerEvent: {}
+[0.905009] (-) TimerEvent: {}
+[1.006014] (-) TimerEvent: {}
+[1.042514] (python_idl_sub) StdoutLine: {'line': b'running egg_info\n'}
+[1.045039] (python_idl_sub) StdoutLine: {'line': b'creating ../build/python_idl_sub/python_idl_sub.egg-info\n'}
+[1.048118] (python_idl_sub) StdoutLine: {'line': b'writing ../build/python_idl_sub/python_idl_sub.egg-info/PKG-INFO\n'}
+[1.054490] (python_idl_sub) StdoutLine: {'line': b'writing dependency_links to ../build/python_idl_sub/python_idl_sub.egg-info/dependency_links.txt\n'}
+[1.057362] (python_idl_sub) StdoutLine: {'line': b'writing entry points to ../build/python_idl_sub/python_idl_sub.egg-info/entry_points.txt\n'}
+[1.060657] (python_idl_sub) StdoutLine: {'line': b'writing requirements to ../build/python_idl_sub/python_idl_sub.egg-info/requires.txt\n'}
+[1.064352] (python_idl_sub) StdoutLine: {'line': b'writing top-level names to ../build/python_idl_sub/python_idl_sub.egg-info/top_level.txt\n'}
+[1.068073] (python_idl_sub) StdoutLine: {'line': b"writing manifest file '../build/python_idl_sub/python_idl_sub.egg-info/SOURCES.txt'\n"}
+[1.081651] (python_idl_sub) StdoutLine: {'line': b"reading manifest file '../build/python_idl_sub/python_idl_sub.egg-info/SOURCES.txt'\n"}
+[1.086678] (python_idl_sub) StdoutLine: {'line': b"writing manifest file '../build/python_idl_sub/python_idl_sub.egg-info/SOURCES.txt'\n"}
+[1.090076] (python_idl_sub) StdoutLine: {'line': b'running build\n'}
+[1.093582] (python_idl_sub) StdoutLine: {'line': b'running build_py\n'}
+[1.097562] (python_idl_sub) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build\n'}
+[1.100693] (python_idl_sub) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build/lib\n'}
+[1.103835] (python_idl_sub) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build/lib/python_idl_sub\n'}
+[1.106696] (-) TimerEvent: {}
+[1.107868] (python_idl_sub) StdoutLine: {'line': b'copying python_idl_sub/pythonIdlSubNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build/lib/python_idl_sub\n'}
+[1.111065] (python_idl_sub) StdoutLine: {'line': b'copying python_idl_sub/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build/lib/python_idl_sub\n'}
+[1.113785] (python_idl_sub) StdoutLine: {'line': b'running install\n'}
+[1.118198] (python_idl_sub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.120811] (python_idl_sub) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.123876] (python_idl_sub) StdoutLine: {'line': b'running install_lib\n'}
+[1.126865] (python_idl_sub) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python3.10/site-packages/python_idl_sub\n'}
+[1.129776] (python_idl_sub) StdoutLine: {'line': b'copying /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build/lib/python_idl_sub/pythonIdlSubNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python3.10/site-packages/python_idl_sub\n'}
+[1.133979] (python_idl_sub) StdoutLine: {'line': b'copying /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/build/lib/python_idl_sub/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python3.10/site-packages/python_idl_sub\n'}
+[1.136000] (python_idl_sub) StdoutLine: {'line': b'byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python3.10/site-packages/python_idl_sub/pythonIdlSubNode.py to pythonIdlSubNode.cpython-310.pyc\n'}
+[1.141706] (python_idl_sub) StdoutLine: {'line': b'byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python3.10/site-packages/python_idl_sub/__init__.py to __init__.cpython-310.pyc\n'}
+[1.147044] (python_idl_sub) StdoutLine: {'line': b'running install_data\n'}
+[1.150012] (python_idl_sub) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/share/ament_index\n'}
+[1.152447] (python_idl_sub) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/share/ament_index/resource_index\n'}
+[1.155234] (python_idl_sub) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/share/ament_index/resource_index/packages\n'}
+[1.160214] (python_idl_sub) StdoutLine: {'line': b'copying resource/python_idl_sub -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/share/ament_index/resource_index/packages\n'}
+[1.163205] (python_idl_sub) StdoutLine: {'line': b'copying package.xml -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/share/python_idl_sub\n'}
+[1.165663] (python_idl_sub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.168527] (python_idl_sub) StdoutLine: {'line': b'Copying ../build/python_idl_sub/python_idl_sub.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python3.10/site-packages/python_idl_sub-0.0.0-py3.10.egg-info\n'}
+[1.205317] (python_idl_sub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.207256] (-) TimerEvent: {}
+[1.226320] (python_idl_sub) StdoutLine: {'line': b'Installing pythonIdlSubNode script to /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/python_idl_sub/lib/python_idl_sub\n'}
+[1.231960] (python_idl_sub) StdoutLine: {'line': b"writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/python_idl_sub/install.log'\n"}
+[1.263221] (python_idl_sub) CommandEnded: {'returncode': 0}
+[1.307673] (-) TimerEvent: {}
+[1.335009] (python_idl_sub) JobEnded: {'identifier': 'python_idl_sub', 'rc': 0}
+[1.339910] (-) EventReactorShutdown: {}
