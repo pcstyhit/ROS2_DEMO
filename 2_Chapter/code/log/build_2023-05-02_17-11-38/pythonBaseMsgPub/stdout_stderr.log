@@ -1,0 +1,37 @@
+running egg_info
+creating ../build/pythonBaseMsgPub/pythonBaseMsgPub.egg-info
+writing ../build/pythonBaseMsgPub/pythonBaseMsgPub.egg-info/PKG-INFO
+writing dependency_links to ../build/pythonBaseMsgPub/pythonBaseMsgPub.egg-info/dependency_links.txt
+writing entry points to ../build/pythonBaseMsgPub/pythonBaseMsgPub.egg-info/entry_points.txt
+writing requirements to ../build/pythonBaseMsgPub/pythonBaseMsgPub.egg-info/requires.txt
+writing top-level names to ../build/pythonBaseMsgPub/pythonBaseMsgPub.egg-info/top_level.txt
+writing manifest file '../build/pythonBaseMsgPub/pythonBaseMsgPub.egg-info/SOURCES.txt'
+reading manifest file '../build/pythonBaseMsgPub/pythonBaseMsgPub.egg-info/SOURCES.txt'
+writing manifest file '../build/pythonBaseMsgPub/pythonBaseMsgPub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/pythonBaseMsgPub/build
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/pythonBaseMsgPub/build/lib
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/pythonBaseMsgPub/build/lib/pythonBaseMsgPub
+copying pythonBaseMsgPub/pythonBaseMsgPubNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/pythonBaseMsgPub/build/lib/pythonBaseMsgPub
+copying pythonBaseMsgPub/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/pythonBaseMsgPub/build/lib/pythonBaseMsgPub
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub/lib/python3.10/site-packages/pythonBaseMsgPub
+copying /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/pythonBaseMsgPub/build/lib/pythonBaseMsgPub/pythonBaseMsgPubNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub/lib/python3.10/site-packages/pythonBaseMsgPub
+copying /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/pythonBaseMsgPub/build/lib/pythonBaseMsgPub/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub/lib/python3.10/site-packages/pythonBaseMsgPub
+byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub/lib/python3.10/site-packages/pythonBaseMsgPub/pythonBaseMsgPubNode.py to pythonBaseMsgPubNode.cpython-310.pyc
+byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub/lib/python3.10/site-packages/pythonBaseMsgPub/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub/share/ament_index
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub/share/ament_index/resource_index
+creating /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub/share/ament_index/resource_index/packages
+copying resource/pythonBaseMsgPub -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub/share/pythonBaseMsgPub
+running install_egg_info
+Copying ../build/pythonBaseMsgPub/pythonBaseMsgPub.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub/lib/python3.10/site-packages/pythonBaseMsgPub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pythonBaseMsgPubNode script to /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub/lib/pythonBaseMsgPub
+writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/pythonBaseMsgPub/install.log'

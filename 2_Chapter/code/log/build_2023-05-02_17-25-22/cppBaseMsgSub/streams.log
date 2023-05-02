@@ -1,0 +1,22 @@
+[0.149s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgSub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgSub -- -j16 -l16
+[0.426s] [100%] Built target cppBaseMsgSubNode
+[0.704s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgSub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgSub -- -j16 -l16
+[0.746s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgSub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub:/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgSub
+[0.756s] -- Install configuration: ""
+[0.771s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/lib/cppBaseMsgSub/cppBaseMsgSubNode
+[0.793s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/ament_index/resource_index/package_run_dependencies/cppBaseMsgSub
+[0.807s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/ament_index/resource_index/parent_prefix_path/cppBaseMsgSub
+[0.831s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/cppBaseMsgSub/environment/ament_prefix_path.sh
+[0.850s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/cppBaseMsgSub/environment/ament_prefix_path.dsv
+[0.860s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/cppBaseMsgSub/environment/path.sh
+[0.871s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/cppBaseMsgSub/environment/path.dsv
+[0.875s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/cppBaseMsgSub/local_setup.bash
+[0.881s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/cppBaseMsgSub/local_setup.sh
+[0.885s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/cppBaseMsgSub/local_setup.zsh
+[0.892s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/cppBaseMsgSub/local_setup.dsv
+[0.896s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/cppBaseMsgSub/package.dsv
+[0.922s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/ament_index/resource_index/packages/cppBaseMsgSub
+[0.930s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/cppBaseMsgSub/cmake/cppBaseMsgSubConfig.cmake
+[0.933s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/cppBaseMsgSub/cmake/cppBaseMsgSubConfig-version.cmake
+[0.936s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/install/cppBaseMsgSub/share/cppBaseMsgSub/package.xml
+[0.969s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgSub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pldz/share/ROS2_DEMO/2_Chapter/code/install/pythonBaseMsgPub:/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgSub

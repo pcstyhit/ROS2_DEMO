@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/pythonBaseMsgSub/pythonBaseMsgSub.egg-info/PKG-INFO
+../build/pythonBaseMsgSub/pythonBaseMsgSub.egg-info/SOURCES.txt
+../build/pythonBaseMsgSub/pythonBaseMsgSub.egg-info/dependency_links.txt
+../build/pythonBaseMsgSub/pythonBaseMsgSub.egg-info/entry_points.txt
+../build/pythonBaseMsgSub/pythonBaseMsgSub.egg-info/requires.txt
+../build/pythonBaseMsgSub/pythonBaseMsgSub.egg-info/top_level.txt
+../build/pythonBaseMsgSub/pythonBaseMsgSub.egg-info/zip-safe
+pythonBaseMsgSub/__init__.py
+pythonBaseMsgSub/pythonBaseMsgSubNode.py
+resource/pythonBaseMsgSub
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

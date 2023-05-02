@@ -1,0 +1,3 @@
+[console_scripts]
+pythonBaseMsgPubNode = pythonBaseMsgPub.pythonBaseMsgPubNode:main
+

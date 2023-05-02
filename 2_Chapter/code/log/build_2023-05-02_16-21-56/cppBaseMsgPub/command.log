@@ -1,0 +1,4 @@
+Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgPub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgPub -- -j16 -l16
+Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgPub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgPub -- -j16 -l16
+Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgPub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgPub
+Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgPub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/2_Chapter/code/build/cppBaseMsgPub

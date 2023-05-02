@@ -1,0 +1,3 @@
+[console_scripts]
+pythonBaseMsgSubNode = pythonBaseMsgSub.pythonBaseMsgSubNode:main
+
