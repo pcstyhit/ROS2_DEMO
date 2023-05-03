@@ -1,0 +1,53 @@
+[0.062s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client -- -j16 -l16
+[0.260s] [35m[1mConsolidate compiler generated dependencies of target cppSrvClientNode[0m
+[1.281s] [ 50%] [32mBuilding CXX object CMakeFiles/cppSrvClientNode.dir/src/cppSrvClientNode.cpp.o[0m
+[4.137s] [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:[m[K In member function ‘[01m[Kvoid CppSrvClient::send_request(int32_t, int32_t)[m[K’:
+[4.140s] [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:43:19:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krclcpp::Client<srv_demo::srv::AddInt>::FutureAndRequestId::FutureAndRequestId(const rclcpp::Client<srv_demo::srv::AddInt>::FutureAndRequestId&)[m[K’
+[4.144s]    43 |       [01;31m[Kget_response(response)[m[K;
+[4.146s]       |       [01;31m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+[4.149s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.171s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.174s]                  from [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:3[m[K:
+[4.176s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:403:10:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Client<srv_demo::srv::AddInt>::FutureAndRequestId::FutureAndRequestId(const rclcpp::Client<srv_demo::srv::AddInt>::FutureAndRequestId&)[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[4.179s]   403 |   struct [01;36m[KFutureAndRequestId[m[K
+[4.181s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.183s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:403:10:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krclcpp::detail::FutureAndRequestId<FutureT>::FutureAndRequestId(const rclcpp::detail::FutureAndRequestId<FutureT>&) [with FutureT = std::future<std::shared_ptr<srv_demo::srv::AddInt_Response_<std::allocator<void> > > >][m[K’
+[4.185s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:107:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.187s]   107 |   [01;36m[KFutureAndRequestId[m[K(const FutureAndRequestId & other) = delete;
+[4.189s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.192s] [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:47:81:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid CppSrvClient::get_response(rclcpp::Client<srv_demo::srv::AddInt>::FutureAndRequestId)[m[K’
+[4.194s]    47 |     void get_response([01;36m[Krclcpp::Client<srv_demo::srv::AddInt>::FutureAndRequestId response[m[K)
+[4.196s]       |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.198s] [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:[m[K In member function ‘[01m[Kvoid CppSrvClient::get_response(rclcpp::Client<srv_demo::srv::AddInt>::FutureAndRequestId)[m[K’:
+[4.201s] [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:49:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(CppSrvClient*, rclcpp::Client<srv_demo::srv::AddInt>::FutureAndRequestId&)[m[K’
+[4.203s]    49 |       if ([01;31m[Krclcpp::spin_until_future_complete(this, response)[m[K == rclcpp::FutureReturnCode::SUCCESS)
+[4.205s]       |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[4.208s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.211s]                  from [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:3[m[K:
+[4.213s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)[m[K’
+[4.215s]   105 | [01;36m[Kspin_until_future_complete[m[K(
+[4.217s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.220s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.222s] [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:49:46:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(CppSrvClient*)this[m[K’ (type ‘[01m[KCppSrvClient*[m[K’) to type ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[4.224s]    49 |       if (rclcpp::spin_until_future_complete([01;36m[Kthis[m[K, response) == rclcpp::FutureReturnCode::SUCCESS)
+[4.226s]       |                                              [01;36m[K^~~~[m[K
+[4.228s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.230s]                  from [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:3[m[K:
+[4.232s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)[m[K’
+[4.234s]   117 | [01;36m[Kspin_until_future_complete[m[K(
+[4.236s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.238s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.241s] [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:49:45:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[KCppSrvClient*[m[K’
+[4.244s]    49 |       if ([01;36m[Krclcpp::spin_until_future_complete(this, response)[m[K == rclcpp::FutureReturnCode::SUCCESS)
+[4.246s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[4.737s] gmake[2]: *** [CMakeFiles/cppSrvClientNode.dir/build.make:76: CMakeFiles/cppSrvClientNode.dir/src/cppSrvClientNode.cpp.o] Error 1
+[4.739s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cppSrvClientNode.dir/all] Error 2
+[4.743s] gmake: *** [Makefile:146: all] Error 2
+[4.745s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client' returned '2': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client -- -j16 -l16

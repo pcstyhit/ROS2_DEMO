@@ -1,0 +1,9 @@
+{
+    "C_Cpp.default.includePath": [
+        "/opt/ros/humble/include/**",
+        "./install/srv_demo/include/**"
+    ],
+    "files.associations": {
+        "cstdio": "cpp"
+    },
+}

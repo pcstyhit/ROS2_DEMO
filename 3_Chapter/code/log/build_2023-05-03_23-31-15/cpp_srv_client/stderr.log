@@ -1,0 +1,75 @@
+[01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:[m[K In member function ‘[01m[Krclcpp::Client<srv_demo::srv::AddInt>::FutureAndRequestId CppSrvClient::send_request(int32_t, int32_t)[m[K’:
+[01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:42:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<srv_demo::srv::AddInt>::async_send_request(std::shared_ptr<srv_demo::srv::AddInt_Request_<std::allocator<void> > >&, std::_Bind_helper<false, void (CppSrvClient::*)(srv_demo::srv::AddInt_Response_<std::allocator<void> >), CppSrvClient*, const std::_Placeholder<1>&>::type)[m[K’
+   42 |       [01;31m[Kclient_->async_send_request(request, std::bind(&CppSrvClient::get_response, this, std::placeholders::_1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<srv_demo::srv::AddInt_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = srv_demo::srv::AddInt][m[K’
+  643 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:640:17:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+  640 |     >::type * = [01;31m[Knullptr[m[K
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<srv_demo::srv::AddInt_Request_<std::allocator<void> > >, std::shared_ptr<srv_demo::srv::AddInt_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <anonymous>; ServiceT = srv_demo::srv::AddInt][m[K’
+  674 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:671:17:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+  671 |     >::type * = [01;31m[Knullptr[m[K
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = srv_demo::srv::AddInt; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<srv_demo::srv::AddInt_Request_<std::allocator<void> > >][m[K’
+  608 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:43:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   43 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:[m[K In member function ‘[01m[Kvoid CppSrvClient::get_response(srv_demo::srv::AddInt::Response)[m[K’:
+[01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:48:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(CppSrvClient*, srv_demo::srv::AddInt::Response&)[m[K’
+   48 |       if ([01;31m[Krclcpp::spin_until_future_complete(this, response)[m[K == rclcpp::FutureReturnCode::SUCCESS)
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)[m[K’
+  105 | [01;36m[Kspin_until_future_complete[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:48:46:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(CppSrvClient*)this[m[K’ (type ‘[01m[KCppSrvClient*[m[K’) to type ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+   48 |       if (rclcpp::spin_until_future_complete([01;36m[Kthis[m[K, response) == rclcpp::FutureReturnCode::SUCCESS)
+      |                                              [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)[m[K’
+  117 | [01;36m[Kspin_until_future_complete[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:48:45:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[KCppSrvClient*[m[K’
+   48 |       if ([01;36m[Krclcpp::spin_until_future_complete(this, response)[m[K == rclcpp::FutureReturnCode::SUCCESS)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:3[m[K:
+[01m[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:51:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Response = using AddInt_Response = struct srv_demo::srv::AddInt_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct srv_demo::srv::AddInt_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kget[m[K’
+   51 |         RCLCPP_INFO(this->get_logger(),"The response is :%d!", response.[01;31m[Kget[m[K()->sum);
+      |                                                                         [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/cppSrvClientNode.dir/build.make:76: CMakeFiles/cppSrvClientNode.dir/src/cppSrvClientNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cppSrvClientNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

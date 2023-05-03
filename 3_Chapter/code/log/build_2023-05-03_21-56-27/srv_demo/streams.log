@@ -1,0 +1,30 @@
+[0.063s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/srv_demo -DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo
+[0.454s] -- The C compiler identification is GNU 11.3.0
+[0.728s] -- The CXX compiler identification is GNU 11.3.0
+[0.777s] -- Detecting C compiler ABI info
+[1.167s] -- Detecting C compiler ABI info - done
+[1.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.188s] -- Detecting C compile features
+[1.190s] -- Detecting C compile features - done
+[1.222s] -- Detecting CXX compiler ABI info
+[1.617s] -- Detecting CXX compiler ABI info - done
+[1.636s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.640s] -- Detecting CXX compile features
+[1.643s] -- Detecting CXX compile features - done
+[1.677s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.914s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.174s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.210s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.329s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.427s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[2.429s]   rosidl_generate_interfaces() the passed file 'srv/AddInts.srv' doesn't
+[2.432s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[2.434s]   '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/srv_demo'
+[2.437s] Call Stack (most recent call first):
+[2.440s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[2.443s] 
+[2.445s] [0m
+[2.446s] -- Configuring incomplete, errors occurred!
+[2.448s] See also "/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo/CMakeFiles/CMakeOutput.log".
+[2.452s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/srv_demo -DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo

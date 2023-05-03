@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000589] (-) JobUnselected: {'identifier': 'cpp_srv_server'}
+[0.001628] (-) JobUnselected: {'identifier': 'srv_demo'}
+[0.002300] (cpp_srv_client) JobQueued: {'identifier': 'cpp_srv_client', 'dependencies': OrderedDict([('srv_demo', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo')])}
+[0.002909] (cpp_srv_client) JobStarted: {'identifier': 'cpp_srv_client'}
+[0.061970] (cpp_srv_client) JobProgress: {'identifier': 'cpp_srv_client', 'progress': 'cmake'}
+[0.065135] (cpp_srv_client) Command: {'cmd': ['/usr/bin/cmake', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client', '-DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 2126 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('OLDPWD', '/home/pldz/share/ROS2_DEMO/3_Chapter/code/srv_demo'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6d547890-7115-4aa6-a6af-d635bee8cb2f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pldz/share/ROS2_DEMO/3_Chapter/code/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc2615e3e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client'), ('SSH_CONNECTION', '192.168.0.100 2126 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble')]), 'shell': False}
+[0.098322] (-) TimerEvent: {}
+[0.199374] (-) TimerEvent: {}
+[0.300335] (-) TimerEvent: {}
+[0.337357] (cpp_srv_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.400862] (-) TimerEvent: {}
+[0.501555] (-) TimerEvent: {}
+[0.527285] (cpp_srv_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.558269] (cpp_srv_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601819] (-) TimerEvent: {}
+[0.702810] (-) TimerEvent: {}
+[0.803393] (-) TimerEvent: {}
+[0.904314] (-) TimerEvent: {}
+[0.970049] (cpp_srv_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.982218] (cpp_srv_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.984017] (cpp_srv_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.986587] (cpp_srv_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.999533] (cpp_srv_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.004782] (-) TimerEvent: {}
+[1.105803] (-) TimerEvent: {}
+[1.206315] (-) TimerEvent: {}
+[1.307336] (-) TimerEvent: {}
+[1.407865] (-) TimerEvent: {}
+[1.423553] (cpp_srv_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.436336] (cpp_srv_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.439095] (cpp_srv_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.447061] (cpp_srv_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.497748] (cpp_srv_client) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.508225] (-) TimerEvent: {}
+[1.609337] (-) TimerEvent: {}
+[1.710310] (-) TimerEvent: {}
+[1.811320] (-) TimerEvent: {}
+[1.912005] (-) TimerEvent: {}
+[1.912664] (cpp_srv_client) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[2.012346] (-) TimerEvent: {}
+[2.113460] (-) TimerEvent: {}
+[2.214323] (-) TimerEvent: {}
+[2.315877] (-) TimerEvent: {}
+[2.416611] (-) TimerEvent: {}
+[2.519215] (-) TimerEvent: {}
+[2.612720] (cpp_srv_client) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.619766] (-) TimerEvent: {}
+[2.720563] (-) TimerEvent: {}
+[2.821617] (-) TimerEvent: {}
+[2.923215] (-) TimerEvent: {}
+[3.024650] (-) TimerEvent: {}
+[3.125701] (-) TimerEvent: {}
+[3.198471] (cpp_srv_client) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.226069] (-) TimerEvent: {}
+[3.281619] (cpp_srv_client) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.326641] (-) TimerEvent: {}
+[3.368175] (cpp_srv_client) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.426861] (-) TimerEvent: {}
+[3.467045] (cpp_srv_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.527113] (-) TimerEvent: {}
+[3.611046] (cpp_srv_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.627524] (-) TimerEvent: {}
+[3.728543] (-) TimerEvent: {}
+[3.829563] (-) TimerEvent: {}
+[3.931554] (-) TimerEvent: {}
+[4.010743] (cpp_srv_client) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.031831] (-) TimerEvent: {}
+[4.058374] (cpp_srv_client) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.132567] (-) TimerEvent: {}
+[4.233439] (-) TimerEvent: {}
+[4.335339] (-) TimerEvent: {}
+[4.435920] (-) TimerEvent: {}
+[4.536471] (-) TimerEvent: {}
+[4.637037] (-) TimerEvent: {}
+[4.653281] (cpp_srv_client) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.737360] (-) TimerEvent: {}
+[4.739815] (cpp_srv_client) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.837662] (-) TimerEvent: {}
+[4.895920] (cpp_srv_client) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.938264] (-) TimerEvent: {}
+[5.039651] (-) TimerEvent: {}
+[5.044745] (cpp_srv_client) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.139826] (-) TimerEvent: {}
+[5.240692] (-) TimerEvent: {}
+[5.341687] (-) TimerEvent: {}
+[5.442212] (-) TimerEvent: {}
+[5.448727] (cpp_srv_client) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.453292] (cpp_srv_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.542737] (-) TimerEvent: {}
+[5.643762] (-) TimerEvent: {}
+[5.744763] (-) TimerEvent: {}
+[5.845778] (-) TimerEvent: {}
+[5.874230] (cpp_srv_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.875913] (cpp_srv_client) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.946301] (-) TimerEvent: {}
+[6.046857] (-) TimerEvent: {}
+[6.147893] (-) TimerEvent: {}
+[6.200681] (cpp_srv_client) StdoutLine: {'line': b'-- Found srv_demo: 0.0.0 (/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake)\n'}
+[6.248525] (-) TimerEvent: {}
+[6.339888] (cpp_srv_client) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.348792] (-) TimerEvent: {}
+[6.449818] (-) TimerEvent: {}
+[6.551156] (-) TimerEvent: {}
+[6.652724] (-) TimerEvent: {}
+[6.753642] (-) TimerEvent: {}
+[6.838258] (cpp_srv_client) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.840806] (cpp_srv_client) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/include>\n'}
+[6.842710] (cpp_srv_client) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.854179] (-) TimerEvent: {}
+[6.862288] (cpp_srv_client) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.907502] (cpp_srv_client) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.909549] (cpp_srv_client) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.923001] (cpp_srv_client) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.954524] (-) TimerEvent: {}
+[6.979795] (cpp_srv_client) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.055102] (-) TimerEvent: {}
+[7.137295] (cpp_srv_client) StdoutLine: {'line': b'-- Generating done\n'}
+[7.155361] (-) TimerEvent: {}
+[7.181128] (cpp_srv_client) StdoutLine: {'line': b'-- Build files have been written to: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client\n'}
+[7.189280] (cpp_srv_client) CommandEnded: {'returncode': 0}
+[7.191959] (cpp_srv_client) JobProgress: {'identifier': 'cpp_srv_client', 'progress': 'build'}
+[7.193393] (cpp_srv_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client', '--', '-j16', '-l16'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 2126 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('OLDPWD', '/home/pldz/share/ROS2_DEMO/3_Chapter/code/srv_demo'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6d547890-7115-4aa6-a6af-d635bee8cb2f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pldz/share/ROS2_DEMO/3_Chapter/code/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc2615e3e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client'), ('SSH_CONNECTION', '192.168.0.100 2126 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble')]), 'shell': False}
+[7.255852] (-) TimerEvent: {}
+[7.356608] (-) TimerEvent: {}
+[7.457629] (-) TimerEvent: {}
+[7.478883] (cpp_srv_client) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cppSrvClientNode.dir/src/cppSrvClientNode.cpp.o\x1b[0m\n'}
+[7.558164] (-) TimerEvent: {}
+[7.659230] (-) TimerEvent: {}
+[7.759917] (-) TimerEvent: {}
+[7.860794] (-) TimerEvent: {}
+[7.961793] (-) TimerEvent: {}
+[8.062741] (-) TimerEvent: {}
+[8.163751] (-) TimerEvent: {}
+[8.264784] (-) TimerEvent: {}
+[8.365791] (-) TimerEvent: {}
+[8.466851] (-) TimerEvent: {}
+[8.567925] (-) TimerEvent: {}
+[8.668934] (-) TimerEvent: {}
+[8.770004] (-) TimerEvent: {}
+[8.870957] (-) TimerEvent: {}
+[8.972052] (-) TimerEvent: {}
+[9.073526] (-) TimerEvent: {}
+[9.175203] (-) TimerEvent: {}
+[9.276530] (-) TimerEvent: {}
+[9.377514] (-) TimerEvent: {}
+[9.478275] (-) TimerEvent: {}
+[9.579304] (-) TimerEvent: {}
+[9.680299] (-) TimerEvent: {}
+[9.781359] (-) TimerEvent: {}
+[9.882593] (-) TimerEvent: {}
+[9.983743] (-) TimerEvent: {}
+[10.084976] (-) TimerEvent: {}
+[10.185937] (-) TimerEvent: {}
+[10.286915] (-) TimerEvent: {}
+[10.387942] (-) TimerEvent: {}
+[10.488966] (-) TimerEvent: {}
+[10.590082] (-) TimerEvent: {}
+[10.666649] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<srv_demo::srv::AddInt>::FutureAndRequestId CppSrvClient::send_request(int32_t, int32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.668512] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:42:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin_until_future_complete(CppSrvClient*, rclcpp::Client<srv_demo::srv::AddInt>::FutureAndRequestId&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.670720] (cpp_srv_client) StderrLine: {'line': b'   42 |       if (\x1b[01;31m\x1b[Krclcpp::spin_until_future_complete(this, response)\x1b[m\x1b[K == rclcpp::FutureReturnCode::SUCCESS)\n'}
+[10.672541] (cpp_srv_client) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.675001] (cpp_srv_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.676896] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:3\x1b[m\x1b[K:\n'}
+[10.679226] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.681157] (cpp_srv_client) StderrLine: {'line': b'  105 | \x1b[01;36m\x1b[Kspin_until_future_complete\x1b[m\x1b[K(\n'}
+[10.683290] (cpp_srv_client) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.685168] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.687809] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:42:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K(CppSrvClient*)this\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[KCppSrvClient*\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[10.689907] (cpp_srv_client) StderrLine: {'line': b'   42 |       if (rclcpp::spin_until_future_complete(\x1b[01;36m\x1b[Kthis\x1b[m\x1b[K, response) == rclcpp::FutureReturnCode::SUCCESS)\n'}
+[10.692070] (-) TimerEvent: {}
+[10.692744] (cpp_srv_client) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.694926] (cpp_srv_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[10.696862] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:3\x1b[m\x1b[K:\n'}
+[10.698936] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.701245] (cpp_srv_client) StderrLine: {'line': b'  117 | \x1b[01;36m\x1b[Kspin_until_future_complete\x1b[m\x1b[K(\n'}
+[10.704006] (cpp_srv_client) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.706021] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.708290] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:42:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KCppSrvClient*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.710053] (cpp_srv_client) StderrLine: {'line': b'   42 |       if (\x1b[01;36m\x1b[Krclcpp::spin_until_future_complete(this, response)\x1b[m\x1b[K == rclcpp::FutureReturnCode::SUCCESS)\n'}
+[10.712760] (cpp_srv_client) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.714867] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:50:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.717132] (cpp_srv_client) StderrLine: {'line': b'   50 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[10.719439] (cpp_srv_client) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.792666] (-) TimerEvent: {}
+[10.893869] (-) TimerEvent: {}
+[10.994786] (-) TimerEvent: {}
+[11.095815] (-) TimerEvent: {}
+[11.196873] (-) TimerEvent: {}
+[11.298221] (-) TimerEvent: {}
+[11.399242] (-) TimerEvent: {}
+[11.485521] (cpp_srv_client) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cppSrvClientNode.dir/build.make:76: CMakeFiles/cppSrvClientNode.dir/src/cppSrvClientNode.cpp.o] Error 1\n'}
+[11.487709] (cpp_srv_client) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cppSrvClientNode.dir/all] Error 2\n'}
+[11.490466] (cpp_srv_client) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.493996] (cpp_srv_client) CommandEnded: {'returncode': 2}
+[11.499620] (-) TimerEvent: {}
+[11.600613] (-) TimerEvent: {}
+[11.660409] (cpp_srv_client) JobEnded: {'identifier': 'cpp_srv_client', 'rc': 2}
+[11.672715] (-) EventReactorShutdown: {}

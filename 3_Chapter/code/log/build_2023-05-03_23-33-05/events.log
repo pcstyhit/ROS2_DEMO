@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.001469] (-) JobUnselected: {'identifier': 'cpp_srv_server'}
+[0.002642] (-) JobUnselected: {'identifier': 'srv_demo'}
+[0.003296] (cpp_srv_client) JobQueued: {'identifier': 'cpp_srv_client', 'dependencies': OrderedDict([('srv_demo', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo')])}
+[0.004626] (cpp_srv_client) JobStarted: {'identifier': 'cpp_srv_client'}
+[0.068026] (cpp_srv_client) JobProgress: {'identifier': 'cpp_srv_client', 'progress': 'cmake'}
+[0.074741] (cpp_srv_client) JobProgress: {'identifier': 'cpp_srv_client', 'progress': 'build'}
+[0.076399] (cpp_srv_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client', '--', '-j16', '-l16'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 2126 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('OLDPWD', '/home/pldz/share/ROS2_DEMO/3_Chapter/code/srv_demo'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6d547890-7115-4aa6-a6af-d635bee8cb2f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pldz/share/ROS2_DEMO/3_Chapter/code/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc2615e3e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client'), ('SSH_CONNECTION', '192.168.0.100 2126 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble')]), 'shell': False}
+[0.098788] (-) TimerEvent: {}
+[0.199823] (-) TimerEvent: {}
+[0.301280] (-) TimerEvent: {}
+[0.333997] (cpp_srv_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cppSrvClientNode\x1b[0m\n'}
+[0.401565] (-) TimerEvent: {}
+[0.502531] (-) TimerEvent: {}
+[0.603160] (-) TimerEvent: {}
+[0.704090] (-) TimerEvent: {}
+[0.804606] (-) TimerEvent: {}
+[0.905603] (-) TimerEvent: {}
+[1.006347] (-) TimerEvent: {}
+[1.107131] (-) TimerEvent: {}
+[1.208173] (-) TimerEvent: {}
+[1.309054] (-) TimerEvent: {}
+[1.332289] (cpp_srv_client) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cppSrvClientNode.dir/src/cppSrvClientNode.cpp.o\x1b[0m\n'}
+[1.409553] (-) TimerEvent: {}
+[1.510353] (-) TimerEvent: {}
+[1.611031] (-) TimerEvent: {}
+[1.711819] (-) TimerEvent: {}
+[1.812748] (-) TimerEvent: {}
+[1.913854] (-) TimerEvent: {}
+[2.015007] (-) TimerEvent: {}
+[2.116294] (-) TimerEvent: {}
+[2.217276] (-) TimerEvent: {}
+[2.318308] (-) TimerEvent: {}
+[2.419292] (-) TimerEvent: {}
+[2.520352] (-) TimerEvent: {}
+[2.621335] (-) TimerEvent: {}
+[2.722317] (-) TimerEvent: {}
+[2.823382] (-) TimerEvent: {}
+[2.924413] (-) TimerEvent: {}
+[3.025959] (-) TimerEvent: {}
+[3.127417] (-) TimerEvent: {}
+[3.228500] (-) TimerEvent: {}
+[3.329443] (-) TimerEvent: {}
+[3.430493] (-) TimerEvent: {}
+[3.531589] (-) TimerEvent: {}
+[3.632562] (-) TimerEvent: {}
+[3.733571] (-) TimerEvent: {}
+[3.834584] (-) TimerEvent: {}
+[3.921886] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<srv_demo::srv::AddInt>::FutureAndRequestId CppSrvClient::send_request(int32_t, int32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.924235] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:42:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<srv_demo::srv::AddInt>::async_send_request(std::shared_ptr<srv_demo::srv::AddInt_Request_<std::allocator<void> > >&, std::_Bind_helper<false, void (CppSrvClient::*)(srv_demo::srv::AddInt_Response_<std::allocator<void> >), CppSrvClient*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.926866] (cpp_srv_client) StderrLine: {'line': b'   42 |       \x1b[01;31m\x1b[Kclient_->async_send_request(request, std::bind(&CppSrvClient::get_response, this, std::placeholders::_1))\x1b[m\x1b[K;\n'}
+[3.930334] (cpp_srv_client) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.932505] (cpp_srv_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.935077] (-) TimerEvent: {}
+[3.935990] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.937903] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.940223] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.942414] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.944741] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.946948] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.949231] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.951518] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.953667] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:3\x1b[m\x1b[K:\n'}
+[3.955659] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<srv_demo::srv::AddInt_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = srv_demo::srv::AddInt]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.957798] (cpp_srv_client) StderrLine: {'line': b'  643 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[3.959994] (cpp_srv_client) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.962012] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:643:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.964914] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:640:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.967236] (cpp_srv_client) StderrLine: {'line': b'  640 |     >::type * = \x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K\n'}
+[3.969404] (cpp_srv_client) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.971389] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<srv_demo::srv::AddInt_Request_<std::allocator<void> > >, std::shared_ptr<srv_demo::srv::AddInt_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <anonymous>; ServiceT = srv_demo::srv::AddInt]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.974490] (cpp_srv_client) StderrLine: {'line': b'  674 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[3.976787] (cpp_srv_client) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.978780] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:674:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.980726] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:671:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.982350] (cpp_srv_client) StderrLine: {'line': b'  671 |     >::type * = \x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K\n'}
+[3.984337] (cpp_srv_client) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.986362] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = srv_demo::srv::AddInt; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<srv_demo::srv::AddInt_Request_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.988195] (cpp_srv_client) StderrLine: {'line': b'  608 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request)\n'}
+[3.990049] (cpp_srv_client) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.992545] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:608:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[3.994484] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:43:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.996508] (cpp_srv_client) StderrLine: {'line': b'   43 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[3.998839] (cpp_srv_client) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.000782] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CppSrvClient::get_response(srv_demo::srv::AddInt::Response)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.002693] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:49:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin_until_future_complete(CppSrvClient*, srv_demo::srv::AddInt::Response&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.005047] (cpp_srv_client) StderrLine: {'line': b'   49 |       if (\x1b[01;31m\x1b[Krclcpp::spin_until_future_complete(this, response)\x1b[m\x1b[K == rclcpp::FutureReturnCode::SUCCESS)\n'}
+[4.007147] (cpp_srv_client) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.009021] (cpp_srv_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.011054] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:3\x1b[m\x1b[K:\n'}
+[4.013097] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.015562] (cpp_srv_client) StderrLine: {'line': b'  105 | \x1b[01;36m\x1b[Kspin_until_future_complete\x1b[m\x1b[K(\n'}
+[4.017440] (cpp_srv_client) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.019319] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.021631] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:49:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K(CppSrvClient*)this\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[KCppSrvClient*\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.023533] (cpp_srv_client) StderrLine: {'line': b'   49 |       if (rclcpp::spin_until_future_complete(\x1b[01;36m\x1b[Kthis\x1b[m\x1b[K, response) == rclcpp::FutureReturnCode::SUCCESS)\n'}
+[4.025600] (cpp_srv_client) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.027721] (cpp_srv_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.030582] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:3\x1b[m\x1b[K:\n'}
+[4.032820] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.035268] (-) TimerEvent: {}
+[4.035802] (cpp_srv_client) StderrLine: {'line': b'  117 | \x1b[01;36m\x1b[Kspin_until_future_complete\x1b[m\x1b[K(\n'}
+[4.038363] (cpp_srv_client) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.040119] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:117:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.042021] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:49:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[KCppSrvClient*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.044820] (cpp_srv_client) StderrLine: {'line': b'   49 |       if (\x1b[01;36m\x1b[Krclcpp::spin_until_future_complete(this, response)\x1b[m\x1b[K == rclcpp::FutureReturnCode::SUCCESS)\n'}
+[4.046923] (cpp_srv_client) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.049211] (cpp_srv_client) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.051347] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.053205] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.055946] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.058096] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.060552] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.062378] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.064210] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.066602] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.068485] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.070446] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.072586] (cpp_srv_client) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:3\x1b[m\x1b[K:\n'}
+[4.074694] (cpp_srv_client) StderrLine: {'line': b'\x1b[01m\x1b[K/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client/src/cppSrvClientNode.cpp:52:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing Response = using AddInt_Response = struct srv_demo::srv::AddInt_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct srv_demo::srv::AddInt_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kget\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.076894] (cpp_srv_client) StderrLine: {'line': b'   52 |         RCLCPP_INFO(this->get_logger(),"The response is :%d!", response.\x1b[01;31m\x1b[Kget\x1b[m\x1b[K()->sum);\n'}
+[4.079572] (cpp_srv_client) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.135686] (-) TimerEvent: {}
+[4.237178] (-) TimerEvent: {}
+[4.338689] (-) TimerEvent: {}
+[4.440197] (-) TimerEvent: {}
+[4.444818] (cpp_srv_client) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cppSrvClientNode.dir/build.make:76: CMakeFiles/cppSrvClientNode.dir/src/cppSrvClientNode.cpp.o] Error 1\n'}
+[4.446673] (cpp_srv_client) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cppSrvClientNode.dir/all] Error 2\n'}
+[4.449672] (cpp_srv_client) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.452886] (cpp_srv_client) CommandEnded: {'returncode': 2}
+[4.540722] (-) TimerEvent: {}
+[4.619174] (cpp_srv_client) JobEnded: {'identifier': 'cpp_srv_client', 'rc': 2}
+[4.631355] (-) EventReactorShutdown: {}

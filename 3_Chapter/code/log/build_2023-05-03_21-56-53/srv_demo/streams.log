@@ -1,0 +1,218 @@
+[0.047s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/srv_demo -DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo
+[0.073s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.291s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.299s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.303s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.350s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.941s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.440s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.041s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.076s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.079s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.118s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[2.121s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.124s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.128s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.150s] -- Found PythonExtra: .so  
+[2.340s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.761s] -- Added test 'lint_cmake' to check CMake code style
+[2.844s] -- Added test 'xmllint' to check XML markup files
+[3.009s] -- Configuring done
+[4.271s] -- Generating done
+[4.431s] -- Build files have been written to: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo
+[4.436s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/srv_demo -DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo
+[4.444s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo -- -j16 -l16
+[4.596s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.619s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.631s] [  6%] Built target ament_cmake_python_copy_srv_demo
+[5.001s] running egg_info
+[5.006s] creating srv_demo.egg-info
+[5.012s] writing srv_demo.egg-info/PKG-INFO
+[5.018s] writing dependency_links to srv_demo.egg-info/dependency_links.txt
+[5.026s] writing top-level names to srv_demo.egg-info/top_level.txt
+[5.034s] writing manifest file 'srv_demo.egg-info/SOURCES.txt'
+[5.057s] reading manifest file 'srv_demo.egg-info/SOURCES.txt'
+[5.066s] [  6%] Built target srv_demo__cpp
+[5.074s] writing manifest file 'srv_demo.egg-info/SOURCES.txt'
+[5.102s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.117s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.119s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.127s] [ 16%] Built target ament_cmake_python_build_srv_demo_egg
+[5.130s] [ 19%] [32mBuilding C object CMakeFiles/srv_demo__rosidl_generator_c.dir/rosidl_generator_c/srv_demo/srv/detail/add_int__functions.c.o[0m
+[5.302s] [ 22%] [32m[1mLinking C shared library libsrv_demo__rosidl_generator_c.so[0m
+[5.442s] [ 22%] Built target srv_demo__rosidl_generator_c
+[5.503s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.515s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.523s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.530s] [ 35%] [32mBuilding CXX object CMakeFiles/srv_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/srv_demo/srv/add_int__type_support.cpp.o[0m
+[5.585s] [ 38%] [32mBuilding CXX object CMakeFiles/srv_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/srv_demo/srv/detail/add_int__type_support.cpp.o[0m
+[5.600s] [ 41%] [32mBuilding CXX object CMakeFiles/srv_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/srv_demo/srv/detail/dds_fastrtps/add_int__type_support.cpp.o[0m
+[5.953s] [ 45%] [32mBuilding CXX object CMakeFiles/srv_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/srv_demo/srv/add_int__type_support.cpp.o[0m
+[6.029s] [ 48%] [32mBuilding CXX object CMakeFiles/srv_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/srv_demo/srv/detail/add_int__type_support_c.cpp.o[0m
+[6.042s] [ 51%] [32mBuilding C object CMakeFiles/srv_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/srv_demo/srv/detail/add_int__type_support.c.o[0m
+[6.145s] [ 54%] [32m[1mLinking CXX shared library libsrv_demo__rosidl_typesupport_c.so[0m
+[6.367s] [ 58%] [32m[1mLinking C shared library libsrv_demo__rosidl_typesupport_introspection_c.so[0m
+[6.416s] [ 61%] [32m[1mLinking CXX shared library libsrv_demo__rosidl_typesupport_cpp.so[0m
+[6.439s] [ 61%] Built target srv_demo__rosidl_typesupport_c
+[6.568s] [ 61%] Built target srv_demo__rosidl_typesupport_introspection_c
+[6.630s] [ 61%] Built target srv_demo__rosidl_typesupport_cpp
+[6.952s] [ 64%] [32m[1mLinking CXX shared library libsrv_demo__rosidl_typesupport_introspection_cpp.so[0m
+[7.100s] [ 67%] [32m[1mLinking CXX shared library libsrv_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.136s] [ 67%] Built target srv_demo__rosidl_typesupport_introspection_cpp
+[7.249s] [ 70%] [32m[1mLinking CXX shared library libsrv_demo__rosidl_typesupport_fastrtps_c.so[0m
+[7.328s] [ 70%] Built target srv_demo__rosidl_typesupport_fastrtps_cpp
+[7.470s] [ 70%] Built target srv_demo__rosidl_typesupport_fastrtps_c
+[7.522s] [ 70%] Built target srv_demo
+[7.579s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.117s] [ 74%] Built target srv_demo__py
+[8.176s] [ 77%] [32mBuilding C object CMakeFiles/srv_demo__rosidl_generator_py.dir/rosidl_generator_py/srv_demo/srv/_add_int_s.c.o[0m
+[8.506s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/srv_demo/libsrv_demo__rosidl_generator_py.so[0m
+[8.640s] [ 80%] Built target srv_demo__rosidl_generator_py
+[8.735s] [ 87%] [32mBuilding C object CMakeFiles/srv_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/srv_demo/_srv_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.744s] [ 90%] [32mBuilding C object CMakeFiles/srv_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/srv_demo/_srv_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[8.749s] [ 90%] [32mBuilding C object CMakeFiles/srv_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/srv_demo/_srv_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.182s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/srv_demo/srv_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.253s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/srv_demo/srv_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.283s] [100%] [32m[1mLinking C shared library rosidl_generator_py/srv_demo/srv_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.385s] [100%] Built target srv_demo__rosidl_typesupport_c__pyext
+[9.461s] [100%] Built target srv_demo__rosidl_typesupport_fastrtps_c__pyext
+[9.477s] [100%] Built target srv_demo__rosidl_typesupport_introspection_c__pyext
+[9.537s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo -- -j16 -l16
+[9.650s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo
+[9.663s] -- Install configuration: ""
+[9.680s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/ament_index/resource_index/rosidl_interfaces/srv_demo
+[9.697s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo
+[9.709s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg
+[9.718s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg/rosidl_generator_c__visibility_control.h
+[9.733s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv
+[9.742s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/add_int.h
+[9.758s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail
+[9.767s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__functions.c
+[9.786s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__functions.h
+[9.804s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__struct.h
+[9.820s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__type_support.h
+[9.840s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/library_path.sh
+[9.854s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/library_path.dsv
+[9.872s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_generator_c.so
+[9.902s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_generator_c.so" to ""
+[9.907s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo
+[9.912s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg
+[9.915s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.931s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv
+[9.937s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail
+[9.942s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__rosidl_typesupport_fastrtps_c.h
+[9.959s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_fastrtps_c.so
+[9.986s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[9.993s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo
+[9.996s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg
+[9.999s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.015s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv
+[10.020s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail
+[10.024s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__rosidl_typesupport_introspection_c.h
+[10.042s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__type_support.c
+[10.060s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_introspection_c.so
+[10.085s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_introspection_c.so" to ""
+[10.089s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_c.so
+[10.120s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_c.so" to ""
+[10.126s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo
+[10.129s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv
+[10.133s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/add_int.hpp
+[10.153s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail
+[10.157s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__builder.hpp
+[10.173s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__struct.hpp
+[10.191s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__traits.hpp
+[10.206s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo
+[10.213s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg
+[10.217s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.234s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv
+[10.240s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail
+[10.245s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__rosidl_typesupport_fastrtps_cpp.hpp
+[10.263s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/dds_fastrtps
+[10.271s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_fastrtps_cpp.so
+[10.296s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.302s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo
+[10.307s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv
+[10.312s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail
+[10.318s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__rosidl_typesupport_introspection_cpp.hpp
+[10.331s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__type_support.cpp
+[10.352s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_introspection_cpp.so
+[10.378s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[10.383s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_cpp.so
+[10.406s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_cpp.so" to ""
+[10.410s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/pythonpath.sh
+[10.427s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/pythonpath.dsv
+[10.443s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo-0.0.0-py3.10.egg-info
+[10.459s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.475s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[10.491s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.508s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo-0.0.0-py3.10.egg-info/top_level.txt
+[10.526s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo
+[10.535s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/libsrv_demo__rosidl_generator_py.so
+[10.556s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv
+[10.565s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv/_add_int.py
+[10.583s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv/_add_int_s.c
+[10.601s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv/__init__.py
+[10.616s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.637s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.655s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.675s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/_srv_demo_s.ep.rosidl_typesupport_c.c
+[10.695s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/_srv_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.712s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/_srv_demo_s.ep.rosidl_typesupport_introspection_c.c
+[10.730s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/__init__.py
+[10.827s] Listing '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo'...
+[10.830s] Compiling '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/__init__.py'...
+[10.833s] Listing '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv'...
+[10.838s] Compiling '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv/__init__.py'...
+[10.841s] Compiling '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv/_add_int.py'...
+[10.845s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.866s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.873s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.897s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.902s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.927s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.933s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_generator_py.so
+[10.957s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_generator_py.so" to ""
+[10.968s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/srv/AddInt.idl
+[10.987s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/srv/AddInt.srv
+[11.005s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/srv/AddInt_Request.msg
+[11.022s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/srv/AddInt_Response.msg
+[11.046s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/ament_index/resource_index/package_run_dependencies/srv_demo
+[11.071s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/ament_index/resource_index/parent_prefix_path/srv_demo
+[11.089s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/ament_prefix_path.sh
+[11.106s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/ament_prefix_path.dsv
+[11.126s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/path.sh
+[11.142s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/path.dsv
+[11.159s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/local_setup.bash
+[11.176s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/local_setup.sh
+[11.193s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/local_setup.zsh
+[11.209s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/local_setup.dsv
+[11.227s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.dsv
+[11.251s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/ament_index/resource_index/packages/srv_demo
+[11.276s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_generator_cExport.cmake
+[11.294s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_generator_cExport-noconfig.cmake
+[11.312s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[11.330s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.349s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_introspection_cExport.cmake
+[11.367s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.386s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_cExport.cmake
+[11.404s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_cExport-noconfig.cmake
+[11.423s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_generator_cppExport.cmake
+[11.441s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.460s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.477s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_introspection_cppExport.cmake
+[11.496s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.514s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_cppExport.cmake
+[11.535s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[11.553s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_generator_pyExport.cmake
+[11.571s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_generator_pyExport-noconfig.cmake
+[11.588s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/rosidl_cmake-extras.cmake
+[11.607s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.626s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[11.645s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/ament_cmake_export_targets-extras.cmake
+[11.663s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.680s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.697s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.715s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demoConfig.cmake
+[11.734s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demoConfig-version.cmake
+[11.752s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.xml
+[11.775s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo

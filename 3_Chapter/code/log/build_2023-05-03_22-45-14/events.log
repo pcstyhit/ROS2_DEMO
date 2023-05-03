@@ -1,0 +1,282 @@
+[0.000000] (-) TimerEvent: {}
+[0.001065] (-) JobUnselected: {'identifier': 'srv_demo'}
+[0.002247] (cpp_srv_server) JobQueued: {'identifier': 'cpp_srv_server', 'dependencies': OrderedDict([('srv_demo', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo')])}
+[0.003977] (cpp_srv_server) JobStarted: {'identifier': 'cpp_srv_server'}
+[0.097531] (-) TimerEvent: {}
+[0.110865] (cpp_srv_server) JobProgress: {'identifier': 'cpp_srv_server', 'progress': 'cmake'}
+[0.116660] (cpp_srv_server) Command: {'cmd': ['/usr/bin/cmake', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_server', '-DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 2126 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('OLDPWD', '/home/pldz/share/ROS2_DEMO/3_Chapter/code/srv_demo'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6d547890-7115-4aa6-a6af-d635bee8cb2f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pldz/share/ROS2_DEMO/3_Chapter/code/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc2615e3e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server'), ('SSH_CONNECTION', '192.168.0.100 2126 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble')]), 'shell': False}
+[0.198125] (-) TimerEvent: {}
+[0.299565] (-) TimerEvent: {}
+[0.401014] (-) TimerEvent: {}
+[0.502306] (-) TimerEvent: {}
+[0.603332] (-) TimerEvent: {}
+[0.604253] (cpp_srv_server) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.703867] (-) TimerEvent: {}
+[0.805005] (-) TimerEvent: {}
+[0.906522] (-) TimerEvent: {}
+[0.915603] (cpp_srv_server) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.965866] (cpp_srv_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.007088] (-) TimerEvent: {}
+[1.108088] (-) TimerEvent: {}
+[1.209789] (-) TimerEvent: {}
+[1.310718] (-) TimerEvent: {}
+[1.411629] (-) TimerEvent: {}
+[1.512671] (-) TimerEvent: {}
+[1.613661] (-) TimerEvent: {}
+[1.699762] (cpp_srv_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.714253] (-) TimerEvent: {}
+[1.719799] (cpp_srv_server) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.724671] (cpp_srv_server) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.736131] (cpp_srv_server) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.754494] (cpp_srv_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.814745] (-) TimerEvent: {}
+[1.916222] (-) TimerEvent: {}
+[2.017313] (-) TimerEvent: {}
+[2.118251] (-) TimerEvent: {}
+[2.219815] (-) TimerEvent: {}
+[2.320759] (-) TimerEvent: {}
+[2.421855] (-) TimerEvent: {}
+[2.507083] (cpp_srv_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.522336] (-) TimerEvent: {}
+[2.528435] (cpp_srv_server) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.533459] (cpp_srv_server) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.538300] (cpp_srv_server) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.612612] (cpp_srv_server) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.622653] (-) TimerEvent: {}
+[2.723592] (-) TimerEvent: {}
+[2.824640] (-) TimerEvent: {}
+[2.925761] (-) TimerEvent: {}
+[3.026769] (-) TimerEvent: {}
+[3.127715] (-) TimerEvent: {}
+[3.225275] (cpp_srv_server) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.228186] (-) TimerEvent: {}
+[3.329861] (-) TimerEvent: {}
+[3.430770] (-) TimerEvent: {}
+[3.532780] (-) TimerEvent: {}
+[3.633959] (-) TimerEvent: {}
+[3.735535] (-) TimerEvent: {}
+[3.838218] (-) TimerEvent: {}
+[3.939676] (-) TimerEvent: {}
+[4.042218] (-) TimerEvent: {}
+[4.120854] (cpp_srv_server) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.142817] (-) TimerEvent: {}
+[4.245690] (-) TimerEvent: {}
+[4.347033] (-) TimerEvent: {}
+[4.449145] (-) TimerEvent: {}
+[4.550677] (-) TimerEvent: {}
+[4.651988] (-) TimerEvent: {}
+[4.753947] (-) TimerEvent: {}
+[4.855361] (-) TimerEvent: {}
+[4.866887] (cpp_srv_server) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.955848] (-) TimerEvent: {}
+[4.980702] (cpp_srv_server) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.056371] (-) TimerEvent: {}
+[5.088919] (cpp_srv_server) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.156818] (-) TimerEvent: {}
+[5.209463] (cpp_srv_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.257388] (-) TimerEvent: {}
+[5.359398] (-) TimerEvent: {}
+[5.384022] (cpp_srv_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.459932] (-) TimerEvent: {}
+[5.560689] (-) TimerEvent: {}
+[5.661618] (-) TimerEvent: {}
+[5.762626] (-) TimerEvent: {}
+[5.864076] (-) TimerEvent: {}
+[5.903236] (cpp_srv_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.963797] (cpp_srv_server) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.967187] (-) TimerEvent: {}
+[6.069085] (-) TimerEvent: {}
+[6.170712] (-) TimerEvent: {}
+[6.273070] (-) TimerEvent: {}
+[6.374697] (-) TimerEvent: {}
+[6.477322] (-) TimerEvent: {}
+[6.578346] (-) TimerEvent: {}
+[6.679932] (-) TimerEvent: {}
+[6.780880] (-) TimerEvent: {}
+[6.881895] (-) TimerEvent: {}
+[6.898416] (cpp_srv_server) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.982595] (-) TimerEvent: {}
+[7.029437] (cpp_srv_server) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.082817] (-) TimerEvent: {}
+[7.183836] (-) TimerEvent: {}
+[7.238442] (cpp_srv_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.284077] (-) TimerEvent: {}
+[7.385382] (-) TimerEvent: {}
+[7.437876] (cpp_srv_server) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.485979] (-) TimerEvent: {}
+[7.587462] (-) TimerEvent: {}
+[7.690234] (-) TimerEvent: {}
+[7.791536] (-) TimerEvent: {}
+[7.892751] (-) TimerEvent: {}
+[7.994350] (-) TimerEvent: {}
+[8.095772] (-) TimerEvent: {}
+[8.180745] (cpp_srv_server) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.188041] (cpp_srv_server) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.196370] (-) TimerEvent: {}
+[8.297941] (-) TimerEvent: {}
+[8.399362] (-) TimerEvent: {}
+[8.501189] (-) TimerEvent: {}
+[8.602383] (-) TimerEvent: {}
+[8.703995] (-) TimerEvent: {}
+[8.805240] (-) TimerEvent: {}
+[8.906489] (-) TimerEvent: {}
+[8.972867] (cpp_srv_server) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.978539] (cpp_srv_server) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.006990] (-) TimerEvent: {}
+[9.108950] (-) TimerEvent: {}
+[9.209958] (-) TimerEvent: {}
+[9.311975] (-) TimerEvent: {}
+[9.413368] (-) TimerEvent: {}
+[9.513796] (cpp_srv_server) StdoutLine: {'line': b'-- Found srv_demo: 0.0.0 (/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake)\n'}
+[9.521184] (-) TimerEvent: {}
+[9.624367] (-) TimerEvent: {}
+[9.725454] (-) TimerEvent: {}
+[9.741857] (cpp_srv_server) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.826058] (-) TimerEvent: {}
+[9.927303] (-) TimerEvent: {}
+[10.029961] (-) TimerEvent: {}
+[10.132381] (-) TimerEvent: {}
+[10.233322] (-) TimerEvent: {}
+[10.334848] (-) TimerEvent: {}
+[10.417081] (cpp_srv_server) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.420622] (cpp_srv_server) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_server/include>\n'}
+[10.424712] (cpp_srv_server) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.435356] (-) TimerEvent: {}
+[10.456283] (cpp_srv_server) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.532262] (cpp_srv_server) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.535576] (-) TimerEvent: {}
+[10.536691] (cpp_srv_server) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.555400] (cpp_srv_server) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.635896] (-) TimerEvent: {}
+[10.639344] (cpp_srv_server) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.737183] (-) TimerEvent: {}
+[10.838933] (-) TimerEvent: {}
+[10.939684] (cpp_srv_server) StdoutLine: {'line': b'-- Generating done\n'}
+[10.944037] (-) TimerEvent: {}
+[11.011371] (cpp_srv_server) StdoutLine: {'line': b'-- Build files have been written to: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server\n'}
+[11.023037] (cpp_srv_server) CommandEnded: {'returncode': 0}
+[11.030210] (cpp_srv_server) JobProgress: {'identifier': 'cpp_srv_server', 'progress': 'build'}
+[11.031048] (cpp_srv_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server', '--', '-j16', '-l16'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 2126 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('OLDPWD', '/home/pldz/share/ROS2_DEMO/3_Chapter/code/srv_demo'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6d547890-7115-4aa6-a6af-d635bee8cb2f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pldz/share/ROS2_DEMO/3_Chapter/code/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc2615e3e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server'), ('SSH_CONNECTION', '192.168.0.100 2126 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble')]), 'shell': False}
+[11.044464] (-) TimerEvent: {}
+[11.146019] (-) TimerEvent: {}
+[11.247491] (-) TimerEvent: {}
+[11.348598] (-) TimerEvent: {}
+[11.449529] (-) TimerEvent: {}
+[11.550575] (-) TimerEvent: {}
+[11.569002] (cpp_srv_server) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cppSrvServerNode.dir/src/cppSrvServerNode.cpp.o\x1b[0m\n'}
+[11.651063] (-) TimerEvent: {}
+[11.752147] (-) TimerEvent: {}
+[11.853206] (-) TimerEvent: {}
+[11.954665] (-) TimerEvent: {}
+[12.055672] (-) TimerEvent: {}
+[12.156645] (-) TimerEvent: {}
+[12.257503] (-) TimerEvent: {}
+[12.358776] (-) TimerEvent: {}
+[12.460208] (-) TimerEvent: {}
+[12.561318] (-) TimerEvent: {}
+[12.662246] (-) TimerEvent: {}
+[12.763229] (-) TimerEvent: {}
+[12.864316] (-) TimerEvent: {}
+[12.965868] (-) TimerEvent: {}
+[13.066845] (-) TimerEvent: {}
+[13.167815] (-) TimerEvent: {}
+[13.268928] (-) TimerEvent: {}
+[13.370427] (-) TimerEvent: {}
+[13.471948] (-) TimerEvent: {}
+[13.572960] (-) TimerEvent: {}
+[13.674733] (-) TimerEvent: {}
+[13.775994] (-) TimerEvent: {}
+[13.876992] (-) TimerEvent: {}
+[13.978009] (-) TimerEvent: {}
+[14.079040] (-) TimerEvent: {}
+[14.180184] (-) TimerEvent: {}
+[14.281021] (-) TimerEvent: {}
+[14.382086] (-) TimerEvent: {}
+[14.483545] (-) TimerEvent: {}
+[14.584600] (-) TimerEvent: {}
+[14.685654] (-) TimerEvent: {}
+[14.786832] (-) TimerEvent: {}
+[14.888179] (-) TimerEvent: {}
+[14.989717] (-) TimerEvent: {}
+[15.090671] (-) TimerEvent: {}
+[15.191748] (-) TimerEvent: {}
+[15.293216] (-) TimerEvent: {}
+[15.395213] (-) TimerEvent: {}
+[15.496228] (-) TimerEvent: {}
+[15.597239] (-) TimerEvent: {}
+[15.698737] (-) TimerEvent: {}
+[15.799807] (-) TimerEvent: {}
+[15.901278] (-) TimerEvent: {}
+[16.002316] (-) TimerEvent: {}
+[16.104289] (-) TimerEvent: {}
+[16.205385] (-) TimerEvent: {}
+[16.306409] (-) TimerEvent: {}
+[16.407428] (-) TimerEvent: {}
+[16.508648] (-) TimerEvent: {}
+[16.610168] (-) TimerEvent: {}
+[16.711165] (-) TimerEvent: {}
+[16.812152] (-) TimerEvent: {}
+[16.913214] (-) TimerEvent: {}
+[17.014236] (-) TimerEvent: {}
+[17.115737] (-) TimerEvent: {}
+[17.216708] (-) TimerEvent: {}
+[17.317536] (-) TimerEvent: {}
+[17.418729] (-) TimerEvent: {}
+[17.519563] (-) TimerEvent: {}
+[17.620568] (-) TimerEvent: {}
+[17.722088] (-) TimerEvent: {}
+[17.823163] (-) TimerEvent: {}
+[17.925630] (-) TimerEvent: {}
+[18.026697] (-) TimerEvent: {}
+[18.127674] (-) TimerEvent: {}
+[18.228693] (-) TimerEvent: {}
+[18.329718] (-) TimerEvent: {}
+[18.335711] (cpp_srv_server) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cppSrvServerNode\x1b[0m\n'}
+[18.430211] (-) TimerEvent: {}
+[18.530930] (-) TimerEvent: {}
+[18.632170] (-) TimerEvent: {}
+[18.733124] (-) TimerEvent: {}
+[18.834139] (-) TimerEvent: {}
+[18.935661] (-) TimerEvent: {}
+[19.036685] (-) TimerEvent: {}
+[19.138195] (-) TimerEvent: {}
+[19.238713] (-) TimerEvent: {}
+[19.340045] (-) TimerEvent: {}
+[19.441028] (-) TimerEvent: {}
+[19.541940] (-) TimerEvent: {}
+[19.643457] (-) TimerEvent: {}
+[19.744946] (-) TimerEvent: {}
+[19.764694] (cpp_srv_server) StdoutLine: {'line': b'[100%] Built target cppSrvServerNode\n'}
+[19.818709] (cpp_srv_server) CommandEnded: {'returncode': 0}
+[19.845470] (-) TimerEvent: {}
+[19.945964] (-) TimerEvent: {}
+[19.973023] (cpp_srv_server) JobProgress: {'identifier': 'cpp_srv_server', 'progress': 'install'}
+[20.009177] (cpp_srv_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 2126 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('OLDPWD', '/home/pldz/share/ROS2_DEMO/3_Chapter/code/srv_demo'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6d547890-7115-4aa6-a6af-d635bee8cb2f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/pldz/share/ROS2_DEMO/3_Chapter/code/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc2615e3e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server'), ('SSH_CONNECTION', '192.168.0.100 2126 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble')]), 'shell': False}
+[20.046509] (-) TimerEvent: {}
+[20.055448] (cpp_srv_server) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.064494] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/lib/cpp_srv_server/cppSrvServerNode\n'}
+[20.132262] (cpp_srv_server) StdoutLine: {'line': b'-- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/lib/cpp_srv_server/cppSrvServerNode" to ""\n'}
+[20.143513] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/ament_index/resource_index/package_run_dependencies/cpp_srv_server\n'}
+[20.147035] (-) TimerEvent: {}
+[20.159716] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/ament_index/resource_index/parent_prefix_path/cpp_srv_server\n'}
+[20.173101] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/environment/ament_prefix_path.sh\n'}
+[20.183442] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/environment/ament_prefix_path.dsv\n'}
+[20.194347] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/environment/path.sh\n'}
+[20.204101] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/environment/path.dsv\n'}
+[20.215549] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/local_setup.bash\n'}
+[20.228055] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/local_setup.sh\n'}
+[20.240552] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/local_setup.zsh\n'}
+[20.247522] (-) TimerEvent: {}
+[20.254177] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/local_setup.dsv\n'}
+[20.268236] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.dsv\n'}
+[20.287187] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/ament_index/resource_index/packages/cpp_srv_server\n'}
+[20.304981] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/cmake/cpp_srv_serverConfig.cmake\n'}
+[20.317620] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/cmake/cpp_srv_serverConfig-version.cmake\n'}
+[20.330265] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.xml\n'}
+[20.345215] (cpp_srv_server) CommandEnded: {'returncode': 0}
+[20.349004] (-) TimerEvent: {}
+[20.450052] (-) TimerEvent: {}
+[20.550656] (-) TimerEvent: {}
+[20.645297] (cpp_srv_server) JobEnded: {'identifier': 'cpp_srv_server', 'rc': 0}
+[20.651133] (-) TimerEvent: {}
+[20.654341] (-) EventReactorShutdown: {}
