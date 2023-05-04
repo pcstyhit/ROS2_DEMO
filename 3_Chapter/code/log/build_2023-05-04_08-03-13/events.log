@@ -1,0 +1,484 @@
+[0.000000] (-) TimerEvent: {}
+[0.001532] (srv_demo) JobQueued: {'identifier': 'srv_demo', 'dependencies': OrderedDict()}
+[0.002804] (cpp_srv_client) JobQueued: {'identifier': 'cpp_srv_client', 'dependencies': OrderedDict([('srv_demo', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo')])}
+[0.004453] (cpp_srv_server) JobQueued: {'identifier': 'cpp_srv_server', 'dependencies': OrderedDict([('srv_demo', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo')])}
+[0.006278] (python_srv_client) JobQueued: {'identifier': 'python_srv_client', 'dependencies': OrderedDict([('srv_demo', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo')])}
+[0.006754] (python_srv_server) JobQueued: {'identifier': 'python_srv_server', 'dependencies': OrderedDict([('srv_demo', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo')])}
+[0.008744] (srv_demo) JobStarted: {'identifier': 'srv_demo'}
+[0.035549] (srv_demo) JobProgress: {'identifier': 'srv_demo', 'progress': 'cmake'}
+[0.063280] (srv_demo) JobProgress: {'identifier': 'srv_demo', 'progress': 'build'}
+[0.066082] (srv_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo', '--', '-j16', '-l16'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 10260 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-23b452be-ab7b-493c-9d6f-a4913a4d783d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc2615e3e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo'), ('SSH_CONNECTION', '192.168.0.100 10260 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097151] (-) TimerEvent: {}
+[0.198148] (-) TimerEvent: {}
+[0.299288] (-) TimerEvent: {}
+[0.379306] (srv_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399785] (-) TimerEvent: {}
+[0.500829] (-) TimerEvent: {}
+[0.601761] (-) TimerEvent: {}
+[0.702754] (-) TimerEvent: {}
+[0.710672] (srv_demo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.727435] (srv_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.738320] (srv_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.803256] (-) TimerEvent: {}
+[0.838146] (srv_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.903796] (-) TimerEvent: {}
+[1.005399] (-) TimerEvent: {}
+[1.106396] (-) TimerEvent: {}
+[1.207397] (-) TimerEvent: {}
+[1.308826] (-) TimerEvent: {}
+[1.410899] (-) TimerEvent: {}
+[1.485992] (srv_demo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.511372] (-) TimerEvent: {}
+[1.612596] (-) TimerEvent: {}
+[1.713983] (-) TimerEvent: {}
+[1.816053] (-) TimerEvent: {}
+[1.917514] (-) TimerEvent: {}
+[1.959563] (srv_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.017959] (-) TimerEvent: {}
+[2.119972] (-) TimerEvent: {}
+[2.221735] (-) TimerEvent: {}
+[2.323027] (-) TimerEvent: {}
+[2.424221] (-) TimerEvent: {}
+[2.525581] (-) TimerEvent: {}
+[2.581083] (srv_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.614283] (srv_demo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.626071] (-) TimerEvent: {}
+[2.648578] (srv_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.651390] (srv_demo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.657075] (srv_demo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.726580] (-) TimerEvent: {}
+[2.800689] (srv_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.826929] (-) TimerEvent: {}
+[2.928153] (-) TimerEvent: {}
+[3.030138] (-) TimerEvent: {}
+[3.131147] (-) TimerEvent: {}
+[3.156582] (srv_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.231706] (-) TimerEvent: {}
+[3.234376] (srv_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.332267] (-) TimerEvent: {}
+[3.341671] (srv_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.432499] (-) TimerEvent: {}
+[3.533584] (-) TimerEvent: {}
+[3.634612] (-) TimerEvent: {}
+[3.735606] (-) TimerEvent: {}
+[3.840664] (-) TimerEvent: {}
+[3.947635] (-) TimerEvent: {}
+[4.049633] (-) TimerEvent: {}
+[4.151310] (-) TimerEvent: {}
+[4.252361] (-) TimerEvent: {}
+[4.355833] (-) TimerEvent: {}
+[4.457346] (-) TimerEvent: {}
+[4.559483] (-) TimerEvent: {}
+[4.660435] (-) TimerEvent: {}
+[4.768237] (-) TimerEvent: {}
+[4.875470] (-) TimerEvent: {}
+[4.976577] (-) TimerEvent: {}
+[5.079985] (-) TimerEvent: {}
+[5.181517] (-) TimerEvent: {}
+[5.210957] (srv_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[5.282024] (-) TimerEvent: {}
+[5.372608] (srv_demo) StdoutLine: {'line': b'-- Build files have been written to: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo\n'}
+[5.382528] (-) TimerEvent: {}
+[5.483636] (-) TimerEvent: {}
+[5.486421] (srv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srv_demo__rosidl_generator_c\x1b[0m\n'}
+[5.494142] (srv_demo) StdoutLine: {'line': b'[  3%] Built target srv_demo__cpp\n'}
+[5.584163] (-) TimerEvent: {}
+[5.600666] (srv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srv_demo__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.644967] (srv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srv_demo__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.659370] (srv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srv_demo__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.684630] (-) TimerEvent: {}
+[5.789608] (-) TimerEvent: {}
+[5.891832] (-) TimerEvent: {}
+[5.979861] (srv_demo) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_srv_demo\n'}
+[5.992206] (-) TimerEvent: {}
+[6.077252] (srv_demo) StdoutLine: {'line': b'[ 12%] Built target srv_demo__rosidl_generator_c\n'}
+[6.092568] (-) TimerEvent: {}
+[6.163366] (srv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srv_demo__rosidl_typesupport_c\x1b[0m\n'}
+[6.193171] (-) TimerEvent: {}
+[6.196976] (srv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srv_demo__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.219887] (srv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srv_demo__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.293366] (-) TimerEvent: {}
+[6.395228] (-) TimerEvent: {}
+[6.436756] (srv_demo) StdoutLine: {'line': b'[ 22%] Built target srv_demo__rosidl_typesupport_c\n'}
+[6.495505] (-) TimerEvent: {}
+[6.523971] (srv_demo) StdoutLine: {'line': b'running egg_info\n'}
+[6.534184] (srv_demo) StdoutLine: {'line': b'writing srv_demo.egg-info/PKG-INFO\n'}
+[6.543324] (srv_demo) StdoutLine: {'line': b'writing dependency_links to srv_demo.egg-info/dependency_links.txt\n'}
+[6.570929] (srv_demo) StdoutLine: {'line': b'writing top-level names to srv_demo.egg-info/top_level.txt\n'}
+[6.595747] (-) TimerEvent: {}
+[6.614406] (srv_demo) StdoutLine: {'line': b"reading manifest file 'srv_demo.egg-info/SOURCES.txt'\n"}
+[6.633145] (srv_demo) StdoutLine: {'line': b'[ 32%] Built target srv_demo__rosidl_typesupport_introspection_c\n'}
+[6.637826] (srv_demo) StdoutLine: {'line': b"writing manifest file 'srv_demo.egg-info/SOURCES.txt'\n"}
+[6.693768] (srv_demo) StdoutLine: {'line': b'[ 32%] Built target ament_cmake_python_build_srv_demo_egg\n'}
+[6.698015] (-) TimerEvent: {}
+[6.758762] (srv_demo) StdoutLine: {'line': b'[ 41%] Built target srv_demo__rosidl_typesupport_cpp\n'}
+[6.786684] (srv_demo) StdoutLine: {'line': b'[ 51%] Built target srv_demo__rosidl_typesupport_introspection_cpp\n'}
+[6.798247] (-) TimerEvent: {}
+[6.899811] (-) TimerEvent: {}
+[6.954400] (srv_demo) StdoutLine: {'line': b'[ 61%] Built target srv_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[7.000377] (-) TimerEvent: {}
+[7.054167] (srv_demo) StdoutLine: {'line': b'[ 70%] Built target srv_demo__rosidl_typesupport_fastrtps_c\n'}
+[7.100832] (-) TimerEvent: {}
+[7.112456] (srv_demo) StdoutLine: {'line': b'[ 70%] Built target srv_demo\n'}
+[7.192608] (srv_demo) StdoutLine: {'line': b'[ 74%] Built target srv_demo__py\n'}
+[7.201356] (-) TimerEvent: {}
+[7.233821] (srv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srv_demo__rosidl_generator_py\x1b[0m\n'}
+[7.301924] (-) TimerEvent: {}
+[7.402708] (-) TimerEvent: {}
+[7.503700] (-) TimerEvent: {}
+[7.604743] (-) TimerEvent: {}
+[7.652427] (srv_demo) StdoutLine: {'line': b'[ 80%] Built target srv_demo__rosidl_generator_py\n'}
+[7.705284] (-) TimerEvent: {}
+[7.709771] (srv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srv_demo__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.734399] (srv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srv_demo__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.739866] (srv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srv_demo__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.805823] (-) TimerEvent: {}
+[7.906794] (-) TimerEvent: {}
+[8.007881] (-) TimerEvent: {}
+[8.108809] (-) TimerEvent: {}
+[8.209855] (-) TimerEvent: {}
+[8.267411] (srv_demo) StdoutLine: {'line': b'[ 87%] Built target srv_demo__rosidl_typesupport_c__pyext\n'}
+[8.280976] (srv_demo) StdoutLine: {'line': b'[ 96%] Built target srv_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.289233] (srv_demo) StdoutLine: {'line': b'[100%] Built target srv_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[8.310354] (-) TimerEvent: {}
+[8.353414] (srv_demo) CommandEnded: {'returncode': 0}
+[8.410927] (-) TimerEvent: {}
+[8.446332] (srv_demo) JobProgress: {'identifier': 'srv_demo', 'progress': 'install'}
+[8.461681] (srv_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 10260 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-23b452be-ab7b-493c-9d6f-a4913a4d783d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc2615e3e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo'), ('SSH_CONNECTION', '192.168.0.100 10260 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.473098] (srv_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.484396] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/ament_index/resource_index/rosidl_interfaces/srv_demo\n'}
+[8.487673] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo\n'}
+[8.493953] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg\n'}
+[8.496780] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.503970] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv\n'}
+[8.508636] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/add_int.h\n'}
+[8.511745] (-) TimerEvent: {}
+[8.513014] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail\n'}
+[8.518217] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__functions.c\n'}
+[8.521426] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__functions.h\n'}
+[8.525423] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__struct.h\n'}
+[8.529129] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__type_support.h\n'}
+[8.534321] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/library_path.sh\n'}
+[8.537011] (srv_demo) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/library_path.dsv\n'}
+[8.548253] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_generator_c.so\n'}
+[8.556844] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo\n'}
+[8.562954] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg\n'}
+[8.567921] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.573003] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv\n'}
+[8.578149] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail\n'}
+[8.582708] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__rosidl_typesupport_fastrtps_c.h\n'}
+[8.586731] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[8.592255] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo\n'}
+[8.596844] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg\n'}
+[8.600978] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.604835] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv\n'}
+[8.614333] (-) TimerEvent: {}
+[8.614818] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail\n'}
+[8.617712] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__rosidl_typesupport_introspection_c.h\n'}
+[8.622546] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__type_support.c\n'}
+[8.624528] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_introspection_c.so\n'}
+[8.627909] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_c.so\n'}
+[8.633797] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo\n'}
+[8.638407] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv\n'}
+[8.641893] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/add_int.hpp\n'}
+[8.647439] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail\n'}
+[8.652611] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__builder.hpp\n'}
+[8.659551] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__struct.hpp\n'}
+[8.663998] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__traits.hpp\n'}
+[8.669690] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo\n'}
+[8.676336] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg\n'}
+[8.686668] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.690036] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv\n'}
+[8.693193] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail\n'}
+[8.699250] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.705006] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/dds_fastrtps\n'}
+[8.710231] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.719534] (-) TimerEvent: {}
+[8.720537] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo\n'}
+[8.725115] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv\n'}
+[8.728718] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail\n'}
+[8.737735] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.742252] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/include/srv_demo/srv_demo/srv/detail/add_int__type_support.cpp\n'}
+[8.746045] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[8.749908] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_typesupport_cpp.so\n'}
+[8.753587] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/pythonpath.sh\n'}
+[8.756580] (srv_demo) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/pythonpath.dsv\n'}
+[8.766803] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo-0.0.0-py3.10.egg-info\n'}
+[8.771081] (srv_demo) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.784873] (srv_demo) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.798924] (srv_demo) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.814153] (srv_demo) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.819727] (-) TimerEvent: {}
+[8.829442] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo\n'}
+[8.836667] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/libsrv_demo__rosidl_generator_py.so\n'}
+[8.841594] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv\n'}
+[8.845570] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv/_add_int.py\n'}
+[8.849297] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv/_add_int_s.c\n'}
+[8.853391] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv/__init__.py\n'}
+[8.856586] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.861759] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.865458] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.868526] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/_srv_demo_s.ep.rosidl_typesupport_c.c\n'}
+[8.871070] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/_srv_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.873339] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/_srv_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.876063] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/__init__.py\n'}
+[8.920264] (-) TimerEvent: {}
+[8.927443] (srv_demo) StdoutLine: {'line': b"Listing '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo'...\n"}
+[8.930062] (srv_demo) StdoutLine: {'line': b"Listing '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv'...\n"}
+[8.945356] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.958364] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.965842] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages/srv_demo/srv_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.973579] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/libsrv_demo__rosidl_generator_py.so\n'}
+[8.982078] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/srv/AddInt.idl\n'}
+[8.986699] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/srv/AddInt.srv\n'}
+[8.992612] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/srv/AddInt_Request.msg\n'}
+[8.996473] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/srv/AddInt_Response.msg\n'}
+[9.001927] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/ament_index/resource_index/package_run_dependencies/srv_demo\n'}
+[9.005517] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/ament_index/resource_index/parent_prefix_path/srv_demo\n'}
+[9.010097] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/ament_prefix_path.sh\n'}
+[9.014456] (srv_demo) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/ament_prefix_path.dsv\n'}
+[9.020615] (-) TimerEvent: {}
+[9.028350] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/path.sh\n'}
+[9.033132] (srv_demo) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/environment/path.dsv\n'}
+[9.047987] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/local_setup.bash\n'}
+[9.052005] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/local_setup.sh\n'}
+[9.057869] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/local_setup.zsh\n'}
+[9.062106] (srv_demo) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/local_setup.dsv\n'}
+[9.075631] (srv_demo) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.dsv\n'}
+[9.095510] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/ament_index/resource_index/packages/srv_demo\n'}
+[9.109018] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_generator_cExport.cmake\n'}
+[9.113265] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.121076] (-) TimerEvent: {}
+[9.122017] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.126363] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.135199] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.141394] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.147000] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_cExport.cmake\n'}
+[9.154320] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.159679] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_generator_cppExport.cmake\n'}
+[9.167823] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.171840] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.179106] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.183042] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.190092] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_cppExport.cmake\n'}
+[9.194559] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.200650] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_generator_pyExport.cmake\n'}
+[9.204224] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/export_srv_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.208633] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[9.212962] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.217338] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.221773] (-) TimerEvent: {}
+[9.223398] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.227134] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.231281] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.236650] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.241530] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demoConfig.cmake\n'}
+[9.245432] (srv_demo) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake/srv_demoConfig-version.cmake\n'}
+[9.248966] (srv_demo) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.xml\n'}
+[9.267487] (srv_demo) CommandEnded: {'returncode': 0}
+[9.322156] (-) TimerEvent: {}
+[9.423353] (-) TimerEvent: {}
+[9.525153] (-) TimerEvent: {}
+[9.626179] (-) TimerEvent: {}
+[9.694211] (srv_demo) JobEnded: {'identifier': 'srv_demo', 'rc': 0}
+[9.705511] (cpp_srv_client) JobStarted: {'identifier': 'cpp_srv_client'}
+[9.713443] (cpp_srv_server) JobStarted: {'identifier': 'cpp_srv_server'}
+[9.726755] (-) TimerEvent: {}
+[9.730866] (python_srv_client) JobStarted: {'identifier': 'python_srv_client'}
+[9.797544] (python_srv_server) JobStarted: {'identifier': 'python_srv_server'}
+[9.827689] (-) TimerEvent: {}
+[9.846074] (cpp_srv_client) JobProgress: {'identifier': 'cpp_srv_client', 'progress': 'cmake'}
+[9.874254] (cpp_srv_client) JobProgress: {'identifier': 'cpp_srv_client', 'progress': 'build'}
+[9.878786] (cpp_srv_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client', '--', '-j16', '-l16'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 10260 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-23b452be-ab7b-493c-9d6f-a4913a4d783d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc2615e3e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client'), ('SSH_CONNECTION', '192.168.0.100 10260 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble')]), 'shell': False}
+[9.917282] (cpp_srv_server) JobProgress: {'identifier': 'cpp_srv_server', 'progress': 'cmake'}
+[9.918217] (cpp_srv_server) JobProgress: {'identifier': 'cpp_srv_server', 'progress': 'build'}
+[9.920179] (cpp_srv_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server', '--', '-j16', '-l16'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 10260 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-23b452be-ab7b-493c-9d6f-a4913a4d783d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc2615e3e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server'), ('SSH_CONNECTION', '192.168.0.100 10260 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble')]), 'shell': False}
+[9.948319] (-) TimerEvent: {}
+[10.049310] (-) TimerEvent: {}
+[10.150274] (-) TimerEvent: {}
+[10.251292] (-) TimerEvent: {}
+[10.328826] (cpp_srv_server) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.351808] (-) TimerEvent: {}
+[10.453371] (-) TimerEvent: {}
+[10.555961] (-) TimerEvent: {}
+[10.655825] (cpp_srv_client) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cppSrvClientNode\x1b[0m\n'}
+[10.664089] (-) TimerEvent: {}
+[10.765394] (-) TimerEvent: {}
+[10.823291] (cpp_srv_server) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[10.865910] (-) TimerEvent: {}
+[10.922045] (cpp_srv_server) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.926060] (cpp_srv_server) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.935970] (cpp_srv_server) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.961999] (cpp_srv_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.966475] (-) TimerEvent: {}
+[10.989469] (cpp_srv_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.066938] (-) TimerEvent: {}
+[11.137808] (cpp_srv_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.147383] (cpp_srv_server) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.167137] (-) TimerEvent: {}
+[11.268486] (-) TimerEvent: {}
+[11.369446] (-) TimerEvent: {}
+[11.471029] (-) TimerEvent: {}
+[11.571946] (-) TimerEvent: {}
+[11.652072] (python_srv_client) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/python_srv_client', 'build', '--build-base', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build', 'install', '--record', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_client', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'pldz', 'SSH_CLIENT': '192.168.0.100 10260 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pldz', 'TERM_PROGRAM_VERSION': '1.77.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23b452be-ab7b-493c-9d6f-a4913a4d783d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pldz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bc2615e3e6.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client', 'SSH_CONNECTION': '192.168.0.100 10260 192.168.0.22 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo'}, 'shell': False}
+[11.690140] (-) TimerEvent: {}
+[11.727971] (python_srv_server) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/python_srv_server', 'build', '--build-base', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build', 'install', '--record', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_server', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'pldz', 'SSH_CLIENT': '192.168.0.100 10260 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pldz', 'TERM_PROGRAM_VERSION': '1.77.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-23b452be-ab7b-493c-9d6f-a4913a4d783d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pldz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bc2615e3e6.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server', 'SSH_CONNECTION': '192.168.0.100 10260 192.168.0.22 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo'}, 'shell': False}
+[11.790481] (-) TimerEvent: {}
+[11.831652] (cpp_srv_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.891086] (-) TimerEvent: {}
+[11.992610] (-) TimerEvent: {}
+[12.094692] (-) TimerEvent: {}
+[12.196214] (-) TimerEvent: {}
+[12.208405] (python_srv_client) StdoutLine: {'line': b'running egg_info\n'}
+[12.214121] (python_srv_client) StdoutLine: {'line': b'creating ../build/python_srv_client/python_srv_client.egg-info\n'}
+[12.220746] (python_srv_client) StdoutLine: {'line': b'writing ../build/python_srv_client/python_srv_client.egg-info/PKG-INFO\n'}
+[12.228620] (cpp_srv_server) StdoutLine: {'line': b'-- Found srv_demo: 0.0.0 (/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/cmake)\n'}
+[12.236967] (python_srv_client) StdoutLine: {'line': b'writing dependency_links to ../build/python_srv_client/python_srv_client.egg-info/dependency_links.txt\n'}
+[12.252695] (python_srv_client) StdoutLine: {'line': b'writing entry points to ../build/python_srv_client/python_srv_client.egg-info/entry_points.txt\n'}
+[12.260266] (python_srv_client) StdoutLine: {'line': b'writing requirements to ../build/python_srv_client/python_srv_client.egg-info/requires.txt\n'}
+[12.267784] (python_srv_client) StdoutLine: {'line': b'writing top-level names to ../build/python_srv_client/python_srv_client.egg-info/top_level.txt\n'}
+[12.281934] (python_srv_client) StdoutLine: {'line': b"writing manifest file '../build/python_srv_client/python_srv_client.egg-info/SOURCES.txt'\n"}
+[12.296601] (-) TimerEvent: {}
+[12.310205] (python_srv_server) StdoutLine: {'line': b'running egg_info\n'}
+[12.323596] (python_srv_server) StdoutLine: {'line': b'writing ../build/python_srv_server/python_srv_server.egg-info/PKG-INFO\n'}
+[12.335428] (python_srv_server) StdoutLine: {'line': b'writing dependency_links to ../build/python_srv_server/python_srv_server.egg-info/dependency_links.txt\n'}
+[12.341111] (python_srv_client) StdoutLine: {'line': b"reading manifest file '../build/python_srv_client/python_srv_client.egg-info/SOURCES.txt'\n"}
+[12.350637] (python_srv_server) StdoutLine: {'line': b'writing entry points to ../build/python_srv_server/python_srv_server.egg-info/entry_points.txt\n'}
+[12.355391] (python_srv_server) StdoutLine: {'line': b'writing requirements to ../build/python_srv_server/python_srv_server.egg-info/requires.txt\n'}
+[12.361121] (python_srv_client) StdoutLine: {'line': b"writing manifest file '../build/python_srv_client/python_srv_client.egg-info/SOURCES.txt'\n"}
+[12.374597] (python_srv_client) StdoutLine: {'line': b'running build\n'}
+[12.383717] (python_srv_client) StdoutLine: {'line': b'running build_py\n'}
+[12.398827] (-) TimerEvent: {}
+[12.401160] (python_srv_server) StdoutLine: {'line': b'writing top-level names to ../build/python_srv_server/python_srv_server.egg-info/top_level.txt\n'}
+[12.411612] (python_srv_client) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build\n'}
+[12.416936] (python_srv_client) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build/lib\n'}
+[12.431228] (python_srv_client) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build/lib/python_srv_client\n'}
+[12.434323] (python_srv_client) StdoutLine: {'line': b'copying python_srv_client/pythonSrvClientNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build/lib/python_srv_client\n'}
+[12.439733] (python_srv_server) StdoutLine: {'line': b"reading manifest file '../build/python_srv_server/python_srv_server.egg-info/SOURCES.txt'\n"}
+[12.458094] (python_srv_client) StdoutLine: {'line': b'copying python_srv_client/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build/lib/python_srv_client\n'}
+[12.470733] (python_srv_server) StdoutLine: {'line': b"writing manifest file '../build/python_srv_server/python_srv_server.egg-info/SOURCES.txt'\n"}
+[12.487166] (python_srv_server) StdoutLine: {'line': b'running build\n'}
+[12.495622] (python_srv_server) StdoutLine: {'line': b'running build_py\n'}
+[12.506357] (-) TimerEvent: {}
+[12.507664] (python_srv_client) StdoutLine: {'line': b'running install\n'}
+[12.512322] (python_srv_client) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[12.519756] (python_srv_client) StderrLine: {'line': b'  warnings.warn(\n'}
+[12.528007] (python_srv_server) StdoutLine: {'line': b'copying python_srv_server/pythonSrvServerNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build/lib/python_srv_server\n'}
+[12.536065] (python_srv_client) StdoutLine: {'line': b'running install_lib\n'}
+[12.539107] (python_srv_client) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages/python_srv_client\n'}
+[12.550345] (python_srv_client) StdoutLine: {'line': b'copying /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build/lib/python_srv_client/pythonSrvClientNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages/python_srv_client\n'}
+[12.555514] (python_srv_server) StdoutLine: {'line': b'running install\n'}
+[12.559908] (python_srv_server) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[12.570271] (python_srv_server) StderrLine: {'line': b'  warnings.warn(\n'}
+[12.575195] (python_srv_server) StdoutLine: {'line': b'running install_lib\n'}
+[12.579989] (python_srv_server) StdoutLine: {'line': b'copying /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build/lib/python_srv_server/pythonSrvServerNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server\n'}
+[12.584202] (python_srv_client) StdoutLine: {'line': b'copying /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build/lib/python_srv_client/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages/python_srv_client\n'}
+[12.590449] (cpp_srv_server) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.599608] (python_srv_client) StdoutLine: {'line': b'byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages/python_srv_client/pythonSrvClientNode.py to pythonSrvClientNode.cpython-310.pyc\n'}
+[12.604966] (python_srv_server) StdoutLine: {'line': b'byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server/pythonSrvServerNode.py to pythonSrvServerNode.cpython-310.pyc\n'}
+[12.614801] (-) TimerEvent: {}
+[12.617296] (python_srv_server) StdoutLine: {'line': b'running install_data\n'}
+[12.625339] (python_srv_client) StdoutLine: {'line': b'byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages/python_srv_client/__init__.py to __init__.cpython-310.pyc\n'}
+[12.632438] (python_srv_client) StdoutLine: {'line': b'running install_data\n'}
+[12.643533] (python_srv_server) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.651049] (python_srv_server) StdoutLine: {'line': b"removing '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.656824] (python_srv_client) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/ament_index\n'}
+[12.663954] (python_srv_client) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/ament_index/resource_index\n'}
+[12.669810] (python_srv_client) StdoutLine: {'line': b'creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/ament_index/resource_index/packages\n'}
+[12.673523] (python_srv_client) StdoutLine: {'line': b'copying resource/python_srv_client -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/ament_index/resource_index/packages\n'}
+[12.680617] (python_srv_server) StdoutLine: {'line': b'Copying ../build/python_srv_server/python_srv_server.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server-0.0.0-py3.10.egg-info\n'}
+[12.689039] (python_srv_client) StdoutLine: {'line': b'copying package.xml -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/python_srv_client\n'}
+[12.696888] (python_srv_client) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.707504] (python_srv_client) StdoutLine: {'line': b'Copying ../build/python_srv_client/python_srv_client.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages/python_srv_client-0.0.0-py3.10.egg-info\n'}
+[12.716468] (-) TimerEvent: {}
+[12.751137] (python_srv_server) StdoutLine: {'line': b'running install_scripts\n'}
+[12.763744] (python_srv_client) StdoutLine: {'line': b'running install_scripts\n'}
+[12.782640] (python_srv_server) StdoutLine: {'line': b'Installing pythonSrvServerNode script to /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python_srv_server\n'}
+[12.801149] (python_srv_client) StdoutLine: {'line': b'Installing pythonSrvClientNode script to /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python_srv_client\n'}
+[12.804944] (python_srv_server) StdoutLine: {'line': b"writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/install.log'\n"}
+[12.816177] (python_srv_client) StdoutLine: {'line': b"writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/install.log'\n"}
+[12.822534] (-) TimerEvent: {}
+[12.863185] (python_srv_server) CommandEnded: {'returncode': 0}
+[12.914207] (cpp_srv_server) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.920372] (cpp_srv_server) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_server/include>\n'}
+[12.924066] (-) TimerEvent: {}
+[12.924481] (cpp_srv_server) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.942031] (cpp_srv_server) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.005733] (python_srv_server) JobEnded: {'identifier': 'python_srv_server', 'rc': 0}
+[13.015787] (python_srv_client) CommandEnded: {'returncode': 0}
+[13.030624] (-) TimerEvent: {}
+[13.034335] (cpp_srv_server) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.047488] (cpp_srv_server) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.056353] (cpp_srv_server) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.074731] (cpp_srv_server) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.090590] (cpp_srv_client) StdoutLine: {'line': b'[100%] Built target cppSrvClientNode\n'}
+[13.131031] (-) TimerEvent: {}
+[13.176844] (python_srv_client) JobEnded: {'identifier': 'python_srv_client', 'rc': 0}
+[13.182356] (cpp_srv_client) CommandEnded: {'returncode': 0}
+[13.215067] (cpp_srv_client) JobProgress: {'identifier': 'cpp_srv_client', 'progress': 'install'}
+[13.218234] (cpp_srv_client) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 10260 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-23b452be-ab7b-493c-9d6f-a4913a4d783d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc2615e3e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client'), ('SSH_CONNECTION', '192.168.0.100 10260 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble')]), 'shell': False}
+[13.231357] (-) TimerEvent: {}
+[13.275105] (cpp_srv_client) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.292353] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/lib/cpp_srv_client/cppSrvClientNode\n'}
+[13.303260] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/ament_index/resource_index/package_run_dependencies/cpp_srv_client\n'}
+[13.308272] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/ament_index/resource_index/parent_prefix_path/cpp_srv_client\n'}
+[13.311675] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/environment/ament_prefix_path.sh\n'}
+[13.316878] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/environment/ament_prefix_path.dsv\n'}
+[13.324594] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/environment/path.sh\n'}
+[13.327853] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/environment/path.dsv\n'}
+[13.333406] (-) TimerEvent: {}
+[13.333862] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/local_setup.bash\n'}
+[13.340895] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/local_setup.sh\n'}
+[13.357430] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/local_setup.zsh\n'}
+[13.361277] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/local_setup.dsv\n'}
+[13.365702] (cpp_srv_client) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/package.dsv\n'}
+[13.382297] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/ament_index/resource_index/packages/cpp_srv_client\n'}
+[13.390745] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/cmake/cpp_srv_clientConfig.cmake\n'}
+[13.396621] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/cmake/cpp_srv_clientConfig-version.cmake\n'}
+[13.402309] (cpp_srv_client) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/package.xml\n'}
+[13.415043] (cpp_srv_client) CommandEnded: {'returncode': 0}
+[13.433861] (-) TimerEvent: {}
+[13.484302] (cpp_srv_server) StdoutLine: {'line': b'-- Generating done\n'}
+[13.534194] (-) TimerEvent: {}
+[13.553780] (cpp_srv_server) StdoutLine: {'line': b'-- Build files have been written to: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server\n'}
+[13.615530] (cpp_srv_client) JobEnded: {'identifier': 'cpp_srv_client', 'rc': 0}
+[13.634369] (-) TimerEvent: {}
+[13.671034] (cpp_srv_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cppSrvServerNode\x1b[0m\n'}
+[13.734569] (-) TimerEvent: {}
+[13.835403] (-) TimerEvent: {}
+[13.936405] (-) TimerEvent: {}
+[14.037418] (-) TimerEvent: {}
+[14.137973] (-) TimerEvent: {}
+[14.238744] (-) TimerEvent: {}
+[14.340023] (-) TimerEvent: {}
+[14.440984] (-) TimerEvent: {}
+[14.542383] (-) TimerEvent: {}
+[14.643094] (-) TimerEvent: {}
+[14.720022] (cpp_srv_server) StdoutLine: {'line': b'[100%] Built target cppSrvServerNode\n'}
+[14.743610] (-) TimerEvent: {}
+[14.754984] (cpp_srv_server) CommandEnded: {'returncode': 0}
+[14.787417] (cpp_srv_server) JobProgress: {'identifier': 'cpp_srv_server', 'progress': 'install'}
+[14.790291] (cpp_srv_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server'], 'cwd': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'pldz'), ('SSH_CLIENT', '192.168.0.100 10260 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pldz'), ('TERM_PROGRAM_VERSION', '1.77.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-23b452be-ab7b-493c-9d6f-a4913a4d783d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pldz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pldz/aarch_gcc/bin:/home/pldz/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/home/pldz/aarch_gcc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bc2615e3e6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server'), ('SSH_CONNECTION', '192.168.0.100 10260 192.168.0.22 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/opt/ros/humble')]), 'shell': False}
+[14.819564] (cpp_srv_server) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.835220] (cpp_srv_server) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/lib/cpp_srv_server/cppSrvServerNode\n'}
+[14.844093] (-) TimerEvent: {}
+[14.846463] (cpp_srv_server) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/ament_index/resource_index/package_run_dependencies/cpp_srv_server\n'}
+[14.849904] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/ament_index/resource_index/parent_prefix_path/cpp_srv_server\n'}
+[14.862213] (cpp_srv_server) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/environment/ament_prefix_path.sh\n'}
+[14.865698] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/environment/ament_prefix_path.dsv\n'}
+[14.876691] (cpp_srv_server) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/environment/path.sh\n'}
+[14.879200] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/environment/path.dsv\n'}
+[14.891718] (cpp_srv_server) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/local_setup.bash\n'}
+[14.894874] (cpp_srv_server) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/local_setup.sh\n'}
+[14.898097] (cpp_srv_server) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/local_setup.zsh\n'}
+[14.901537] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/local_setup.dsv\n'}
+[14.912363] (cpp_srv_server) StdoutLine: {'line': b'-- Installing: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.dsv\n'}
+[14.924151] (cpp_srv_server) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/ament_index/resource_index/packages/cpp_srv_server\n'}
+[14.927735] (cpp_srv_server) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/cmake/cpp_srv_serverConfig.cmake\n'}
+[14.931013] (cpp_srv_server) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/cmake/cpp_srv_serverConfig-version.cmake\n'}
+[14.934295] (cpp_srv_server) StdoutLine: {'line': b'-- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.xml\n'}
+[14.938665] (cpp_srv_server) CommandEnded: {'returncode': 0}
+[14.944666] (-) TimerEvent: {}
+[15.045589] (-) TimerEvent: {}
+[15.098763] (cpp_srv_server) JobEnded: {'identifier': 'cpp_srv_server', 'rc': 0}
+[15.104559] (-) EventReactorShutdown: {}

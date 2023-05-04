@@ -1,0 +1,39 @@
+[1.287s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_server': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_srv_server build --build-base /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build install --record /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/install.log --single-version-externally-managed
+[1.659s] running egg_info
+[1.663s] creating ../build/python_srv_server/python_srv_server.egg-info
+[1.666s] writing ../build/python_srv_server/python_srv_server.egg-info/PKG-INFO
+[1.674s] writing dependency_links to ../build/python_srv_server/python_srv_server.egg-info/dependency_links.txt
+[1.680s] writing entry points to ../build/python_srv_server/python_srv_server.egg-info/entry_points.txt
+[1.687s] writing requirements to ../build/python_srv_server/python_srv_server.egg-info/requires.txt
+[1.691s] writing top-level names to ../build/python_srv_server/python_srv_server.egg-info/top_level.txt
+[1.701s] writing manifest file '../build/python_srv_server/python_srv_server.egg-info/SOURCES.txt'
+[1.729s] reading manifest file '../build/python_srv_server/python_srv_server.egg-info/SOURCES.txt'
+[1.735s] writing manifest file '../build/python_srv_server/python_srv_server.egg-info/SOURCES.txt'
+[1.739s] running build
+[1.745s] running build_py
+[1.753s] creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build
+[1.758s] creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build/lib
+[1.765s] creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build/lib/python_srv_server
+[1.771s] copying python_srv_server/pythonSrvServerNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build/lib/python_srv_server
+[1.780s] copying python_srv_server/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build/lib/python_srv_server
+[1.785s] running install
+[1.791s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.796s]   warnings.warn(
+[1.799s] running install_lib
+[1.804s] creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server
+[1.810s] copying /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build/lib/python_srv_server/pythonSrvServerNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server
+[1.816s] copying /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build/lib/python_srv_server/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server
+[1.825s] byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server/pythonSrvServerNode.py to pythonSrvServerNode.cpython-310.pyc
+[1.838s] byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server/__init__.py to __init__.cpython-310.pyc
+[1.848s] running install_data
+[1.853s] creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/ament_index
+[1.859s] creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/ament_index/resource_index
+[1.863s] creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/ament_index/resource_index/packages
+[1.869s] copying resource/python_srv_server -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/ament_index/resource_index/packages
+[1.874s] copying package.xml -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/python_srv_server
+[1.881s] running install_egg_info
+[1.890s] Copying ../build/python_srv_server/python_srv_server.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server-0.0.0-py3.10.egg-info
+[1.967s] running install_scripts
+[2.001s] Installing pythonSrvServerNode script to /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python_srv_server
+[2.011s] writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/install.log'
+[2.055s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_server' returned '0': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_srv_server build --build-base /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build install --record /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/install.log --single-version-externally-managed

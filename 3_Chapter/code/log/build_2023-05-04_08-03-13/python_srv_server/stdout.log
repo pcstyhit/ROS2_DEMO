@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/python_srv_server/python_srv_server.egg-info/PKG-INFO
+writing dependency_links to ../build/python_srv_server/python_srv_server.egg-info/dependency_links.txt
+writing entry points to ../build/python_srv_server/python_srv_server.egg-info/entry_points.txt
+writing requirements to ../build/python_srv_server/python_srv_server.egg-info/requires.txt
+writing top-level names to ../build/python_srv_server/python_srv_server.egg-info/top_level.txt
+reading manifest file '../build/python_srv_server/python_srv_server.egg-info/SOURCES.txt'
+writing manifest file '../build/python_srv_server/python_srv_server.egg-info/SOURCES.txt'
+running build
+running build_py
+copying python_srv_server/pythonSrvServerNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build/lib/python_srv_server
+running install
+running install_lib
+copying /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build/lib/python_srv_server/pythonSrvServerNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server
+byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server/pythonSrvServerNode.py to pythonSrvServerNode.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/python_srv_server/python_srv_server.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pythonSrvServerNode script to /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python_srv_server
+writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/install.log'

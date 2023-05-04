@@ -3,7 +3,8 @@
         "/opt/ros/humble/include/**",
         "./install/srv_demo/include/**"
     ],
-    "files.associations": {
-        "cstdio": "cpp"
-    },
+    "python.analysis.include": [
+        "/opt/ros/humble/local/lib/python3.10/dist-packages/**",
+        "./install/srv_demo/local/lib/python3.10/dist-packages/**"
+    ]
 }

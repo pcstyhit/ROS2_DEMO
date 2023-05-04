@@ -1,0 +1,3 @@
+[console_scripts]
+pythonSrvServerNode = python_srv_server.pythonSrvServerNode:main
+

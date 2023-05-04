@@ -1,0 +1,26 @@
+[1.967s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_server': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_srv_server build --build-base /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build install --record /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/install.log --single-version-externally-managed
+[2.518s] running egg_info
+[2.531s] writing ../build/python_srv_server/python_srv_server.egg-info/PKG-INFO
+[2.539s] writing dependency_links to ../build/python_srv_server/python_srv_server.egg-info/dependency_links.txt
+[2.555s] writing entry points to ../build/python_srv_server/python_srv_server.egg-info/entry_points.txt
+[2.560s] writing requirements to ../build/python_srv_server/python_srv_server.egg-info/requires.txt
+[2.611s] writing top-level names to ../build/python_srv_server/python_srv_server.egg-info/top_level.txt
+[2.658s] reading manifest file '../build/python_srv_server/python_srv_server.egg-info/SOURCES.txt'
+[2.685s] writing manifest file '../build/python_srv_server/python_srv_server.egg-info/SOURCES.txt'
+[2.694s] running build
+[2.706s] running build_py
+[2.735s] copying python_srv_server/pythonSrvServerNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build/lib/python_srv_server
+[2.761s] running install
+[2.769s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.776s]   warnings.warn(
+[2.781s] running install_lib
+[2.786s] copying /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build/lib/python_srv_server/pythonSrvServerNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server
+[2.816s] byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server/pythonSrvServerNode.py to pythonSrvServerNode.cpython-310.pyc
+[2.827s] running install_data
+[2.851s] running install_egg_info
+[2.857s] removing '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server-0.0.0-py3.10.egg-info' (and everything under it)
+[2.887s] Copying ../build/python_srv_server/python_srv_server.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages/python_srv_server-0.0.0-py3.10.egg-info
+[2.958s] running install_scripts
+[2.989s] Installing pythonSrvServerNode script to /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python_srv_server
+[3.014s] writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/install.log'
+[3.069s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_server' returned '0': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_srv_server build --build-base /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build install --record /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/install.log --single-version-externally-managed

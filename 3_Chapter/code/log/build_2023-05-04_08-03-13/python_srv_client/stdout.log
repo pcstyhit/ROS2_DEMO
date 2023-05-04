@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/python_srv_client/python_srv_client.egg-info
+writing ../build/python_srv_client/python_srv_client.egg-info/PKG-INFO
+writing dependency_links to ../build/python_srv_client/python_srv_client.egg-info/dependency_links.txt
+writing entry points to ../build/python_srv_client/python_srv_client.egg-info/entry_points.txt
+writing requirements to ../build/python_srv_client/python_srv_client.egg-info/requires.txt
+writing top-level names to ../build/python_srv_client/python_srv_client.egg-info/top_level.txt
+writing manifest file '../build/python_srv_client/python_srv_client.egg-info/SOURCES.txt'
+reading manifest file '../build/python_srv_client/python_srv_client.egg-info/SOURCES.txt'
+writing manifest file '../build/python_srv_client/python_srv_client.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build
+creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build/lib
+creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build/lib/python_srv_client
+copying python_srv_client/pythonSrvClientNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build/lib/python_srv_client
+copying python_srv_client/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build/lib/python_srv_client
+running install
+running install_lib
+creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages/python_srv_client
+copying /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build/lib/python_srv_client/pythonSrvClientNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages/python_srv_client
+copying /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build/lib/python_srv_client/__init__.py -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages/python_srv_client
+byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages/python_srv_client/pythonSrvClientNode.py to pythonSrvClientNode.cpython-310.pyc
+byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages/python_srv_client/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/ament_index
+creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/ament_index/resource_index
+creating /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/ament_index/resource_index/packages
+copying resource/python_srv_client -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/python_srv_client
+running install_egg_info
+Copying ../build/python_srv_client/python_srv_client.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages/python_srv_client-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pythonSrvClientNode script to /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python_srv_client
+writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/install.log'

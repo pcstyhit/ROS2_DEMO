@@ -4,3 +4,5 @@ srv_demo.egg-info/PKG-INFO
 srv_demo.egg-info/SOURCES.txt
 srv_demo.egg-info/dependency_links.txt
 srv_demo.egg-info/top_level.txt
+srv_demo/srv/__init__.py
+srv_demo/srv/_add_int.py

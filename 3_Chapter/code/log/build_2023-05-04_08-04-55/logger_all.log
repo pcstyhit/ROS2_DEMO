@@ -1,0 +1,363 @@
+[0.475s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.475s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd705ea5de0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd706734eb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd706734eb0>>)
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.537s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_client) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_client) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_client) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_client) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_client) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_client) by extensions ['colcon_meta']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_client) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_client) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_client) by extension 'ros'
+[0.598s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_srv_client' with type 'ros.ament_cmake' and name 'cpp_srv_client'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_server) by extensions ['ignore', 'ignore_ament_install']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_server) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_server) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_server) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_server) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_server) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_server) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_server) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srv_server) by extension 'ros'
+[0.615s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_srv_server' with type 'ros.ament_cmake' and name 'cpp_srv_server'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_client) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_client) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_client) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_client) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_client) by extension 'colcon_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_client) by extensions ['colcon_meta']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_client) by extension 'colcon_meta'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_client) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_client) by extension 'ros'
+[0.643s] DEBUG:colcon.colcon_core.package_identification:Package 'python_srv_client' with type 'ros.ament_python' and name 'python_srv_client'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_server) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_server) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_server) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_server) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_server) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_server) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_server) by extension 'colcon_meta'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_server) by extensions ['ros']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(python_srv_server) by extension 'ros'
+[0.660s] DEBUG:colcon.colcon_core.package_identification:Package 'python_srv_server' with type 'ros.ament_python' and name 'python_srv_server'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(srv_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(srv_demo) by extension 'ignore'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(srv_demo) by extension 'ignore_ament_install'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(srv_demo) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(srv_demo) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(srv_demo) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(srv_demo) by extension 'colcon_meta'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(srv_demo) by extensions ['ros']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(srv_demo) by extension 'ros'
+[0.676s] DEBUG:colcon.colcon_core.package_identification:Package 'srv_demo' with type 'ros.ament_cmake' and name 'srv_demo'
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.777s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/pldz/share/ROS2_DEMO/3_Chapter/code/install
+[0.779s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.891s] Level 5:colcon.colcon_core.verb:set package 'srv_demo' build argument 'cmake_args' from command line to 'None'
+[0.892s] Level 5:colcon.colcon_core.verb:set package 'srv_demo' build argument 'cmake_target' from command line to 'None'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'srv_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.893s] Level 5:colcon.colcon_core.verb:set package 'srv_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.894s] Level 5:colcon.colcon_core.verb:set package 'srv_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.895s] Level 5:colcon.colcon_core.verb:set package 'srv_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.896s] Level 5:colcon.colcon_core.verb:set package 'srv_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.897s] Level 5:colcon.colcon_core.verb:set package 'srv_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.898s] Level 5:colcon.colcon_core.verb:set package 'srv_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.900s] DEBUG:colcon.colcon_core.verb:Building package 'srv_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo', 'merge_install': False, 'path': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/srv_demo', 'symlink_install': False, 'test_result_base': None}
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_client' build argument 'cmake_args' from command line to 'None'
+[0.903s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_client' build argument 'cmake_target' from command line to 'None'
+[0.904s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.905s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.906s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.907s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.910s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srv_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client', 'merge_install': False, 'path': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client', 'symlink_install': False, 'test_result_base': None}
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_server' build argument 'cmake_args' from command line to 'None'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_server' build argument 'cmake_target' from command line to 'None'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'cpp_srv_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.918s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srv_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server', 'merge_install': False, 'path': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_server', 'symlink_install': False, 'test_result_base': None}
+[0.921s] Level 5:colcon.colcon_core.verb:set package 'python_srv_client' build argument 'cmake_args' from command line to 'None'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'python_srv_client' build argument 'cmake_target' from command line to 'None'
+[0.923s] Level 5:colcon.colcon_core.verb:set package 'python_srv_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.923s] Level 5:colcon.colcon_core.verb:set package 'python_srv_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.924s] Level 5:colcon.colcon_core.verb:set package 'python_srv_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'python_srv_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'python_srv_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'python_srv_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.927s] Level 5:colcon.colcon_core.verb:set package 'python_srv_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.928s] DEBUG:colcon.colcon_core.verb:Building package 'python_srv_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client', 'merge_install': False, 'path': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_client', 'symlink_install': False, 'test_result_base': None}
+[0.930s] Level 5:colcon.colcon_core.verb:set package 'python_srv_server' build argument 'cmake_args' from command line to 'None'
+[0.931s] Level 5:colcon.colcon_core.verb:set package 'python_srv_server' build argument 'cmake_target' from command line to 'None'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'python_srv_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'python_srv_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'python_srv_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'python_srv_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'python_srv_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'python_srv_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.936s] Level 5:colcon.colcon_core.verb:set package 'python_srv_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.937s] DEBUG:colcon.colcon_core.verb:Building package 'python_srv_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server', 'merge_install': False, 'path': '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_server', 'symlink_install': False, 'test_result_base': None}
+[0.940s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.945s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.946s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/srv_demo' with build type 'ament_cmake'
+[0.948s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/srv_demo'
+[0.959s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.959s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.960s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_client:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo -- -j16 -l16
+[4.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_client:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo -- -j16 -l16
+[5.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_client:/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo
+[6.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srv_demo)
+[6.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_client:/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/srv_demo
+[6.107s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo' for CMake module files
+[6.153s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo' for CMake config files
+[6.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_demo', 'cmake_prefix_path')
+[6.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/hook/cmake_prefix_path.ps1'
+[6.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/hook/cmake_prefix_path.dsv'
+[6.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/hook/cmake_prefix_path.sh'
+[6.223s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib'
+[6.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_demo', 'ld_library_path_lib')
+[6.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/hook/ld_library_path_lib.ps1'
+[6.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/hook/ld_library_path_lib.dsv'
+[6.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/hook/ld_library_path_lib.sh'
+[6.241s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/bin'
+[6.243s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/pkgconfig/srv_demo.pc'
+[6.244s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/python3.10/site-packages'
+[6.246s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/bin'
+[6.248s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.ps1'
+[6.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.dsv'
+[6.255s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.sh'
+[6.259s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.bash'
+[6.263s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.zsh'
+[6.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/colcon-core/packages/srv_demo)
+[6.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srv_demo)
+[6.975s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo' for CMake module files
+[7.001s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo' for CMake config files
+[7.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_demo', 'cmake_prefix_path')
+[7.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/hook/cmake_prefix_path.ps1'
+[7.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/hook/cmake_prefix_path.dsv'
+[7.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/hook/cmake_prefix_path.sh'
+[7.082s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib'
+[7.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_demo', 'ld_library_path_lib')
+[7.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/hook/ld_library_path_lib.ps1'
+[7.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/hook/ld_library_path_lib.dsv'
+[7.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/hook/ld_library_path_lib.sh'
+[7.097s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/bin'
+[7.099s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/pkgconfig/srv_demo.pc'
+[7.100s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib/python3.10/site-packages'
+[7.102s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/bin'
+[7.105s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.ps1'
+[7.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.dsv'
+[7.113s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.sh'
+[7.117s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.bash'
+[7.122s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/srv_demo/package.zsh'
+[7.125s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/share/colcon-core/packages/srv_demo)
+[7.128s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client' with build type 'ament_cmake'
+[7.129s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_client'
+[7.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.134s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.197s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_server' with build type 'ament_cmake'
+[7.198s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/cpp_srv_server'
+[7.201s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.249s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_client' with build type 'ament_python'
+[7.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_srv_client', 'ament_prefix_path')
+[7.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/python_srv_client/hook/ament_prefix_path.ps1'
+[7.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/python_srv_client/hook/ament_prefix_path.dsv'
+[7.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/python_srv_client/hook/ament_prefix_path.sh'
+[7.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.324s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_server' with build type 'ament_python'
+[7.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_srv_server', 'ament_prefix_path')
+[7.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/python_srv_server/hook/ament_prefix_path.ps1'
+[7.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/python_srv_server/hook/ament_prefix_path.dsv'
+[7.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/python_srv_server/hook/ament_prefix_path.sh'
+[7.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_client:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client -- -j16 -l16
+[7.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_client:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server -- -j16 -l16
+[8.116s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_client'
+[8.119s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.119s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.770s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_server'
+[8.774s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client' returned '0': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_client:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client -- -j16 -l16
+[8.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server' returned '0': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_client:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server -- -j16 -l16
+[9.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_client:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client
+[9.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_client:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server
+[9.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_client': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_srv_client build --build-base /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build install --record /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/install.log --single-version-externally-managed
+[9.755s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srv_client)
+[9.759s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client' for CMake module files
+[9.820s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client' for CMake config files
+[9.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client' returned '0': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_client:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_client
+[9.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srv_client', 'cmake_prefix_path')
+[9.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/hook/cmake_prefix_path.ps1'
+[9.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/hook/cmake_prefix_path.dsv'
+[9.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/hook/cmake_prefix_path.sh'
+[9.874s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/lib'
+[9.876s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/bin'
+[9.878s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/lib/pkgconfig/cpp_srv_client.pc'
+[9.879s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/lib/python3.10/site-packages'
+[9.880s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/bin'
+[9.883s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/package.ps1'
+[9.886s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/package.dsv'
+[9.893s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/package.sh'
+[9.897s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/package.bash'
+[9.903s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/package.zsh'
+[9.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/colcon-core/packages/cpp_srv_client)
+[9.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srv_server)
+[9.933s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server' for CMake module files
+[9.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_server': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_srv_server build --build-base /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build install --record /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/install.log --single-version-externally-managed
+[9.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server' returned '0': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/srv_demo:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_server:/home/pldz/share/ROS2_DEMO/3_Chapter/code/install/python_srv_client:/opt/ros/humble LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/cpp_srv_server
+[9.969s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server' for CMake config files
+[9.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srv_server', 'cmake_prefix_path')
+[9.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/hook/cmake_prefix_path.ps1'
+[10.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/hook/cmake_prefix_path.dsv'
+[10.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/hook/cmake_prefix_path.sh'
+[10.023s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/lib'
+[10.031s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/bin'
+[10.034s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/lib/pkgconfig/cpp_srv_server.pc'
+[10.037s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/lib/python3.10/site-packages'
+[10.041s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/bin'
+[10.045s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.ps1'
+[10.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.dsv'
+[10.054s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.sh'
+[10.060s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.bash'
+[10.066s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.zsh'
+[10.069s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/colcon-core/packages/cpp_srv_server)
+[10.599s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client' for CMake module files
+[10.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_client' returned '0': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_srv_client build --build-base /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/build install --record /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_client/install.log --single-version-externally-managed
+[10.641s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client' for CMake config files
+[10.699s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib'
+[10.704s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/bin'
+[10.707s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/pkgconfig/python_srv_client.pc'
+[10.710s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/lib/python3.10/site-packages'
+[10.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_srv_client', 'pythonpath')
+[10.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/python_srv_client/hook/pythonpath.ps1'
+[10.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/python_srv_client/hook/pythonpath.dsv'
+[10.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/python_srv_client/hook/pythonpath.sh'
+[10.737s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/bin'
+[10.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_srv_client)
+[10.746s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/python_srv_client/package.ps1'
+[10.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/python_srv_client/package.dsv'
+[10.757s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/python_srv_client/package.sh'
+[10.761s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/python_srv_client/package.bash'
+[10.768s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/python_srv_client/package.zsh'
+[10.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_client/share/colcon-core/packages/python_srv_client)
+[10.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srv_client)
+[10.791s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client' for CMake module files
+[10.842s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client' for CMake config files
+[10.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srv_client', 'cmake_prefix_path')
+[10.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/hook/cmake_prefix_path.ps1'
+[10.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/hook/cmake_prefix_path.dsv'
+[10.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/hook/cmake_prefix_path.sh'
+[10.897s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/lib'
+[10.899s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/bin'
+[10.901s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/lib/pkgconfig/cpp_srv_client.pc'
+[10.903s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/lib/python3.10/site-packages'
+[10.904s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/bin'
+[10.907s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/package.ps1'
+[10.911s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/package.dsv'
+[10.915s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/package.sh'
+[10.918s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/package.bash'
+[10.922s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/cpp_srv_client/package.zsh'
+[10.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_client/share/colcon-core/packages/cpp_srv_client)
+[10.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srv_server)
+[10.937s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server' for CMake module files
+[10.963s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server' for CMake config files
+[10.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srv_server', 'cmake_prefix_path')
+[10.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/hook/cmake_prefix_path.ps1'
+[10.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/hook/cmake_prefix_path.dsv'
+[10.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/hook/cmake_prefix_path.sh'
+[11.003s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/lib'
+[11.006s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/bin'
+[11.008s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/lib/pkgconfig/cpp_srv_server.pc'
+[11.009s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/lib/python3.10/site-packages'
+[11.010s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/bin'
+[11.013s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.ps1'
+[11.017s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.dsv'
+[11.020s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.sh'
+[11.024s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.bash'
+[11.027s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/cpp_srv_server/package.zsh'
+[11.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/cpp_srv_server/share/colcon-core/packages/cpp_srv_server)
+[11.039s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server' for CMake module files
+[11.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/python_srv_server' returned '0': AMENT_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages:/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/srv_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_srv_server build --build-base /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/build install --record /mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/build/python_srv_server/install.log --single-version-externally-managed
+[11.068s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server' for CMake config files
+[11.098s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib'
+[11.100s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/bin'
+[11.102s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/pkgconfig/python_srv_server.pc'
+[11.103s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/lib/python3.10/site-packages'
+[11.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_srv_server', 'pythonpath')
+[11.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/python_srv_server/hook/pythonpath.ps1'
+[11.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/python_srv_server/hook/pythonpath.dsv'
+[11.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/python_srv_server/hook/pythonpath.sh'
+[11.120s] Level 1:colcon.colcon_core.environment:checking '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/bin'
+[11.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_srv_server)
+[11.124s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/python_srv_server/package.ps1'
+[11.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/python_srv_server/package.dsv'
+[11.131s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/python_srv_server/package.sh'
+[11.134s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/python_srv_server/package.bash'
+[11.137s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/python_srv_server/package.zsh'
+[11.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/python_srv_server/share/colcon-core/packages/python_srv_server)
+[11.143s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.144s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.147s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.172s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.172s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.173s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.191s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.193s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/local_setup.ps1'
+[11.197s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/_local_setup_util_ps1.py'
+[11.202s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/setup.ps1'
+[11.226s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/local_setup.sh'
+[11.232s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/_local_setup_util_sh.py'
+[11.237s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/setup.sh'
+[11.259s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/local_setup.bash'
+[11.263s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/setup.bash'
+[11.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/local_setup.zsh'
+[11.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/hgfs/VMware/ROS2_DEMO/3_Chapter/code/install/setup.zsh'
