@@ -1,0 +1,26 @@
+[1.098s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/python_para_cli': PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_cli/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_cli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_para_cli build --build-base /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_cli/build install --record /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_cli/install.log --single-version-externally-managed
+[1.322s] running egg_info
+[1.327s] writing ../build/python_para_cli/python_para_cli.egg-info/PKG-INFO
+[1.334s] writing dependency_links to ../build/python_para_cli/python_para_cli.egg-info/dependency_links.txt
+[1.342s] writing entry points to ../build/python_para_cli/python_para_cli.egg-info/entry_points.txt
+[1.351s] writing requirements to ../build/python_para_cli/python_para_cli.egg-info/requires.txt
+[1.359s] writing top-level names to ../build/python_para_cli/python_para_cli.egg-info/top_level.txt
+[1.373s] reading manifest file '../build/python_para_cli/python_para_cli.egg-info/SOURCES.txt'
+[1.376s] writing manifest file '../build/python_para_cli/python_para_cli.egg-info/SOURCES.txt'
+[1.379s] running build
+[1.384s] running build_py
+[1.393s] copying python_para_cli/pythonParaCliNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_cli/build/lib/python_para_cli
+[1.412s] running install
+[1.417s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.420s]   warnings.warn(
+[1.429s] running install_lib
+[1.446s] copying /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_cli/build/lib/python_para_cli/pythonParaCliNode.py -> /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_cli/lib/python3.10/site-packages/python_para_cli
+[1.456s] byte-compiling /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_cli/lib/python3.10/site-packages/python_para_cli/pythonParaCliNode.py to pythonParaCliNode.cpython-310.pyc
+[1.467s] running install_data
+[1.470s] running install_egg_info
+[1.474s] removing '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_cli/lib/python3.10/site-packages/python_para_cli-0.0.0-py3.10.egg-info' (and everything under it)
+[1.483s] Copying ../build/python_para_cli/python_para_cli.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_cli/lib/python3.10/site-packages/python_para_cli-0.0.0-py3.10.egg-info
+[1.513s] running install_scripts
+[1.534s] Installing pythonParaCliNode script to /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_cli/lib/python_para_cli
+[1.539s] writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_cli/install.log'
+[1.628s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/python_para_cli' returned '0': PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_cli/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_cli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_para_cli build --build-base /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_cli/build install --record /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_cli/install.log --single-version-externally-managed

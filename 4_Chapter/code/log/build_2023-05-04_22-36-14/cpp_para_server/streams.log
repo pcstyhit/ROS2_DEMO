@@ -1,0 +1,26 @@
+[0.062s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server -- -j16 -l16
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target cppParaSerNode[0m
+[1.642s] [ 50%] [32mBuilding CXX object CMakeFiles/cppParaSerNode.dir/src/cppParaSerNode.cpp.o[0m
+[6.351s] [100%] [32m[1mLinking CXX executable cppParaSerNode[0m
+[6.906s] [100%] Built target cppParaSerNode
+[6.919s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server -- -j16 -l16
+[6.957s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server
+[6.964s] -- Install configuration: ""
+[6.970s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/lib/cpp_para_server/cppParaSerNode
+[7.002s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/lib/cpp_para_server/cppParaSerNode" to ""
+[7.011s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/ament_index/resource_index/package_run_dependencies/cpp_para_server
+[7.016s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/ament_index/resource_index/parent_prefix_path/cpp_para_server
+[7.022s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/environment/ament_prefix_path.sh
+[7.028s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/environment/ament_prefix_path.dsv
+[7.031s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/environment/path.sh
+[7.036s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/environment/path.dsv
+[7.042s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/local_setup.bash
+[7.046s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/local_setup.sh
+[7.050s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/local_setup.zsh
+[7.054s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/local_setup.dsv
+[7.058s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/package.dsv
+[7.065s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/ament_index/resource_index/packages/cpp_para_server
+[7.069s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/cmake/cpp_para_serverConfig.cmake
+[7.073s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/cmake/cpp_para_serverConfig-version.cmake
+[7.076s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/package.xml
+[7.080s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server

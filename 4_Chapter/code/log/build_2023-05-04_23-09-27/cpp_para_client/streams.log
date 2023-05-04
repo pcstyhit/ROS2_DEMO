@@ -1,0 +1,22 @@
+[0.127s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_ser:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_client -- -j16 -l16
+[0.412s] [100%] Built target cppParaCliNode
+[0.685s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_ser:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_client -- -j16 -l16
+[0.727s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_ser:/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_client
+[0.740s] -- Install configuration: ""
+[0.749s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/lib/cpp_para_client/cppParaCliNode
+[0.767s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/ament_index/resource_index/package_run_dependencies/cpp_para_client
+[0.775s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/ament_index/resource_index/parent_prefix_path/cpp_para_client
+[0.792s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/cpp_para_client/environment/ament_prefix_path.sh
+[0.807s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/cpp_para_client/environment/ament_prefix_path.dsv
+[0.821s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/cpp_para_client/environment/path.sh
+[0.840s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/cpp_para_client/environment/path.dsv
+[0.846s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/cpp_para_client/local_setup.bash
+[0.849s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/cpp_para_client/local_setup.sh
+[0.856s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/cpp_para_client/local_setup.zsh
+[0.864s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/cpp_para_client/local_setup.dsv
+[0.868s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/cpp_para_client/package.dsv
+[0.879s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/ament_index/resource_index/packages/cpp_para_client
+[0.892s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/cpp_para_client/cmake/cpp_para_clientConfig.cmake
+[0.894s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/cpp_para_client/cmake/cpp_para_clientConfig-version.cmake
+[0.901s] -- Up-to-date: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_client/share/cpp_para_client/package.xml
+[0.932s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_ser:/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_client

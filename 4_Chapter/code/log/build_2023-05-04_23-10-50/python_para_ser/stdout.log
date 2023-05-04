@@ -1,0 +1,19 @@
+running egg_info
+writing ../build/python_para_ser/python_para_ser.egg-info/PKG-INFO
+writing dependency_links to ../build/python_para_ser/python_para_ser.egg-info/dependency_links.txt
+writing entry points to ../build/python_para_ser/python_para_ser.egg-info/entry_points.txt
+writing requirements to ../build/python_para_ser/python_para_ser.egg-info/requires.txt
+writing top-level names to ../build/python_para_ser/python_para_ser.egg-info/top_level.txt
+reading manifest file '../build/python_para_ser/python_para_ser.egg-info/SOURCES.txt'
+writing manifest file '../build/python_para_ser/python_para_ser.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_ser/lib/python3.10/site-packages/python_para_ser-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/python_para_ser/python_para_ser.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_ser/lib/python3.10/site-packages/python_para_ser-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pythonParaSerNode script to /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_ser/lib/python_para_ser
+writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_ser/install.log'

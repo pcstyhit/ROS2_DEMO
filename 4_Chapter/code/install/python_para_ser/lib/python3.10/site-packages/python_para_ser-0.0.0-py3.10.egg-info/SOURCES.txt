@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/python_para_ser/python_para_ser.egg-info/PKG-INFO
+../build/python_para_ser/python_para_ser.egg-info/SOURCES.txt
+../build/python_para_ser/python_para_ser.egg-info/dependency_links.txt
+../build/python_para_ser/python_para_ser.egg-info/entry_points.txt
+../build/python_para_ser/python_para_ser.egg-info/requires.txt
+../build/python_para_ser/python_para_ser.egg-info/top_level.txt
+../build/python_para_ser/python_para_ser.egg-info/zip-safe
+python_para_ser/__init__.py
+python_para_ser/pythonParaSerNode.py
+resource/python_para_ser
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

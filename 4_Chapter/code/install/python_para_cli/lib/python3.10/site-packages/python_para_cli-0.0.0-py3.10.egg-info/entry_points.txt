@@ -1,0 +1,3 @@
+[console_scripts]
+pythonParaCliNode = python_para_cli.pythonParaCliNode:main
+

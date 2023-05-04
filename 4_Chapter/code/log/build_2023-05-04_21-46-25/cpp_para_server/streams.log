@@ -1,0 +1,68 @@
+[0.033s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/cpp_para_server -DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server
+[0.163s] -- The C compiler identification is GNU 11.3.0
+[0.277s] -- The CXX compiler identification is GNU 11.3.0
+[0.294s] -- Detecting C compiler ABI info
+[0.533s] -- Detecting C compiler ABI info - done
+[0.545s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.549s] -- Detecting C compile features
+[0.552s] -- Detecting C compile features - done
+[0.563s] -- Detecting CXX compiler ABI info
+[0.810s] -- Detecting CXX compiler ABI info - done
+[0.824s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.827s] -- Detecting CXX compile features
+[0.831s] -- Detecting CXX compile features - done
+[0.840s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.011s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.126s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.169s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.173s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.180s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.279s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.282s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.390s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.420s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.464s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.483s] -- Looking for pthread.h
+[1.702s] -- Looking for pthread.h - found
+[1.705s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.928s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.931s] -- Found Threads: TRUE  
+[2.080s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.253s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.255s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/cpp_para_server/include>
+[2.258s] -- Configured cppcheck exclude dirs and/or files: 
+[2.270s] -- Added test 'lint_cmake' to check CMake code style
+[2.302s] -- Added test 'uncrustify' to check C / C++ code style
+[2.304s] -- Configured uncrustify additional arguments: 
+[2.312s] -- Added test 'xmllint' to check XML markup files
+[2.364s] -- Configuring done
+[2.500s] -- Generating done
+[2.545s] -- Build files have been written to: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server
+[2.554s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/cpp_para_server -DCMAKE_INSTALL_PREFIX=/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server
+[2.558s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server -- -j16 -l16
+[2.624s] [ 50%] [32mBuilding CXX object CMakeFiles/cppParaSerNode.dir/src/cppParaSerNode.cpp.o[0m
+[5.588s] [100%] [32m[1mLinking CXX executable cppParaSerNode[0m
+[6.076s] [100%] Built target cppParaSerNode
+[6.090s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server -- -j16 -l16
+[6.123s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server
+[6.130s] -- Install configuration: ""
+[6.138s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/lib/cpp_para_server/cppParaSerNode
+[6.165s] -- Set runtime path of "/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/lib/cpp_para_server/cppParaSerNode" to ""
+[6.173s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/ament_index/resource_index/package_run_dependencies/cpp_para_server
+[6.186s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/ament_index/resource_index/parent_prefix_path/cpp_para_server
+[6.198s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/environment/ament_prefix_path.sh
+[6.206s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/environment/ament_prefix_path.dsv
+[6.217s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/environment/path.sh
+[6.225s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/environment/path.dsv
+[6.235s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/local_setup.bash
+[6.244s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/local_setup.sh
+[6.255s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/local_setup.zsh
+[6.266s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/local_setup.dsv
+[6.274s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/package.dsv
+[6.290s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/ament_index/resource_index/packages/cpp_para_server
+[6.305s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/cmake/cpp_para_serverConfig.cmake
+[6.315s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/cmake/cpp_para_serverConfig-version.cmake
+[6.325s] -- Installing: /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/cpp_para_server/share/cpp_para_server/package.xml
+[6.337s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/cpp_para_server

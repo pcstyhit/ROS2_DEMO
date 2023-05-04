@@ -1,0 +1,3 @@
+[console_scripts]
+pythonParaSerNode = python_para_ser.pythonParaSerNode:main
+

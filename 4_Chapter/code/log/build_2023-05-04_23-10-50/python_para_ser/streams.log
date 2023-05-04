@@ -1,0 +1,23 @@
+[1.067s] Invoking command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/python_para_ser': PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_ser/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_ser/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_para_ser build --build-base /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_ser/build install --record /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_ser/install.log --single-version-externally-managed
+[1.288s] running egg_info
+[1.295s] writing ../build/python_para_ser/python_para_ser.egg-info/PKG-INFO
+[1.303s] writing dependency_links to ../build/python_para_ser/python_para_ser.egg-info/dependency_links.txt
+[1.311s] writing entry points to ../build/python_para_ser/python_para_ser.egg-info/entry_points.txt
+[1.321s] writing requirements to ../build/python_para_ser/python_para_ser.egg-info/requires.txt
+[1.326s] writing top-level names to ../build/python_para_ser/python_para_ser.egg-info/top_level.txt
+[1.346s] reading manifest file '../build/python_para_ser/python_para_ser.egg-info/SOURCES.txt'
+[1.355s] writing manifest file '../build/python_para_ser/python_para_ser.egg-info/SOURCES.txt'
+[1.360s] running build
+[1.364s] running build_py
+[1.382s] running install
+[1.391s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.395s]   warnings.warn(
+[1.398s] running install_lib
+[1.406s] running install_data
+[1.410s] running install_egg_info
+[1.418s] removing '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_ser/lib/python3.10/site-packages/python_para_ser-0.0.0-py3.10.egg-info' (and everything under it)
+[1.436s] Copying ../build/python_para_ser/python_para_ser.egg-info to /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_ser/lib/python3.10/site-packages/python_para_ser-0.0.0-py3.10.egg-info
+[1.461s] running install_scripts
+[1.481s] Installing pythonParaSerNode script to /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_ser/lib/python_para_ser
+[1.486s] writing list of installed files to '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_ser/install.log'
+[1.525s] Invoked command in '/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/python_para_ser' returned '0': PYTHONPATH=/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_ser/prefix_override:/mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/install/python_para_ser/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_para_ser build --build-base /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_ser/build install --record /mnt/hgfs/VMware/ROS2_DEMO/4_Chapter/code/build/python_para_ser/install.log --single-version-externally-managed
